@@ -1,0 +1,3 @@
+# five_years
+My previous years work but not sql files.....
+This is my works of the last few years with soem assistance from my co-developers during that time. I have REMOVED the SQL files. So now, It's a huge collection of bugs, nothing more. Have a great time.
