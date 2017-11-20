@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BTW Dive</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="author" content="@toddmotto">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="<?php echo base_url();?>jquery/calender.js"></script>
+<link rel="stylesheet" href="<?php echo base_url();?>css/calender.css" />
+
+	<link href="<?php echo base_url();?>css/diver_style.css" rel="stylesheet">
+   <script type="text/javascript">
+       function updateList()
+    {
+                $("#displayCWO").html('<img width="100px" height="100px" src="<?php echo base_url() ?>img/loading_gif.gif" style="position:relative;top:0px;left:175px;">');
+        $.ajax({url: "/btwdive/index.php/customer/diver_view_cwo_date/",
+            type: "post",
+            data: {
+                s_date: $("#search_date").val(),
+                
+            },
+            success: function(result) {
+//alert("hai");
+              $("#displayCWO").html(result);
+              $("#pagLink").hide();
+        
+            }
+        });
+
+    }
+    /**
+     * 
+     * @param {type} woid
+     * @returns {undefined}
+     */
+       function viewWOdetails(woid)
+   {
+   	        window.open("<?php echo site_url('/customer/view_wo_details/') ?>" + '/' + woid);
+   	
+   //	alert(wonum);
+   }
+   </script>
+ <script>
+    
+    $(function() {
+        $("#search_date").datepicker();
+        $("#search_date").datepicker("option", "dateFormat", "yy-mm-dd");
+    });
+    </script>
+</head>
+
+<body>
+        <?php
+         $tcomm=0;
+        if (is_array($total_comm)) {
+           //   echo "0";
+            foreach ($total_comm as $data) {
+             //   echo "0";
+                $tcomm= $tcomm+$data->C_AMT;
+            }
+           
+        }
+        ?>
+        <div class="wrapper">
+
+		<div id="main" style="padding:50px 0 0 0;">
+                   
+		<form id="respo-form" method="post">
+                    <div>
+                        <div align="left" >
+                     
+                        <button name="s" style="width:20%;font-size:15px;float:left" onclick="window.location='<?php echo base_url();?>index.php/customer/diver_home/'" type="button" id="homebtn">Home</button>
+                    </div>
+                    <div align="right">
+                            <button name="s"  style="width:25%;font-size:15px" onclick="window.location = '<?php echo base_url(); ?>index.php/customer/diver_logout/'" type="button" id="Log_out">Log Out</button>
+                        </div>
+                    </div>
+                       
+			<h2 align="center">Completed Work Orders
+			  
+			 
+		  </h2>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <div style="width:100%">
+
+                        Search By Date <input type="text" name="search_date" id="search_date" style="width:50%;" onchange="updateList()">Total <?php echo  $tcomm; ?>
+
+                        <div>
+
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <div>
+
+                            <table width="100%" bgcolor="1">
+                                <tr width="100%">
+                                    <th style="width:10%;table-layout: fixed;text-align: center;" class="tblhead">Type</th>
+                                    <th style="width:19%;table-layout: fixed;text-align: center;" class="tblhead">Work Order #</th>
+                                    <th style="width:18%;table-layout: fixed;text-align: center;" class="tblhead">Name</th>
+                                    <th style="width:18%;table-layout: fixed;text-align: center;" class="tblhead">Boat Name</th>
+                                    <th style="width:20%;table-layout: fixed;text-align: center;" class="tblhead">Location</th>
+                                    <th style="width:15%;table-layout: fixed;text-align: center;" class="tblhead">Earning</th>
+           </tr>
+           </table>
+                        </div>
+                        <div id="displayCWO">
+                            <table width="100%" bgcolor="1">
+           <?php
+if (is_array($results)) {
+            foreach($results as $data) {
+            	
+	       ?>
+           <tr onclick="viewWOdetails('<?php echo $data->PKWORKORDER; ?>')" class="tblRowDisplay" width="100%" >
+                                            <td style="width:10%;table-layout: fixed;text-align: center;"><?php echo $data->W; ?></td>
+                                            <td style="width:19%;table-layout: fixed;text-align: center;"><?php echo $data->R; ?></td>
+                                            <td style="width:18%;table-layout: fixed;text-align: center;"><?php echo $data->F . " " . $data->L; ?></td>
+                                            <td style="width:18%;table-layout: fixed;text-align: center;"><?php echo $data->V; ?></td>
+                                            <td style="width:20%;table-layout: fixed;text-align: center;"><?php echo $data->O . " " . $data->SL; ?></td>
+                                            <td style="width:15%;table-layout: fixed;text-align: right;"><?php echo $data->C_AMT; ?></td>
+                                        </tr>
+        <?php
+    }
+}
+?>
+                            </table>
+                        </div>
+                        <div id="pagLink"><?php echo $links; ?></div>
+                        <div>
+                            &nbsp;
+                        </div>
+                    </div>
+
+	
+<div style="bottom: 0px; position: absolute; width: 93%; text-align: center;font-weight: bold;">BTW
+		Dive © 2014</div>	
+</body>
+</html>

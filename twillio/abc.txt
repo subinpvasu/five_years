@@ -1,0 +1,4 @@
+
+msg,ApiVersion,CalledZip,Called,Digits,CalledCity,CallStatus,From,ToState,Direction,AccountSid,CalledCountry,ApplicationSid,Caller,ToCity,ToZip,CalledState,CallSid,To,ToCountry
+
+Gather End,2010-04-01,,+18452622254,1001,,in-progress,+1918089524220,NY,inbound,AC87241ecf0624548b0a9ec23596f388e5,US,AP79c3b9f1916f8e72a42d0cf8c907a653,+1918089524220,,,NY,CAa807cd2636fabc97c019e875df6c6e99,+18452622254,US

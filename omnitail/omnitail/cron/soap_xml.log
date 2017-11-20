@@ -1,0 +1,924 @@
+[Sep 22 2016 16:59:12.000000 - ERROR] POST /api/adwords/cm/v201605/AdGroupCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 638
+Authorization: Bearer ya29.CjVmAynFlv8kX-tWBUvsDDNSLn85HM40Z1aqN8g5fey9AYzttNUD6Bol8Yu2kxRHIoEqACmUbw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>1226811775</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:mutate>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:BiddableAdGroupCriterion">
+          <ns1:adGroupId>29258670370</ns1:adGroupId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>mars cruise 9495546474</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+          <ns1:userStatus>PAUSED</ns1:userStatus>
+          <ns1:biddingStrategyConfiguration>
+            <ns1:bids xsi:type="ns1:CpcBid">
+              <ns1:bid>
+                <ns1:microAmount>500000</ns1:microAmount>
+              </ns1:bid>
+            </ns1:bids>
+          </ns1:biddingStrategyConfiguration>
+          <ns1:finalUrls>
+            <ns1:urls>http://www.example.com/mars</ns1:urls>
+          </ns1:finalUrls>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:BiddableAdGroupCriterion">
+          <ns1:adGroupId>29258670370</ns1:adGroupId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>mars cruise 9495546474</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+          <ns1:userStatus>PAUSED</ns1:userStatus>
+          <ns1:biddingStrategyConfiguration>
+            <ns1:bids xsi:type="ns1:CpcBid">
+              <ns1:bid>
+                <ns1:microAmount>500000</ns1:microAmount>
+              </ns1:bid>
+            </ns1:bids>
+          </ns1:biddingStrategyConfiguration>
+          <ns1:finalUrls>
+            <ns1:urls>http://www.example.com/mars</ns1:urls>
+          </ns1:finalUrls>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:BiddableAdGroupCriterion">
+          <ns1:adGroupId>29258670370</ns1:adGroupId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>mars cruise 9495546474</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+          <ns1:userStatus>PAUSED</ns1:userStatus>
+          <ns1:biddingStrategyConfiguration>
+            <ns1:bids xsi:type="ns1:CpcBid">
+              <ns1:bid>
+                <ns1:microAmount>500000</ns1:microAmount>
+              </ns1:bid>
+            </ns1:bids>
+          </ns1:biddingStrategyConfiguration>
+          <ns1:finalUrls>
+            <ns1:urls>http://www.example.com/mars</ns1:urls>
+          </ns1:finalUrls>
+        </ns1:operand>
+      </ns1:operations>
+    </ns1:mutate>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Thu, 22 Sep 2016 11:29:16 GMT
+Expires: Thu, 22 Sep 2016 11:29:16 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>00053d16f8c7e8f80a62d9cc050d28e4</requestId>
+      <serviceName>AdGroupCriterionService</serviceName>
+      <methodName>mutate</methodName>
+      <operations>3</operations>
+      <responseTime>212</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[AdGroupCriterionError.CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS @ operations[0].operand, AdGroupCriterionError.CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS @ operations[1].operand, AdGroupCriterionError.CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS @ operations[2].operand]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+          <message>[AdGroupCriterionError.CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS @ operations[0].operand, AdGroupCriterionError.CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS @ operations[1].operand, AdGroupCriterionError.CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS @ operations[2].operand]</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdGroupCriterionError">
+            <fieldPath>operations[0].operand</fieldPath>
+            <trigger/>
+            <errorString>AdGroupCriterionError.CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS</errorString>
+            <ApiError.Type>AdGroupCriterionError</ApiError.Type>
+            <reason>CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdGroupCriterionError">
+            <fieldPath>operations[1].operand</fieldPath>
+            <trigger/>
+            <errorString>AdGroupCriterionError.CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS</errorString>
+            <ApiError.Type>AdGroupCriterionError</ApiError.Type>
+            <reason>CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdGroupCriterionError">
+            <fieldPath>operations[2].operand</fieldPath>
+            <trigger/>
+            <errorString>AdGroupCriterionError.CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS</errorString>
+            <ApiError.Type>AdGroupCriterionError</ApiError.Type>
+            <reason>CANNOT_MODIFY_URL_FIELDS_WITH_DUPLICATE_ELEMENTS</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Sep 22 2016 17:00:52.000000 - INFO] POST /api/adwords/cm/v201605/AdGroupCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 602
+Authorization: Bearer ya29.CjVmA8Boe6Pv2d1NVfruM_4PccKZ6x0-ASsDuH75vbfR9tIwYNyrXtTsQ51wg8m5rQWBAyU7Ug
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>1226811775</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:mutate>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:BiddableAdGroupCriterion">
+          <ns1:adGroupId>29258670370</ns1:adGroupId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>mars cruise 9495546474</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+          <ns1:userStatus>PAUSED</ns1:userStatus>
+          <ns1:biddingStrategyConfiguration>
+            <ns1:bids xsi:type="ns1:CpcBid">
+              <ns1:bid>
+                <ns1:microAmount>500000</ns1:microAmount>
+              </ns1:bid>
+            </ns1:bids>
+          </ns1:biddingStrategyConfiguration>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:BiddableAdGroupCriterion">
+          <ns1:adGroupId>29258670370</ns1:adGroupId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>mars cruise 9495546474</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+          <ns1:userStatus>PAUSED</ns1:userStatus>
+          <ns1:biddingStrategyConfiguration>
+            <ns1:bids xsi:type="ns1:CpcBid">
+              <ns1:bid>
+                <ns1:microAmount>500000</ns1:microAmount>
+              </ns1:bid>
+            </ns1:bids>
+          </ns1:biddingStrategyConfiguration>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:BiddableAdGroupCriterion">
+          <ns1:adGroupId>29258670370</ns1:adGroupId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>mars cruise 9495546474</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+          <ns1:userStatus>PAUSED</ns1:userStatus>
+          <ns1:biddingStrategyConfiguration>
+            <ns1:bids xsi:type="ns1:CpcBid">
+              <ns1:bid>
+                <ns1:microAmount>500000</ns1:microAmount>
+              </ns1:bid>
+            </ns1:bids>
+          </ns1:biddingStrategyConfiguration>
+        </ns1:operand>
+      </ns1:operations>
+    </ns1:mutate>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Thu, 22 Sep 2016 11:30:55 GMT
+Expires: Thu, 22 Sep 2016 11:30:55 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>00053d16feb830600a62098273049480</requestId>
+      <serviceName>AdGroupCriterionService</serviceName>
+      <methodName>mutate</methodName>
+      <operations>3</operations>
+      <responseTime>304</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <mutateResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <ListReturnValue.Type>AdGroupCriterionReturnValue</ListReturnValue.Type>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>29258670370</adGroupId>
+          <criterion xsi:type="Keyword">
+            <id>258267316942</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>mars cruise 9495546474</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+          <userStatus>PAUSED</userStatus>
+          <systemServingStatus>RARELY_SERVED</systemServingStatus>
+          <approvalStatus>PENDING_REVIEW</approvalStatus>
+          <biddingStrategyConfiguration>
+            <biddingStrategyType>MANUAL_CPC</biddingStrategyType>
+            <biddingStrategySource>CAMPAIGN</biddingStrategySource>
+            <biddingScheme xsi:type="ManualCpcBiddingScheme">
+              <BiddingScheme.Type>ManualCpcBiddingScheme</BiddingScheme.Type>
+              <enhancedCpcEnabled>false</enhancedCpcEnabled>
+            </biddingScheme>
+            <bids xsi:type="CpmBid">
+              <Bids.Type>CpmBid</Bids.Type>
+              <bid>
+                <ComparableValue.Type>Money</ComparableValue.Type>
+                <microAmount>10000</microAmount>
+              </bid>
+              <cpmBidSource>ADGROUP</cpmBidSource>
+            </bids>
+            <bids xsi:type="CpcBid">
+              <Bids.Type>CpcBid</Bids.Type>
+              <bid>
+                <ComparableValue.Type>Money</ComparableValue.Type>
+                <microAmount>500000</microAmount>
+              </bid>
+              <cpcBidSource>CRITERION</cpcBidSource>
+            </bids>
+          </biddingStrategyConfiguration>
+          <finalUrls>
+            <urls>http://www.example.com/mars</urls>
+          </finalUrls>
+        </value>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>29258670370</adGroupId>
+          <criterion xsi:type="Keyword">
+            <id>258267316942</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>mars cruise 9495546474</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+          <userStatus>PAUSED</userStatus>
+          <systemServingStatus>RARELY_SERVED</systemServingStatus>
+          <approvalStatus>PENDING_REVIEW</approvalStatus>
+          <biddingStrategyConfiguration>
+            <biddingStrategyType>MANUAL_CPC</biddingStrategyType>
+            <biddingStrategySource>CAMPAIGN</biddingStrategySource>
+            <biddingScheme xsi:type="ManualCpcBiddingScheme">
+              <BiddingScheme.Type>ManualCpcBiddingScheme</BiddingScheme.Type>
+              <enhancedCpcEnabled>false</enhancedCpcEnabled>
+            </biddingScheme>
+            <bids xsi:type="CpmBid">
+              <Bids.Type>CpmBid</Bids.Type>
+              <bid>
+                <ComparableValue.Type>Money</ComparableValue.Type>
+                <microAmount>10000</microAmount>
+              </bid>
+              <cpmBidSource>ADGROUP</cpmBidSource>
+            </bids>
+            <bids xsi:type="CpcBid">
+              <Bids.Type>CpcBid</Bids.Type>
+              <bid>
+                <ComparableValue.Type>Money</ComparableValue.Type>
+                <microAmount>500000</microAmount>
+              </bid>
+              <cpcBidSource>CRITERION</cpcBidSource>
+            </bids>
+          </biddingStrategyConfiguration>
+          <finalUrls>
+            <urls>http://www.example.com/mars</urls>
+          </finalUrls>
+        </value>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>29258670370</adGroupId>
+          <criterion xsi:type="Keyword">
+            <id>258267316942</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>mars cruise 9495546474</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+          <userStatus>PAUSED</userStatus>
+          <systemServingStatus>RARELY_SERVED</systemServingStatus>
+          <approvalStatus>PENDING_REVIEW</approvalStatus>
+          <biddingStrategyConfiguration>
+            <biddingStrategyType>MANUAL_CPC</biddingStrategyType>
+            <biddingStrategySource>CAMPAIGN</biddingStrategySource>
+            <biddingScheme xsi:type="ManualCpcBiddingScheme">
+              <BiddingScheme.Type>ManualCpcBiddingScheme</BiddingScheme.Type>
+              <enhancedCpcEnabled>false</enhancedCpcEnabled>
+            </biddingScheme>
+            <bids xsi:type="CpmBid">
+              <Bids.Type>CpmBid</Bids.Type>
+              <bid>
+                <ComparableValue.Type>Money</ComparableValue.Type>
+                <microAmount>10000</microAmount>
+              </bid>
+              <cpmBidSource>ADGROUP</cpmBidSource>
+            </bids>
+            <bids xsi:type="CpcBid">
+              <Bids.Type>CpcBid</Bids.Type>
+              <bid>
+                <ComparableValue.Type>Money</ComparableValue.Type>
+                <microAmount>500000</microAmount>
+              </bid>
+              <cpcBidSource>CRITERION</cpcBidSource>
+            </bids>
+          </biddingStrategyConfiguration>
+          <finalUrls>
+            <urls>http://www.example.com/mars</urls>
+          </finalUrls>
+        </value>
+      </rval>
+    </mutateResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Sep 30 2016 12:32:34.000000 - INFO] POST /api/adwords/cm/v201605/AdGroupCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 535
+Authorization: Bearer ya29.CjVuA2UhS9SEyIsuMODRYTs2t2XoiSVKrGnKIPO576BQ6pUEVqIvNd92NZyw2QLnknHyCz1ebw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>1226811775</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>KeywordMatchType</ns1:fields>
+        <ns1:fields>KeywordText</ns1:fields>
+        <ns1:predicates>
+          <ns1:field>AdGroupId</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>39972674771</ns1:values>
+        </ns1:predicates>
+        <ns1:predicates>
+          <ns1:field>CriteriaType</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>KEYWORD</ns1:values>
+        </ns1:predicates>
+        <ns1:ordering>
+          <ns1:field>KeywordText</ns1:field>
+          <ns1:sortOrder>ASCENDING</ns1:sortOrder>
+        </ns1:ordering>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 30 Sep 2016 07:02:35 GMT
+Expires: Fri, 30 Sep 2016 07:02:35 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>00053db42dd017080a6225468b0d4a3b</requestId>
+      <serviceName>AdGroupCriterionService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>338</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>8</totalNumEntries>
+        <Page.Type>AdGroupCriterionPage</Page.Type>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876115</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword10</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854399295</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword101</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876325</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword20</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854396325</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword201</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876445</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword30</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854398365</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword301</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876625</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword40</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854393835</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword401</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Sep 30 2016 12:35:30.000000 - INFO] POST /api/adwords/cm/v201605/AdGroupCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 535
+Authorization: Bearer ya29.CjVuA7DVNxEE7EsilqlwVwrVLG3fw9E3fc22Tv4T_VWbqWcOGAi4BWGcbjj2kqfCTAQ63JD3nQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>1226811775</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>KeywordMatchType</ns1:fields>
+        <ns1:fields>KeywordText</ns1:fields>
+        <ns1:predicates>
+          <ns1:field>AdGroupId</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>39972674771</ns1:values>
+        </ns1:predicates>
+        <ns1:predicates>
+          <ns1:field>CriteriaType</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>KEYWORD</ns1:values>
+        </ns1:predicates>
+        <ns1:ordering>
+          <ns1:field>KeywordText</ns1:field>
+          <ns1:sortOrder>ASCENDING</ns1:sortOrder>
+        </ns1:ordering>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 30 Sep 2016 07:05:32 GMT
+Expires: Fri, 30 Sep 2016 07:05:32 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>00053db43854f6090a629e180d01af0a</requestId>
+      <serviceName>AdGroupCriterionService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>244</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>8</totalNumEntries>
+        <Page.Type>AdGroupCriterionPage</Page.Type>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876115</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword10</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854399295</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword101</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876325</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword20</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854396325</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword201</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876445</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword30</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854398365</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword301</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876625</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword40</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854393835</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword401</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Sep 30 2016 12:58:54.000000 - INFO] POST /api/adwords/cm/v201605/AdGroupCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 535
+Authorization: Bearer ya29.CjVuA-9p_Y8LNVB1bS1KXwabdm9QgA98o4622K_mf5MpS_c9s8qGGwWBfGz4uyyhIOg2oKOWzw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>1226811775</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>KeywordMatchType</ns1:fields>
+        <ns1:fields>KeywordText</ns1:fields>
+        <ns1:predicates>
+          <ns1:field>AdGroupId</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>39972674771</ns1:values>
+        </ns1:predicates>
+        <ns1:predicates>
+          <ns1:field>CriteriaType</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>KEYWORD</ns1:values>
+        </ns1:predicates>
+        <ns1:ordering>
+          <ns1:field>KeywordText</ns1:field>
+          <ns1:sortOrder>ASCENDING</ns1:sortOrder>
+        </ns1:ordering>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 30 Sep 2016 07:28:56 GMT
+Expires: Fri, 30 Sep 2016 07:28:56 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>00053db48bf879b00a6221dd2001e591</requestId>
+      <serviceName>AdGroupCriterionService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>887</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>8</totalNumEntries>
+        <Page.Type>AdGroupCriterionPage</Page.Type>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876115</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword10</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854399295</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword101</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876325</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword20</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854396325</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword201</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876445</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword30</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854398365</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword301</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>1052876625</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword40</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+        <entries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="BiddableAdGroupCriterion">
+          <adGroupId>39972674771</adGroupId>
+          <criterionUse>BIDDABLE</criterionUse>
+          <criterion xsi:type="Keyword">
+            <id>854393835</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>keyword401</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <AdGroupCriterion.Type>BiddableAdGroupCriterion</AdGroupCriterion.Type>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+

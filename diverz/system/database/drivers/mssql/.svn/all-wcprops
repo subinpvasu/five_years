@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/btw_php/!svn/ver/1/system/database/drivers/mssql
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/btw_php/!svn/ver/1/system/database/drivers/mssql/index.html
+END
+mssql_driver.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/btw_php/!svn/ver/1/system/database/drivers/mssql/mssql_driver.php
+END
+mssql_forge.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/btw_php/!svn/ver/1/system/database/drivers/mssql/mssql_forge.php
+END
+mssql_result.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/btw_php/!svn/ver/1/system/database/drivers/mssql/mssql_result.php
+END
+mssql_utility.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/btw_php/!svn/ver/1/system/database/drivers/mssql/mssql_utility.php
+END

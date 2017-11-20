@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>application/controllers/appointments.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>144</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp64/www/getbookedin/assets/js/admin.js</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/config/config.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/libraries/google_sync.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/models/providers_model.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/config/constants.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/libraries/reminder.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/models/appointments_model.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/controllers/adminuser.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/controllers/google.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/views/userview/calendar.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/controllers/user.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/config/database.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/assets/js/backend.js</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/controllers/twilio.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/libraries/notifications.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/controllers/backend_api.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/models/user_model.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/config.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/controllers/appointments.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/index.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/application/models/customers_model.php</file>
+            <file>file:/C:/wamp64/www/getbookedin/assets/js/userview_backend_calendar.js</file>
+        </group>
+    </open-files>
+</project-private>

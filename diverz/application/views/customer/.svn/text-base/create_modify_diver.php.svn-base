@@ -1,0 +1,292 @@
+<script>
+$(document).ready(function(){
+$("#resultant tr:even").css("background-color", "#ffffff");
+$("#resultant tr:odd").css("background-color", "#E5E5E5");
+});
+function updateDiverForm(sbn)
+{
+	$.ajax({url:"/btwdive/index.php/customer/updateDiverForm/",
+		type:"post",
+		 data: {
+			diver:sbn	 
+		 },
+		 success:function(result){
+
+			var str = result.split("|");
+			$("#pk_diver").val(str[0]);
+			$("#pkdiver").val(str[0]);
+			$("#diverid").val(str[1]);
+			$("#name").val(str[2]);
+			$("#address").val(str[3]);
+			$("#address1").val(str[4]);
+			$("#state").val(str[6]);
+			$("#country").val(str[8]);
+			$("#fax").val(str[10]);
+			$("#city").val(str[5]);
+			$("#zip").val(str[7]);
+			$("#telephone").val(str[9]);
+			$("#email").val(str[11]);
+			$("#cleanrate").val(str[12]);
+			$("#anoderate").val(str[13]);
+			$("#hullrate").val(str[14]);
+			$("#mechrate").val(str[15]);
+			$("#pass1").val(str[16]);
+			$("#pass2").val(str[16]);
+			document.getElementById("diver_one").setAttribute('onclick','modifyDiverForm()');
+			document.getElementById("diver_one").innerHTML='Update';
+			
+			 }
+  });
+}
+function modifyDiverForm()
+{
+	
+	if($("#diverid").val()!='' && $("#name").val()!='')
+	{
+	validateForm();
+	}
+	else
+	{
+		//alert($("#diverid").val());
+		if($("#diverid").val()=='')
+		{
+alert("ENTER DIVER CODE");exit;
+        }
+		if($("#name").val()=='')
+		{
+			alert("ENTER DIVER NAME");exit;
+		}
+			
+	}
+	$.ajax({url:"/btwdive/index.php/customer/modifyDiverForm/",
+		type:"post",
+		 data: {
+			    pk_diver:$("#pk_diver").val(),
+			    diver_id:$("#diverid").val(),
+				diver_name:$("#name").val(),
+				address:$("#address").val(),
+				address1:$("#address1").val(),
+				state:$("#state").val(),
+				country:$("#country").val(),
+				fax:$("#fax").val(),
+				city:$("#city").val(),
+				zip:$("#zip").val(),
+				telephone:$("#telephone").val(),
+				email:$("#email").val(),
+				cleanrate:$("#cleanrate").val(),
+				anoderate:$("#anoderate").val(),
+				hullrate:$("#hullrate").val(),
+				mechrate:$("#mechrate").val(),
+				password:$("#pass1").val()
+		 },
+		 success:function(result){
+
+			alert("Data Updated");
+			location.reload();
+			
+			 }
+  });
+}
+function createDiverForm()
+{
+	if($("#diverid").val()!='' && $("#name").val()!='')
+	{
+	validateForm();
+	}
+	else
+	{
+		//alert($("#diverid").val());
+		if($("#diverid").val()=='')
+		{
+alert("ENTER DIVER CODE");exit;
+        }
+		if($("#name").val()=='')
+		{
+			alert("ENTER DIVER NAME");exit;
+		}
+			
+	}
+	$.ajax({url:"/btwdive/index.php/customer/createDiverForm/",
+		type:"post",
+		 data: {
+			    
+			    diver_id:$("#diverid").val(),
+				diver_name:$("#name").val(),
+				address:$("#address").val(),
+				address1:$("#address1").val(),
+				state:$("#state").val(),
+				country:$("#country").val(),
+				fax:$("#fax").val(),
+				city:$("#city").val(),
+				zip:$("#zip").val(),
+				telephone:$("#telephone").val(),
+				email:$("#email").val(),
+				cleanrate:$("#cleanrate").val(),
+				anoderate:$("#anoderate").val(),
+				hullrate:$("#hullrate").val(),
+				mechrate:$("#mechrate").val(),
+				password:$("#pass1").val()
+		 },
+		 success:function(result){
+
+			alert("Data Updated");
+			location.reload();
+			
+			 }
+  });
+}
+function isNumber(n){
+	  return (parseFloat(n) == n);
+	}
+
+
+	
+	$("document").ready(function(){
+	    $("#cleanrate").keyup(function(event){
+	        var input = $(this).val();
+	        if(!isNumber(input)){
+	           
+	            $(this).val(input.substring(0, input .length-1));
+	        }
+	           
+	    });
+	});
+	$("document").ready(function(){
+	    $("#anoderate").keyup(function(event){
+	        var input = $(this).val();
+	        if(!isNumber(input)){
+	           
+	            $(this).val(input.substring(0, input .length-1));
+	        }
+	           
+	    });
+	});
+	$("document").ready(function(){
+	    $("#hullrate").keyup(function(event){
+	        var input = $(this).val();
+	        if(!isNumber(input)){
+	           
+	            $(this).val(input.substring(0, input .length-1));
+	        }
+	           
+	    });
+	});
+	$("document").ready(function(){
+	    $("#mechrate").keyup(function(event){
+	        var input = $(this).val();
+	        if(!isNumber(input)){
+	           
+	            $(this).val(input.substring(0, input .length-1));
+	        }
+	           
+	    });
+	});
+	$("document").ready(function(){
+	    $("#zip").keyup(function(event){
+	        var input = $(this).val();
+	        if(!isNumber(input)){
+	           
+	            $(this).val(input.substring(0, input .length-1));
+	        }
+	           
+	    });
+	});
+	
+	$("document").ready(function(){
+	    $("#fax").keyup(function(event){
+	        var input = $(this).val();
+	        if(!isNumber(input)){
+	           
+	            $(this).val(input.substring(0, input .length-1));
+	        }
+	           
+	    });
+	});
+	function validateForm()
+	{
+		var eflag=0;
+		var pflag=0;
+	var x=document.getElementById("email").value;
+	if(x.length>0){
+	var atpos=x.indexOf("@");
+	var dotpos=x.lastIndexOf(".");
+	if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+	  {
+	 eflag=1;
+	  }
+	  	}else
+	  	{
+eflag=1;
+	  	}
+  	var y = $("#pass1").val();
+  	var z = $("#pass2").val();
+  	if(y!=z || y=='')
+  	{
+pflag=1;
+  	}
+
+  	if(eflag==1 || pflag==1)
+  	{
+if(eflag==1)
+{
+	alert("Email ID is not valid.");
+	exit;
+}
+if(pflag==1)
+{
+	alert("Password not Correct.");
+	exit;
+}
+  	}
+	}
+</script>
+<style>
+
+</style>
+<input type="hidden" id="pk_diver" value=""/>
+<div style="width:100%;float:left;text-align: center;">
+<h2 style="width:100%;text-align: center;margin:5px 0px;">DIVER MASTER FORM</h2>
+<h3 style="width:100%;text-align: center;margin: 5px 0px;margin-bottom:10px;">Create New or Update Divers</h3>
+
+<div style="width:49.8%;float:left;">
+<h3 style="width:100%;text-align: center;">List of Divers</h3>
+<h4 style="width:100%;text-align: center;">Double Click On the Name In The List Below to See The Details On the Right</h4>
+<div id="resultant" style="width:80%;margin:0px auto;background-color: white;height:250px;color:black;overflow:auto;">
+<table style="width:100%;text-align: left;">
+<?php 
+foreach ($diver as $d):
+echo '<tr style="cursor:pointer;" onclick="updateDiverForm('.$d->PK_DIVER.')"><td>'.$d->DIVER_NAME.'&nbsp;</td></tr>';
+endforeach;
+?>
+</table>
+</div>
+</div>
+
+<div style="width:49.8%;float:left;">
+<form id="diverform">
+<table style="width:100%;text-align: left;">
+<tr><td style="text-align: right;width:20%;">Diver No</td><td style="width:35%"><input type="text" class="textbox" style="width:100%;" disabled id="pkdiver" value=""/></td><td style="width:10%;"></td><td style="width:35%;"></td></tr>
+<tr><td style="text-align: right;">Diver Code<b style="font-weight: normal;color:yellow">*</b></td><td><input id="diverid" type="text" class="textbox" style="width:100%;" value="" /></td><td></td><td></td></tr>
+<tr><td style="text-align: right;">Diver Name<b style="font-weight: normal;color:yellow">*</b></td><td><input type="text" class="textbox" title="Enter Name" style="width:100%;" id="name"/></td><td></td><td></td></tr>
+<tr><td style="text-align: right;">Address</td><td><input type="text" class="textbox" style="width:100%;" title="Enter Address" id="address"/></td><td colspan="2"><input title="Apt no or Suit No" type="text" id="address1" class="textbox" style="width:100%;"/></td></tr>
+<tr><td style="text-align: right;">City</td><td><input type="text" class="textbox" style="width:100%;" id="city"/></td><td>State</td><td><input type="text" id="state" class="textbox" style="width:100%;"/></td></tr>
+<tr><td style="text-align: right;">Zip</td><td><input type="text" class="textbox" style="width:100%;" id="zip"/></td><td>Country</td><td><input type="text" id="country" class="textbox" style="width:100%;"/></td></tr>
+<tr><td style="text-align: right;">Telephone</td><td><input type="text" class="textbox" style="width:100%;" id="telephone"/></td><td>Fax</td><td><input type="text" id="fax" class="textbox" style="width:100%;"/></td></tr>
+<tr><td style="text-align: right;">Email Address<b style="font-weight: normal;color:yellow">*</b></td><td><input type="text" class="textbox" style="width:100%;" id="email"/></td><td></td><td></td></tr>
+
+<tr><td style="text-align: right;">New Password<b style="font-weight: normal;color:yellow">*</b></td><td><input type="password" class="textbox" style="width:100%;" id="pass1"/></td><td></td><td></td></tr>
+<tr><td style="text-align: right;">Confirm Password<b style="font-weight: normal;color:yellow">*</b></td><td><input type="password" class="textbox" style="width:100%;" id="pass2"/></td><td></td><td></td></tr>
+
+
+<tr><td style="text-align: right;">Hull Clean Rate</td><td><input type="text" class="textbox" style="width:100%;" id="cleanrate"/></td><td></td><td></td></tr>
+<tr><td style="text-align: right;">Anode Rate</td><td><input type="text" class="textbox" style="width:100%;" id="anoderate"/></td><td></td><td></td></tr>
+<tr><td style="text-align: right;">Hull Time Rate</td><td><input type="text" class="textbox" style="width:100%;" id="hullrate"/></td><td>Per Hour</td><td></td></tr>
+<tr><td style="text-align: right;">Mech Time Rate</td><td><input type="text" class="textbox" style="width:100%;" id="mechrate"/></td><td>Per Hour</td><td></td></tr>
+</table>
+</form>
+<button class="btn" id="diver_one" onclick="createDiverForm()">Add</button>
+<button class="btn" onclick="self.close()">Exit</button>
+
+</div>
+
+</div>

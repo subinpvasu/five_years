@@ -1,0 +1,323 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/btw_php/!svn/ver/32/application/views/customer
+END
+customer_vessel.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/btw_php/!svn/ver/16/application/views/customer/customer_vessel.php
+END
+outstanding_balance.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/btw_php/!svn/ver/37/application/views/customer/outstanding_balance.php
+END
+work_order_not_found.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/btw_php/!svn/ver/9/application/views/customer/work_order_not_found.php
+END
+create_invoice_from_wo.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/btw_php/!svn/ver/39/application/views/customer/create_invoice_from_wo.php
+END
+customer_registration.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/btw_php/!svn/ver/39/application/views/customer/customer_registration.php
+END
+create_modify_email.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/btw_php/!svn/ver/14/application/views/customer/create_modify_email.php
+END
+anode_work_order.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/btw_php/!svn/ver/39/application/views/customer/anode_work_order.php
+END
+create_modify_options.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/btw_php/!svn/ver/13/application/views/customer/create_modify_options.php
+END
+add_new_work_order.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/btw_php/!svn/ver/32/application/views/customer/add_new_work_order.php
+END
+send_invoices.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/btw_php/!svn/ver/16/application/views/customer/send_invoices.php
+END
+invoice_banner.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/btw_php/!svn/ver/39/application/views/customer/invoice_banner.php
+END
+outbalance_pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/btw_php/!svn/ver/8/application/views/customer/outbalance_pdf.php
+END
+customer_workhistory.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/btw_php/!svn/ver/39/application/views/customer/customer_workhistory.php
+END
+listinvoice_pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/btw_php/!svn/ver/21/application/views/customer/listinvoice_pdf.php
+END
+credit_payment_details.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/btw_php/!svn/ver/33/application/views/customer/credit_payment_details.php
+END
+missing_workorder.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/btw_php/!svn/ver/29/application/views/customer/missing_workorder.php
+END
+displayAllInvoices.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/btw_php/!svn/ver/33/application/views/customer/displayAllInvoices.php
+END
+daily_work_order.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/btw_php/!svn/ver/33/application/views/customer/daily_work_order.php
+END
+payment_reports.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/btw_php/!svn/ver/29/application/views/customer/payment_reports.php
+END
+create_modify_invoicing.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/btw_php/!svn/ver/13/application/views/customer/create_modify_invoicing.php
+END
+payment_details.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/btw_php/!svn/ver/27/application/views/customer/payment_details.php
+END
+customer_account.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/btw_php/!svn/ver/39/application/views/customer/customer_account.php
+END
+customer_bowaftpdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/btw_php/!svn/ver/15/application/views/customer/customer_bowaftpdf.php
+END
+diver_commission.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/btw_php/!svn/ver/29/application/views/customer/diver_commission.php
+END
+anode_frame.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/btw_php/!svn/ver/16/application/views/customer/anode_frame.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/btw_php/!svn/ver/39/application/views/customer/index.php
+END
+create_modify_anodes.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/btw_php/!svn/ver/14/application/views/customer/create_modify_anodes.php
+END
+trial.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/btw_php/!svn/ver/2/application/views/customer/trial.php
+END
+anode_pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/btw_php/!svn/ver/13/application/views/customer/anode_pdf.php
+END
+monthly_invoices.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/btw_php/!svn/ver/24/application/views/customer/monthly_invoices.php
+END
+pdf_banner.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/btw_php/!svn/ver/22/application/views/customer/pdf_banner.php
+END
+create_modify_cleaning.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/btw_php/!svn/ver/13/application/views/customer/create_modify_cleaning.php
+END
+create_modify_diver.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/btw_php/!svn/ver/39/application/views/customer/create_modify_diver.php
+END
+customer_redirect.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/btw_php/!svn/ver/16/application/views/customer/customer_redirect.php
+END
+mechanical_frame.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/btw_php/!svn/ver/16/application/views/customer/mechanical_frame.php
+END
+diverComm_pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/btw_php/!svn/ver/37/application/views/customer/diverComm_pdf.php
+END
+print_diver_commission.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/btw_php/!svn/ver/37/application/views/customer/print_diver_commission.php
+END
+customer_services.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/btw_php/!svn/ver/16/application/views/customer/customer_services.php
+END
+invoice_pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/btw_php/!svn/ver/39/application/views/customer/invoice_pdf.php
+END
+mechanical_pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/btw_php/!svn/ver/13/application/views/customer/mechanical_pdf.php
+END
+printDocumentSelected.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/btw_php/!svn/ver/11/application/views/customer/printDocumentSelected.php
+END
+cleaning_work_order.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/btw_php/!svn/ver/37/application/views/customer/cleaning_work_order.php
+END
+customer_bowaft.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/btw_php/!svn/ver/15/application/views/customer/customer_bowaft.php
+END
+cleaning_frame.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/btw_php/!svn/ver/32/application/views/customer/cleaning_frame.php
+END
+list_invoices.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/btw_php/!svn/ver/21/application/views/customer/list_invoices.php
+END
+monthlyInv_banner.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/btw_php/!svn/ver/22/application/views/customer/monthlyInv_banner.php
+END
+cleaning_pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/btw_php/!svn/ver/13/application/views/customer/cleaning_pdf.php
+END
+customer_misc.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/btw_php/!svn/ver/16/application/views/customer/customer_misc.php
+END
+customer_banner.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/btw_php/!svn/ver/4/application/views/customer/customer_banner.php
+END
+mechanical_work_order.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/btw_php/!svn/ver/31/application/views/customer/mechanical_work_order.php
+END
+customer_anodes.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/btw_php/!svn/ver/16/application/views/customer/customer_anodes.php
+END
+displayMonthlyInvoices.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/btw_php/!svn/ver/21/application/views/customer/displayMonthlyInvoices.php
+END
+customer_session.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/btw_php/!svn/ver/4/application/views/customer/customer_session.php
+END

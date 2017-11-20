@@ -1,0 +1,22 @@
+[14-Sep-2015 01:32:54] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:34:50] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:37:25] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:39:19] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:39:48] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:39:50] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:39:51] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:39:51] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:39:52] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:39:52] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:42:02] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:45:21] PHP Fatal error:  Class 'Constants' not found in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 683
+[14-Sep-2015 01:45:53] PHP Parse error:  syntax error, unexpected T_STRING in /home/analyser/public_html/app/reportmanagement/CustomClasses/Constants.php on line 2
+[14-Sep-2015 01:46:23] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:47:42] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:48:23] PHP Fatal error:  use: Not yet supported. Please use include_once() or require_once() in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[14-Sep-2015 01:49:04] PHP Parse error:  syntax error, unexpected T_STRING in /home/analyser/public_html/app/reportmanagement/CustomClasses/Constants.php on line 2
+[14-Sep-2015 01:50:33] PHP Parse error:  syntax error, unexpected T_STRING in /home/analyser/public_html/app/reportmanagement/CustomClasses/Constants.php on line 2
+[14-Sep-2015 02:06:56] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[15-Sep-2015 00:16:17] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[15-Sep-2015 00:18:19] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9
+[15-Sep-2015 00:21:39] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/analyser/public_html/app/reportmanagement/managementReports.php on line 9

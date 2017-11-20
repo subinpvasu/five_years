@@ -1,0 +1,21 @@
+// 11-03-2016
+
+ALTER TABLE `users` CHANGE `added` `added` DATETIME NOT NULL;
+
+ALTER TABLE `users` ADD `user_type` TINYINT NOT NULL DEFAULT '0' COMMENT '1: admin' AFTER `password`;
+
+ALTER TABLE `users` CHANGE `password` `password` VARCHAR(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+
+
+ALTER TABLE `users` CHANGE `lasttime` `last_login` DATETIME NOT NULL;
+
+ALTER TABLE `users` ADD `del_status` TINYINT NOT NULL DEFAULT '0' AFTER `user_type`;
+
+
+// 16-05-2016
+
+
+New Table ad_schedule_status
+
+
+ALTER TABLE `ad_schedule_status` CHANGE `status` `status` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT 'Not Processed';

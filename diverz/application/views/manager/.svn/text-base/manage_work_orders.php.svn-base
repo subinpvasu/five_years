@@ -1,0 +1,225 @@
+<style>
+/*
+div {
+	border:1px solid red;
+}
+td,th,table,tr {
+	border-collapse: collapse;
+	border:1px solid green;
+	
+}*/
+.first  {
+	outline:2px solid white;
+	outline-bottom:0px;
+	border-collapse: collapse;
+	}
+.second  {
+	outline:2px solid white;
+	border-collapse: collapse;
+	
+}
+.const {
+	width:14%;
+}
+.even {
+	background-color: #E5E5E5;
+	color:black;
+}
+
+.odd {
+	background-color: #FFFFFF;
+	color:black;
+}
+.ncon {
+	width:7%;
+}
+</style>
+<script>
+$(document).ready(function(){
+	$( "#fromdate" ).datepicker();
+	$("#todate").datepicker();
+	$(".divertable tr:even").css("background-color", "#ffffff");
+	$(".divertable tr:odd").css("background-color", "#E5E5E5");
+	$(".divertable tr:even").css("color", "#000000");
+	$(".divertable tr:odd").css("color", "#000000");
+	
+});
+function updateDays()
+{
+	$("#datefrom").val($("#fromdate").val());
+	$("#dateto").val($("#todate").val());
+	$("#basin").val($("#location").val());
+	$("#daybyday").submit();
+	
+}
+function updateDiver(work,diver)
+{
+	$("#datefromd").val($("#fromdate").val());
+	$("#datetod").val($("#todate").val());
+	//var r = confirm("Assign Work Order to"+);*/
+	$("#workorder").val(work);
+	$("#divername").val(diver);
+	$("#diverwork").submit();
+}
+$(document).ready(function(){
+	$(".counter").each(function(){
+		
+		var p = $(this).val();
+var k = $(this).attr("id");
+var l = k.slice(2);
+var m = 'diver'+l;
+
+
+$("#"+m).html(p);
+		});
+});
+$(document).ready(function(){
+	$("#submit").click(function(){
+		var len = 0; 
+$(".select.tmp").each(function(){
+	if($(this).val()!='')
+	{
+		len++;
+
+
+$.ajax({url:"/btwdive/index.php/customer/assignWorkDivers/",
+	type:"post",
+	 data: {
+		 work:$(this).attr("name"),
+		 diver:$(this).val()
+		 
+	 },
+	 success:function(result){
+		 
+
+		 }
+});
+
+	}
+});
+if(len>0)
+{
+	alert("Work Order(s) Assigned Successfully.");
+	location.reload();
+}
+		});
+});
+
+</script>
+<h2 style="width:100%;text-align:center;">Assign Work Orders to Divers</h2>
+<form id="diverwork" method="post">
+<input type="hidden" name="orders" value="yes"/>
+<input type="hidden" name="workorder" value="" id="workorder"/><input type="hidden" name="diver" value="" id="divername"/>
+<input type="hidden" name="fromdated" value="<?php echo $then;?>" id="datefromd"/><input type="hidden" name="todated" value="<?php echo $now;?>" id="datetod"/>
+</form>
+<form id="daybyday" method="post">
+<input type="hidden" name="days" value="yes"/>
+<input type="hidden" name="fromdate" value="<?php echo $then;?>" id="datefrom"/>
+<input type="hidden" name="todate" value="<?php echo $now;?>" id="dateto"/>
+<input type="hidden" name="basin" value="<?php echo $basin;?>" id="basin"/>
+</form>
+<!-- Main -->
+<div style="width:100%;float:left;">
+<div style="width: 20%; float: left; text-align: center; height: 45px;  padding-top: 19px; display: block;float: left;">
+		<div style="width: 61%; float: left; text-align: center;">
+			Date Range<input type="text" style="width: 50%" class="textbox" id="fromdate" value="<?php echo $then;?>" name="" onchange="updateDays()">
+		</div>
+		<div style="width: 38%; float: left; text-align: center;">
+			<b>-- </b><input type="text" style="width:75%" class="textbox" id="todate" value="<?php echo $now;?>" name="" onchange="updateDays()">
+		</div>
+		
+	</div>
+	
+	<div style="width: 20%; float: left; text-align: center; height: 45px;  padding-top: 19px; display: inline-block;float: left;">
+	Location <select class="select" style="width:60%;" onchange="updateDays()" id="location">
+	<option value="all">All Location</option>
+	
+	<?php 
+	foreach($location as $l):
+	if(urldecode($basin)==$l->OPTIONS)
+	{
+	    echo '<option selected value="'.$l->OPTIONS.'">'.$l->OPTIONS.'</option>';
+	}
+	else
+	{
+	echo '<option value="'.$l->OPTIONS.'">'.$l->OPTIONS.'</option>';
+	}
+	endforeach;
+	?>
+	
+	</select>
+	
+	</div>
+	
+	<div style="width:59%;float: left;margin-top:40px;font-weight: bold;">Work Orders : <?php echo count($work_orders);?></div>
+
+<!-- Left -->
+<div style="width:20%;float:left;display: block;clear: left;">
+<table style="width:100%;" class="divertable">
+<?php 
+//print_r($divers);
+//echo $divers[0]->PK_DIVER;
+foreach($divers as $di):
+echo '<input type="hidden" class="counter" id="dv'.$di->PK_DIVER.'" value="'.$di->T.'"/>';
+endforeach;
+    
+    foreach($alldivers as $ad):
+    echo '<tr><td style="width:80%">'.$ad->DIVER_NAME.'</td><td id="diver'.$ad->PK_DIVER.'">0</td></tr>';
+    endforeach;
+?>
+</table>
+
+</div>
+
+<!-- Right -->
+<table style="width:77.7%;text-align: left;border-collapse: collapse;">
+ <tr><th style="background-color: white;color:black;width:14%;border:1px solid black;">Boat Name</th>
+
+<th style="background-color: white;color:black;width:14%;border:1px solid black;">Boat Slip</th>
+<th style="background-color: white;color:black;width:7%;border:1px solid black;">Customer Code</th>
+<th style="background-color: white;color:black;width:14%;border:1px solid black;">Boat Size/Type</th>
+<th style="background-color: white;color:black;width:14%;border:1px solid black;">Schedule Date</th>
+<th style="background-color: white;color:black;width:21%;border:1px solid black;">Customer Name</th>
+<th style="background-color: white;color:black;border:1px solid black;">Diver</th></tr></table>
+<div style="width:79%;float:left;height:700px;overflow-y:scroll;">
+
+
+
+<?php
+echo '<table style="width:100%;text-align: left;border-collapse: collapse;">';
+$k=0; 
+foreach($work_orders as $w):
+if($k%2==0)
+{
+    $cls = 'even';
+}
+else
+{
+    $cls = 'odd';
+}
+echo '<tr class="'.$cls.'">
+<td class="const" style="border:1px solid black;border-top:1px solid black;">'.$w->VESSEL_NAME.'</td>
+<td class="const" style="border:1px solid black;">'.$w->LOCATION.'&nbsp;'.$w->SLIP.'</td>
+<td class="ncon" style="border:1px solid black;">'.$w->ACCOUNT_NO.'</td>
+<td class="const" style="border:1px solid black;">'.$w->VESSEL_LENGTH.'/'.$w->VESSEL_TYPE.'</td>
+<td class="const" style="border:1px solid black;">'.$w->SCHEDULE_DATE.'</td>
+<td  style="border:1px solid black;border-right:1px solid black;width:21%;">'.$w->FIRST_NAME.'&nbsp;'.$w->LAST_NAME.'</td>
+<td  rowspan="2"  style="border-top:1px solid black;border-bottom:1px solid black;border-right:1px solid black;"><select class="select tmp" style="width:100%;" name="'.$w->PK_WO.'"><option value="">Select Diver</option>';
+foreach($alldivers as $dv):
+echo '<option value="'.$dv->PK_DIVER.'">'.$dv->DIVER_NAME.'</option>';
+endforeach;
+echo'</select></td>
+</tr><tr  class="'.$cls.'"><td class="const" colspan="6" style="border:1px solid black;height:25px"><b style="font-weight:normal;margin-left:3%;">Service Notes: </b>'.$w->COMMENTS.'</td></tr><tr><td colspan="7" style="border:transparent;height:3px;"></td></tr>';
+$k++;
+endforeach;
+if($k==0)
+{
+   echo '<tr><td colspan="7" style="text-align:center;"><h2>No Work Orders Found.</h2></td></tr>';
+}
+?>
+</table>
+</div>
+<div style="width:100%;text-align: center;float: left;">
+<button class="btn" id="submit" >Submit</button>
+<button class="btn" onclick="self.close()" >Exit</button></div>
+</div>

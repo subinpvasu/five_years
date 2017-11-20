@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/btw_php/!svn/ver/23/application/config
+END
+profiler.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/btw_php/!svn/ver/1/application/config/profiler.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/btw_php/!svn/ver/2/application/config/routes.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/btw_php/!svn/ver/39/application/config/database.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/btw_php/!svn/ver/1/application/config/index.html
+END
+migration.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/btw_php/!svn/ver/1/application/config/migration.php
+END
+constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/btw_php/!svn/ver/1/application/config/constants.php
+END
+mimes.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/btw_php/!svn/ver/1/application/config/mimes.php
+END
+hooks.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/btw_php/!svn/ver/1/application/config/hooks.php
+END
+doctypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/btw_php/!svn/ver/1/application/config/doctypes.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/btw_php/!svn/ver/5/application/config/config.php
+END
+foreign_chars.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/btw_php/!svn/ver/1/application/config/foreign_chars.php
+END
+smileys.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/btw_php/!svn/ver/1/application/config/smileys.php
+END
+user_agents.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/btw_php/!svn/ver/1/application/config/user_agents.php
+END
+autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/btw_php/!svn/ver/1/application/config/autoload.php
+END

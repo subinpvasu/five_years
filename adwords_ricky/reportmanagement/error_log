@@ -1,0 +1,4 @@
+[26-May-2015 05:16:01 UTC] PHP Fatal error:  Class 'responseClass' not found in /home/hostpush/public_html/google/reportmanagement/getReports.php on line 99
+[26-May-2015 05:18:01 UTC] PHP Fatal error:  Class 'responseClass' not found in /home/hostpush/public_html/google/reportmanagement/getReports.php on line 99
+[18-Jun-2015 06:00:05 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/hostpush/public_html/google/reportmanagement/CustomClasses/dbOperations.php on line 120
+[19-Jun-2015 04:59:51 UTC] PHP Fatal error:  Class 'CustomClasses\Constants' not found in /home/hostpush/public_html/google/reportmanagement/managementReports.php on line 681

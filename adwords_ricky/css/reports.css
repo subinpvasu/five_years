@@ -1,0 +1,75 @@
+.report_menu{
+	
+	height : 80px;
+	margin : 5px ;
+	padding : 5px;
+	width : 100%;
+	//border : 1px solid #ccc ;
+	color : red ;
+	/* overflow-x:scroll; */
+
+}
+.report_menu ul{
+	width : 1700px;
+}
+.report_menu ul li a{
+
+	text-decoration : none;
+	float:left ;
+	margin : 0 5px;
+	cursor : pointer ;
+	border : 1px solid #000 ;
+	padding : .001em .2em;
+	font-size : 10px;
+
+}
+.report_menu ul li a:hover{
+
+	background-color: #CCC;
+	color : #FFF;
+}
+.report_menu ul li a:active{
+
+	background-color: #CCC;
+	color : #FFF;
+}
+
+.report_div{
+	
+	height : auto;
+	margin : 5px ;
+	padding : 5px;
+	width : 100%;
+	border : 1px solid #ccc ;
+	color : red ;
+	/* overflow-x:scroll; */
+
+}
+.resultData div{
+
+	padding : 5px 2px !important	;
+	float:left;
+	text-align: center;
+	word-wrap: break-word;
+
+}
+.selectNew{
+	padding : 5px 2px !important	;
+	width:250px;
+	
+}
+.reportForm{
+	width:50% !important	;
+	 
+}
+.resultHead div {
+        padding: 0px;
+        word-wrap: break-word;
+        text-align: center;
+}
+.resultHead , .resultData{
+
+	font-size : 12px !important ;
+	line-height : 100% !important ;
+
+}

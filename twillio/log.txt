@@ -1,0 +1,39 @@
+* About to connect() to crm.zoho.com port 443 (#0)
+*   Trying 74.201.154.150... * connected
+* successfully set certificate verify locations:
+*   CAfile: none
+  CApath: /etc/ssl/certs
+* SSL connection using ECDHE-RSA-AES128-GCM-SHA256
+* Server certificate:
+* 	 subject: C=IN; postalCode=600089; ST=Tamilnadu; L=Chennai; street=Block 7 , DLF IT Park,Ramapuram; O=ZOHO Corporation; OU=ZOHO; OU=PremiumSSL Wildcard; CN=*.zoho.com
+* 	 start date: 2015-02-27 00:00:00 GMT
+* 	 expire date: 2017-02-26 23:59:59 GMT
+* 	 subjectAltName: crm.zoho.com matched
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Organization Validation Secure Server CA
+* 	 SSL certificate verify ok.
+> POST /crm/private/xml/CustomModule3/updateRecords HTTP/1.1
+Host: crm.zoho.com
+Accept: */*
+Content-Length: 560
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------cea98919eb74
+
+< HTTP/1.1 100 Continue
+< HTTP/1.1 200 OK
+< Server: ZGS
+< Date: Wed, 04 Nov 2015 13:24:57 GMT
+< Content-Type: text/xml;charset=utf-8
+< Content-Length: 443
+< Connection: keep-alive
+< Set-Cookie: 6726760df9=f6153626634f6be45f2c147d7512d750; Path=/
+< X-XSS-Protection: 1
+< X-Content-Type-Options: nosniff
+< Set-Cookie: crmcsr=c20f8122-8f7b-4910-ba94-98e6c787060d; Path=/; Secure
+< Pragma: no-cache
+< Cache-Control: no-store, no-cache, must-revalidate
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=15768000
+< 
+* Connection #0 to host crm.zoho.com left intact
+* Closing connection #0

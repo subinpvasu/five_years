@@ -1,0 +1,72 @@
+[Jul 26 2016 13:04:00.000000 - INFO] POST /api/adwords/cm/v201605/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 436
+Authorization: Bearer ya29.Ci8sA_H5sva95njAZolfAP_UESRNjw9zi6BPbrm-DMWkw1id-EpXgI7Mf2cdS7ariQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>9197135874</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+        <ns1:ordering>
+          <ns1:field>Name</ns1:field>
+          <ns1:sortOrder>ASCENDING</ns1:sortOrder>
+        </ns1:ordering>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 26 Jul 2016 13:04:38 GMT
+Expires: Tue, 26 Jul 2016 13:04:38 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>000538898b0dca080a621c494d0cc6dd</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>260</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>0</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+

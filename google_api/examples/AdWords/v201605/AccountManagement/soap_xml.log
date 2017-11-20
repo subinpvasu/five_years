@@ -1,0 +1,1946 @@
+[Jul 27 2016 10:20:11.000000 - INFO] POST /api/adwords/cm/v201605/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 393
+Authorization: Bearer ya29.CjAtA_okbWwDm8QhOrdFsEEVVe45QOTi2SqInmQmJopP371X2Y9DgQw3TC4E21cLPXI
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:20:51 GMT
+Expires: Wed, 27 Jul 2016 10:20:51 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b5f2581090a6218c7b9093543</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>333</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>7</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>233241060</id>
+        </entries>
+        <entries>
+          <id>338664300</id>
+        </entries>
+        <entries>
+          <id>338666220</id>
+        </entries>
+        <entries>
+          <id>338667420</id>
+        </entries>
+        <entries>
+          <id>338668500</id>
+        </entries>
+        <entries>
+          <id>338668860</id>
+        </entries>
+        <entries>
+          <id>339409380</id>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:20:12.000000 - INFO] POST /api/adwords/ch/v201605/CustomerSyncService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 450
+Authorization: Bearer ya29.CjAtA_okbWwDm8QhOrdFsEEVVe45QOTi2SqInmQmJopP371X2Y9DgQw3TC4E21cLPXI
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:selector>
+        <ns2:dateTimeRange>
+          <ns1:min>20160726 102011</ns1:min>
+          <ns1:max>20160727 102011</ns1:max>
+        </ns2:dateTimeRange>
+        <ns2:campaignIds>233241060</ns2:campaignIds>
+        <ns2:campaignIds>338664300</ns2:campaignIds>
+        <ns2:campaignIds>338666220</ns2:campaignIds>
+        <ns2:campaignIds>338667420</ns2:campaignIds>
+        <ns2:campaignIds>338668500</ns2:campaignIds>
+        <ns2:campaignIds>338668860</ns2:campaignIds>
+        <ns2:campaignIds>339409380</ns2:campaignIds>
+      </ns2:selector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:20:52 GMT
+Expires: Wed, 27 Jul 2016 10:20:52 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605" xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b5f378e200abc7642f1095335</requestId>
+      <serviceName>CustomerSyncService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>467</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+      <ns2:rval>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>233241060</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338664300</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338666220</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338667420</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071902540</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+            <ns2:changedCriteria>10000010</ns2:changedCriteria>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668500</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668860</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>339409380</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:lastChangeTimestamp>20160727 031937 PST8PDT</ns2:lastChangeTimestamp>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:21:50.000000 - INFO] POST /api/adwords/cm/v201605/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 393
+Authorization: Bearer ya29.CjAtA3UvOMaDvv-G3zJHtSUytu3_-CYCJei7CMx5dv5-Xm20qi2nUe8oDyr9TNTqoBI
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:22:30 GMT
+Expires: Wed, 27 Jul 2016 10:22:30 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b6512af780a628705f705f60b</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>249</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>7</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>233241060</id>
+        </entries>
+        <entries>
+          <id>338664300</id>
+        </entries>
+        <entries>
+          <id>338666220</id>
+        </entries>
+        <entries>
+          <id>338667420</id>
+        </entries>
+        <entries>
+          <id>338668500</id>
+        </entries>
+        <entries>
+          <id>338668860</id>
+        </entries>
+        <entries>
+          <id>339409380</id>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:21:51.000000 - INFO] POST /api/adwords/ch/v201605/CustomerSyncService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 450
+Authorization: Bearer ya29.CjAtA3UvOMaDvv-G3zJHtSUytu3_-CYCJei7CMx5dv5-Xm20qi2nUe8oDyr9TNTqoBI
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:selector>
+        <ns2:dateTimeRange>
+          <ns1:min>20160726 102150</ns1:min>
+          <ns1:max>20160727 102150</ns1:max>
+        </ns2:dateTimeRange>
+        <ns2:campaignIds>233241060</ns2:campaignIds>
+        <ns2:campaignIds>338664300</ns2:campaignIds>
+        <ns2:campaignIds>338666220</ns2:campaignIds>
+        <ns2:campaignIds>338667420</ns2:campaignIds>
+        <ns2:campaignIds>338668500</ns2:campaignIds>
+        <ns2:campaignIds>338668860</ns2:campaignIds>
+        <ns2:campaignIds>339409380</ns2:campaignIds>
+      </ns2:selector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:22:31 GMT
+Expires: Wed, 27 Jul 2016 10:22:31 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605" xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b65243ba80abc7642f1095335</requestId>
+      <serviceName>CustomerSyncService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>260</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+      <ns2:rval>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>233241060</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338664300</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338666220</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338667420</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071902540</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+            <ns2:changedCriteria>10000010</ns2:changedCriteria>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668500</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668860</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>339409380</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:lastChangeTimestamp>20160727 031937 PST8PDT</ns2:lastChangeTimestamp>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:22:24.000000 - INFO] POST /api/adwords/cm/v201605/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 393
+Authorization: Bearer ya29.CjAtA7200VDu0EYLyp7kBcWWjrCRZTPLXaDDNDWYr-Lj4uaCyGrDl70mUXVyEBKmgzI
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:23:04 GMT
+Expires: Wed, 27 Jul 2016 10:23:04 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b670e6fd80a621051b70d7fc0</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>244</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>7</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>233241060</id>
+        </entries>
+        <entries>
+          <id>338664300</id>
+        </entries>
+        <entries>
+          <id>338666220</id>
+        </entries>
+        <entries>
+          <id>338667420</id>
+        </entries>
+        <entries>
+          <id>338668500</id>
+        </entries>
+        <entries>
+          <id>338668860</id>
+        </entries>
+        <entries>
+          <id>339409380</id>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:22:25.000000 - INFO] POST /api/adwords/ch/v201605/CustomerSyncService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 452
+Authorization: Bearer ya29.CjAtA7200VDu0EYLyp7kBcWWjrCRZTPLXaDDNDWYr-Lj4uaCyGrDl70mUXVyEBKmgzI
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:selector>
+        <ns2:dateTimeRange>
+          <ns1:min>20160726 102224</ns1:min>
+          <ns1:max>20160727 102224</ns1:max>
+        </ns2:dateTimeRange>
+        <ns2:campaignIds>233241060</ns2:campaignIds>
+        <ns2:campaignIds>338664300</ns2:campaignIds>
+        <ns2:campaignIds>338666220</ns2:campaignIds>
+        <ns2:campaignIds>338667420</ns2:campaignIds>
+        <ns2:campaignIds>338668500</ns2:campaignIds>
+        <ns2:campaignIds>338668860</ns2:campaignIds>
+        <ns2:campaignIds>339409380</ns2:campaignIds>
+      </ns2:selector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:23:05 GMT
+Expires: Wed, 27 Jul 2016 10:23:05 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605" xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b671f86d80abc7642f1095335</requestId>
+      <serviceName>CustomerSyncService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>264</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+      <ns2:rval>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>233241060</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338664300</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338666220</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338667420</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071902540</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+            <ns2:changedCriteria>10000010</ns2:changedCriteria>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668500</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668860</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>339409380</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:lastChangeTimestamp>20160727 031937 PST8PDT</ns2:lastChangeTimestamp>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:22:51.000000 - INFO] POST /api/adwords/cm/v201605/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 393
+Authorization: Bearer ya29.CjAtA7uTn4wsaLjnnFdyX-iqFFjfwkZiV1GtVqrfyleanj0KinF0dtTbvxv-ZEUmmMs
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:23:31 GMT
+Expires: Wed, 27 Jul 2016 10:23:31 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b68afa4890a628388960545dd</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>373</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>7</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>233241060</id>
+        </entries>
+        <entries>
+          <id>338664300</id>
+        </entries>
+        <entries>
+          <id>338666220</id>
+        </entries>
+        <entries>
+          <id>338667420</id>
+        </entries>
+        <entries>
+          <id>338668500</id>
+        </entries>
+        <entries>
+          <id>338668860</id>
+        </entries>
+        <entries>
+          <id>339409380</id>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:22:52.000000 - INFO] POST /api/adwords/ch/v201605/CustomerSyncService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 452
+Authorization: Bearer ya29.CjAtA7uTn4wsaLjnnFdyX-iqFFjfwkZiV1GtVqrfyleanj0KinF0dtTbvxv-ZEUmmMs
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:selector>
+        <ns2:dateTimeRange>
+          <ns1:min>20160726 102251</ns1:min>
+          <ns1:max>20160727 102251</ns1:max>
+        </ns2:dateTimeRange>
+        <ns2:campaignIds>233241060</ns2:campaignIds>
+        <ns2:campaignIds>338664300</ns2:campaignIds>
+        <ns2:campaignIds>338666220</ns2:campaignIds>
+        <ns2:campaignIds>338667420</ns2:campaignIds>
+        <ns2:campaignIds>338668500</ns2:campaignIds>
+        <ns2:campaignIds>338668860</ns2:campaignIds>
+        <ns2:campaignIds>339409380</ns2:campaignIds>
+      </ns2:selector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:23:32 GMT
+Expires: Wed, 27 Jul 2016 10:23:32 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605" xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b68c4a7700abcd90c0706ae45</requestId>
+      <serviceName>CustomerSyncService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>271</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+      <ns2:rval>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>233241060</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338664300</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338666220</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338667420</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071902540</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+            <ns2:changedCriteria>10000010</ns2:changedCriteria>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668500</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668860</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>339409380</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:lastChangeTimestamp>20160727 031937 PST8PDT</ns2:lastChangeTimestamp>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:26:15.000000 - INFO] POST /api/adwords/cm/v201605/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 393
+Authorization: Bearer ya29.CjAtA4tRMoNHrCNOOJN8TNHYuCrG1Xpe99jHpPmcUvD8_5qLcJ2lv9yhec1hzsXK7ao
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:26:55 GMT
+Expires: Wed, 27 Jul 2016 10:26:55 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b74df32000a623f883a0b6474</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>293</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>7</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>233241060</id>
+        </entries>
+        <entries>
+          <id>338664300</id>
+        </entries>
+        <entries>
+          <id>338666220</id>
+        </entries>
+        <entries>
+          <id>338667420</id>
+        </entries>
+        <entries>
+          <id>338668500</id>
+        </entries>
+        <entries>
+          <id>338668860</id>
+        </entries>
+        <entries>
+          <id>339409380</id>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:26:17.000000 - INFO] POST /api/adwords/ch/v201605/CustomerSyncService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 452
+Authorization: Bearer ya29.CjAtA4tRMoNHrCNOOJN8TNHYuCrG1Xpe99jHpPmcUvD8_5qLcJ2lv9yhec1hzsXK7ao
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:selector>
+        <ns2:dateTimeRange>
+          <ns1:min>20160726 102615</ns1:min>
+          <ns1:max>20160727 102615</ns1:max>
+        </ns2:dateTimeRange>
+        <ns2:campaignIds>233241060</ns2:campaignIds>
+        <ns2:campaignIds>338664300</ns2:campaignIds>
+        <ns2:campaignIds>338666220</ns2:campaignIds>
+        <ns2:campaignIds>338667420</ns2:campaignIds>
+        <ns2:campaignIds>338668500</ns2:campaignIds>
+        <ns2:campaignIds>338668860</ns2:campaignIds>
+        <ns2:campaignIds>339409380</ns2:campaignIds>
+      </ns2:selector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:26:56 GMT
+Expires: Wed, 27 Jul 2016 10:26:56 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605" xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b74ec7c580abccf85e90d5bcf</requestId>
+      <serviceName>CustomerSyncService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>638</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+      <ns2:rval>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>233241060</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338664300</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338666220</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338667420</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071902540</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+            <ns2:changedCriteria>10000010</ns2:changedCriteria>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668500</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668860</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>339409380</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:lastChangeTimestamp>20160727 031937 PST8PDT</ns2:lastChangeTimestamp>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:27:04.000000 - INFO] POST /api/adwords/cm/v201605/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 393
+Authorization: Bearer ya29.CjAtAy1sqSHdwD2APQ9JHAIZHE-r48A8IXNoYpzL3PI5FFa3PsG7HVIR1Dj7rnhHeaw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:27:43 GMT
+Expires: Wed, 27 Jul 2016 10:27:43 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b77be4d810a622e874c0201bd</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>114</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>7</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>233241060</id>
+        </entries>
+        <entries>
+          <id>338664300</id>
+        </entries>
+        <entries>
+          <id>338666220</id>
+        </entries>
+        <entries>
+          <id>338667420</id>
+        </entries>
+        <entries>
+          <id>338668500</id>
+        </entries>
+        <entries>
+          <id>338668860</id>
+        </entries>
+        <entries>
+          <id>339409380</id>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:27:04.000000 - INFO] POST /api/adwords/ch/v201605/CustomerSyncService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 452
+Authorization: Bearer ya29.CjAtAy1sqSHdwD2APQ9JHAIZHE-r48A8IXNoYpzL3PI5FFa3PsG7HVIR1Dj7rnhHeaw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:selector>
+        <ns2:dateTimeRange>
+          <ns1:min>20160726 102704</ns1:min>
+          <ns1:max>20160727 102704</ns1:max>
+        </ns2:dateTimeRange>
+        <ns2:campaignIds>233241060</ns2:campaignIds>
+        <ns2:campaignIds>338664300</ns2:campaignIds>
+        <ns2:campaignIds>338666220</ns2:campaignIds>
+        <ns2:campaignIds>338667420</ns2:campaignIds>
+        <ns2:campaignIds>338668500</ns2:campaignIds>
+        <ns2:campaignIds>338668860</ns2:campaignIds>
+        <ns2:campaignIds>339409380</ns2:campaignIds>
+      </ns2:selector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:27:44 GMT
+Expires: Wed, 27 Jul 2016 10:27:44 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605" xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b77cb88380abcce46820c4900</requestId>
+      <serviceName>CustomerSyncService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>274</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+      <ns2:rval>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>233241060</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338664300</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338666220</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338667420</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071902540</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+            <ns2:changedCriteria>10000010</ns2:changedCriteria>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668500</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668860</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>339409380</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:lastChangeTimestamp>20160727 031937 PST8PDT</ns2:lastChangeTimestamp>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:31:50.000000 - INFO] POST /api/adwords/cm/v201605/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 393
+Authorization: Bearer ya29.CjAtA3avha0DqpUwDG_zULBC9jLFwpL0d5VntfxpdVZ7MwjH6qxLyMhNQUX-3cq3j4E
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:32:30 GMT
+Expires: Wed, 27 Jul 2016 10:32:30 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b88cf4a700a62ce88840dbacf</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>250</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>7</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>233241060</id>
+        </entries>
+        <entries>
+          <id>338664300</id>
+        </entries>
+        <entries>
+          <id>338666220</id>
+        </entries>
+        <entries>
+          <id>338667420</id>
+        </entries>
+        <entries>
+          <id>338668500</id>
+        </entries>
+        <entries>
+          <id>338668860</id>
+        </entries>
+        <entries>
+          <id>339409380</id>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:31:51.000000 - INFO] POST /api/adwords/ch/v201605/CustomerSyncService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 450
+Authorization: Bearer ya29.CjAtA3avha0DqpUwDG_zULBC9jLFwpL0d5VntfxpdVZ7MwjH6qxLyMhNQUX-3cq3j4E
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:selector>
+        <ns2:dateTimeRange>
+          <ns1:min>20160726 103150</ns1:min>
+          <ns1:max>20160727 103150</ns1:max>
+        </ns2:dateTimeRange>
+        <ns2:campaignIds>233241060</ns2:campaignIds>
+        <ns2:campaignIds>338664300</ns2:campaignIds>
+        <ns2:campaignIds>338666220</ns2:campaignIds>
+        <ns2:campaignIds>338667420</ns2:campaignIds>
+        <ns2:campaignIds>338668500</ns2:campaignIds>
+        <ns2:campaignIds>338668860</ns2:campaignIds>
+        <ns2:campaignIds>339409380</ns2:campaignIds>
+      </ns2:selector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:32:31 GMT
+Expires: Wed, 27 Jul 2016 10:32:31 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605" xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b88dbd1780abc1708930b12e0</requestId>
+      <serviceName>CustomerSyncService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>810</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+      <ns2:rval>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>233241060</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338664300</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338666220</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338667420</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071902540</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+            <ns2:changedCriteria>10000010</ns2:changedCriteria>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668500</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071908660</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668860</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>339409380</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:lastChangeTimestamp>20160727 032958 PST8PDT</ns2:lastChangeTimestamp>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:35:16.000000 - INFO] POST /api/adwords/cm/v201605/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 393
+Authorization: Bearer ya29.CjAtA4WDpTzHkb9w7zn92Mz6-OUaZoexGqo-H04SBbkt2Y2scbXJpFgqN6Gz5laWfP8
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:35:56 GMT
+Expires: Wed, 27 Jul 2016 10:35:56 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b951ad0100a6217c5830cfdfc</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>153</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>7</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>233241060</id>
+        </entries>
+        <entries>
+          <id>338664300</id>
+        </entries>
+        <entries>
+          <id>338666220</id>
+        </entries>
+        <entries>
+          <id>338667420</id>
+        </entries>
+        <entries>
+          <id>338668500</id>
+        </entries>
+        <entries>
+          <id>338668860</id>
+        </entries>
+        <entries>
+          <id>339409380</id>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:35:17.000000 - INFO] POST /api/adwords/ch/v201605/CustomerSyncService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 452
+Authorization: Bearer ya29.CjAtA4WDpTzHkb9w7zn92Mz6-OUaZoexGqo-H04SBbkt2Y2scbXJpFgqN6Gz5laWfP8
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:selector>
+        <ns2:dateTimeRange>
+          <ns1:min>20160726 103516</ns1:min>
+          <ns1:max>20160727 103516</ns1:max>
+        </ns2:dateTimeRange>
+        <ns2:campaignIds>233241060</ns2:campaignIds>
+        <ns2:campaignIds>338664300</ns2:campaignIds>
+        <ns2:campaignIds>338666220</ns2:campaignIds>
+        <ns2:campaignIds>338667420</ns2:campaignIds>
+        <ns2:campaignIds>338668500</ns2:campaignIds>
+        <ns2:campaignIds>338668860</ns2:campaignIds>
+        <ns2:campaignIds>339409380</ns2:campaignIds>
+      </ns2:selector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:35:57 GMT
+Expires: Wed, 27 Jul 2016 10:35:57 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605" xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b9526c2a80abc6088540b1c7e</requestId>
+      <serviceName>CustomerSyncService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>272</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+      <ns2:rval>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>233241060</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_CHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338664300</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338666220</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338667420</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071902540</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+            <ns2:changedCriteria>10000010</ns2:changedCriteria>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668500</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071908660</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668860</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>339409380</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:lastChangeTimestamp>20160727 033524 PST8PDT</ns2:lastChangeTimestamp>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:36:57.000000 - INFO] POST /api/adwords/cm/v201605/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 393
+Authorization: Bearer ya29.CjAtA2nt3FaaMF4Kq7MIs2PmRlptnXdUgWniHb46IMdNoAtrHtyvr1Vd4UHT0DrM6LQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:37:37 GMT
+Expires: Wed, 27 Jul 2016 10:37:37 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b9b2477910a6219418f0b2752</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>289</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>7</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>233241060</id>
+        </entries>
+        <entries>
+          <id>338664300</id>
+        </entries>
+        <entries>
+          <id>338666220</id>
+        </entries>
+        <entries>
+          <id>338667420</id>
+        </entries>
+        <entries>
+          <id>338668500</id>
+        </entries>
+        <entries>
+          <id>338668860</id>
+        </entries>
+        <entries>
+          <id>339409380</id>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 10:36:59.000000 - INFO] POST /api/adwords/ch/v201605/CustomerSyncService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 452
+Authorization: Bearer ya29.CjAtA2nt3FaaMF4Kq7MIs2PmRlptnXdUgWniHb46IMdNoAtrHtyvr1Vd4UHT0DrM6LQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:selector>
+        <ns2:dateTimeRange>
+          <ns1:min>20160726 103657</ns1:min>
+          <ns1:max>20160727 103657</ns1:max>
+        </ns2:dateTimeRange>
+        <ns2:campaignIds>233241060</ns2:campaignIds>
+        <ns2:campaignIds>338664300</ns2:campaignIds>
+        <ns2:campaignIds>338666220</ns2:campaignIds>
+        <ns2:campaignIds>338667420</ns2:campaignIds>
+        <ns2:campaignIds>338668500</ns2:campaignIds>
+        <ns2:campaignIds>338668860</ns2:campaignIds>
+        <ns2:campaignIds>339409380</ns2:campaignIds>
+      </ns2:selector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 10:37:39 GMT
+Expires: Wed, 27 Jul 2016 10:37:39 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605" xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389b9b35c5400abc768bac035d35</requestId>
+      <serviceName>CustomerSyncService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>473</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+      <ns2:rval>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>233241060</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_CHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338664300</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338666220</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338667420</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071902540</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+            <ns2:changedCriteria>10000010</ns2:changedCriteria>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668500</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071908660</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668860</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>339409380</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:lastChangeTimestamp>20160727 033524 PST8PDT</ns2:lastChangeTimestamp>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 12:25:44.000000 - INFO] POST /api/adwords/cm/v201605/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 393
+Authorization: Bearer ya29.CjAtAymRsM0TwCA2K5H7PNNeImGl4hHP-gJhVvOTsqf-eFjKY0mIOZCGiHjnUqbtNVE
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 12:26:24 GMT
+Expires: Wed, 27 Jul 2016 12:26:24 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389d202945f10a621593b807b0e2</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>310</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <rval>
+        <totalNumEntries>7</totalNumEntries>
+        <Page.Type>CampaignPage</Page.Type>
+        <entries>
+          <id>233241060</id>
+        </entries>
+        <entries>
+          <id>338664300</id>
+        </entries>
+        <entries>
+          <id>338666220</id>
+        </entries>
+        <entries>
+          <id>338667420</id>
+        </entries>
+        <entries>
+          <id>338668500</id>
+        </entries>
+        <entries>
+          <id>338668860</id>
+        </entries>
+        <entries>
+          <id>339409380</id>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Jul 27 2016 12:25:45.000000 - INFO] POST /api/adwords/ch/v201605/CustomerSyncService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.6.16, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 452
+Authorization: Bearer ya29.CjAtAymRsM0TwCA2K5H7PNNeImGl4hHP-gJhVvOTsqf-eFjKY0mIOZCGiHjnUqbtNVE
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>7461228875</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.6.16)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:selector>
+        <ns2:dateTimeRange>
+          <ns1:min>20160726 122544</ns1:min>
+          <ns1:max>20160727 122544</ns1:max>
+        </ns2:dateTimeRange>
+        <ns2:campaignIds>233241060</ns2:campaignIds>
+        <ns2:campaignIds>338664300</ns2:campaignIds>
+        <ns2:campaignIds>338666220</ns2:campaignIds>
+        <ns2:campaignIds>338667420</ns2:campaignIds>
+        <ns2:campaignIds>338668500</ns2:campaignIds>
+        <ns2:campaignIds>338668860</ns2:campaignIds>
+        <ns2:campaignIds>339409380</ns2:campaignIds>
+      </ns2:selector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 27 Jul 2016 12:26:25 GMT
+Expires: Wed, 27 Jul 2016 12:26:25 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605" xmlns="https://adwords.google.com/api/adwords/cm/v201605">
+      <requestId>0005389d203cdd900abc768bac035d35</requestId>
+      <serviceName>CustomerSyncService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>550</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201605" xmlns:ns2="https://adwords.google.com/api/adwords/ch/v201605">
+      <ns2:rval>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>233241060</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_CHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338664300</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338666220</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338667420</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071902540</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+            <ns2:changedCriteria>10000010</ns2:changedCriteria>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668500</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+          <ns2:changedAdGroups>
+            <ns2:adGroupId>23071908660</ns2:adGroupId>
+            <ns2:adGroupChangeStatus>FIELDS_CHANGED</ns2:adGroupChangeStatus>
+          </ns2:changedAdGroups>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>338668860</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:changedCampaigns>
+          <ns2:campaignId>339409380</ns2:campaignId>
+          <ns2:campaignChangeStatus>FIELDS_UNCHANGED</ns2:campaignChangeStatus>
+        </ns2:changedCampaigns>
+        <ns2:lastChangeTimestamp>20160727 050547 PST8PDT</ns2:lastChangeTimestamp>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+

@@ -1,0 +1,185 @@
+[Oct 03 2016 10:30:28.000000 - INFO] POST /api/adwords/reportdownload/v201605 HTTP/1.1
+Host: adwords.google.com
+User-Agent: curl, gzip
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.CjNxA1oj4ntqYEYACCQc2Vwe7kPlKCldSZXdOMA8O4fDeXRxMuk824LIQzvpNOw2i0eBpWI
+developerToken: 3cQGzPPFUQYrohn-pUlgEw
+clientCustomerId: 2570035894
+Content-Length: 730
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------7bc68b659e422d76
+
+Parameters:
+__rdxml: <?xml version="1.0" encoding="UTF-8"?>
+<reportDefinition><selector><fields>CampaignId</fields><fields>AdGroupId</fields><fields>Id</fields><fields>Criteria</fields><fields>CriteriaType</fields><fields>Impressions</fields><fields>Clicks</fields><fields>Cost</fields><predicates><field>Status</field><operator>NOT_IN</operator><values>PAUSED</values></predicates></selector><reportName>Criteria performance report #57f2333150def</reportName><reportType>CRITERIA_PERFORMANCE_REPORT</reportType><dateRangeType>LAST_7_DAYS</dateRangeType><downloadFormat>CSV</downloadFormat></reportDefinition>
+
+Response Code: 200
+
+[Oct 03 2016 10:34:55.000000 - ERROR] POST /api/adwords/reportdownload/v201605 HTTP/1.1
+Host: adwords.google.com
+User-Agent: curl, gzip
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.CjNxAzBw-egz4DDVYelGugG_hFavFHoCAD81w_3mSouM4pMLQLFRsE9T3_M9VRLcPtTWhYU
+developerToken: 3cQGzPPFUQYrohn-pUlgEw
+clientCustomerId: 2570035894
+Content-Length: 729
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------a8b2349a406611b9
+
+Parameters:
+__rdxml: <?xml version="1.0" encoding="UTF-8"?>
+<reportDefinition><selector><fields>CampaignId</fields><fields>AdGroupId</fields><fields>Id</fields><fields>Criteria</fields><fields>CriteriaType</fields><fields>Impressions</fields><fields>Clicks</fields><fields>Cost</fields><predicates><field>Status</field><operator>NOT_IN</operator><values>PAUSED</values></predicates></selector><reportName>Criteria performance report #57f2344b92be4</reportName><reportType>ACCOUNT_PERFORMANCE_REPORT</reportType><dateRangeType>LAST_7_DAYS</dateRangeType><downloadFormat>CSV</downloadFormat></reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed.
+
+[Oct 03 2016 10:54:31.000000 - ERROR] POST /api/adwords/reportdownload/v201605 HTTP/1.1
+Host: adwords.google.com
+User-Agent: curl, gzip
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.CjNxA8y9xqwAJV5rOO4PikY1nXFuCFVH0fvw_Sa4j3Qf14yIUmxEhGpvidwfeLzmYJC-0f0
+developerToken: 3cQGzPPFUQYrohn-pUlgEw
+clientCustomerId: 2570035894
+Content-Length: 729
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------6478347d7cd7c053
+
+Parameters:
+__rdxml: <?xml version="1.0" encoding="UTF-8"?>
+<reportDefinition><selector><fields>CampaignId</fields><fields>AdGroupId</fields><fields>Id</fields><fields>Criteria</fields><fields>CriteriaType</fields><fields>Impressions</fields><fields>Clicks</fields><fields>Cost</fields><predicates><field>Status</field><operator>NOT_IN</operator><values>PAUSED</values></predicates></selector><reportName>Criteria performance report #57f238e413648</reportName><reportType>ACCOUNT_PERFORMANCE_REPORT</reportType><dateRangeType>LAST_7_DAYS</dateRangeType><downloadFormat>CSV</downloadFormat></reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 'Id', FieldPath = ''. 
+
+[Oct 03 2016 11:06:54.000000 - ERROR] POST /api/adwords/reportdownload/v201605 HTTP/1.1
+Host: adwords.google.com
+User-Agent: curl, gzip
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.CjNxA1K3SAAcI7eCxDEMIN97PoQUr1c59k66agJKuCwVL7Ju11XOghNk8_Q9czUWUIjWdyg
+developerToken: 3cQGzPPFUQYrohn-pUlgEw
+clientCustomerId: 2570035894
+Content-Length: 619
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------e69f61ad0f4ed268
+
+Parameters:
+__rdxml: <?xml version="1.0" encoding="UTF-8"?>
+<reportDefinition><selector><fields>AccountDescriptiveName</fields><fields>Conversions</fields><fields>Cost</fields><predicates><field>Status</field><operator>NOT_IN</operator><values>PAUSED</values></predicates></selector><reportName>Criteria performance report #57f23bca3a232</reportName><reportType>ACCOUNT_PERFORMANCE_REPORT</reportType><dateRangeType>LAST_7_DAYS</dateRangeType><downloadFormat>CSV</downloadFormat></reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'SelectorError.INVALID_PREDICATE_FIELD_NAME', Trigger = 'Invalid predicate name: Status', FieldPath = 'Status'. 
+
+[Oct 03 2016 11:07:20.000000 - INFO] POST /api/adwords/reportdownload/v201605 HTTP/1.1
+Host: adwords.google.com
+User-Agent: curl, gzip
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.CjNxAzvUbSQv-lhDTJmG7Mw6OeBi-KQC9amKeYR7U6zPi-EdysBW-53YvrF34jbuJXixeyg
+developerToken: 3cQGzPPFUQYrohn-pUlgEw
+clientCustomerId: 2570035894
+Content-Length: 523
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------21bd6745cd59656e
+
+Parameters:
+__rdxml: <?xml version="1.0" encoding="UTF-8"?>
+<reportDefinition><selector><fields>AccountDescriptiveName</fields><fields>Conversions</fields><fields>Cost</fields></selector><reportName>Criteria performance report #57f23be3e72de</reportName><reportType>ACCOUNT_PERFORMANCE_REPORT</reportType><dateRangeType>LAST_7_DAYS</dateRangeType><downloadFormat>CSV</downloadFormat></reportDefinition>
+
+Response Code: 200
+
+[Oct 03 2016 11:16:27.000000 - INFO] POST /api/adwords/reportdownload/v201605 HTTP/1.1
+Host: adwords.google.com
+User-Agent: curl, gzip
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.CjNxAzMrhswm0e4Cvyo1Sgug5cw4rPK_zPJprmw4GHE89p31jlCoTMWjcf9_S1EotiDzIsc
+developerToken: 3cQGzPPFUQYrohn-pUlgEw
+clientCustomerId: 2570035894
+Content-Length: 521
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------14a815346cd91e02
+
+Parameters:
+__rdxml: <?xml version="1.0" encoding="UTF-8"?>
+<reportDefinition><selector><fields>AccountDescriptiveName</fields><fields>Conversions</fields><fields>Cost</fields></selector><reportName>Criteria performance report #57f23e06ba888</reportName><reportType>ACCOUNT_PERFORMANCE_REPORT</reportType><dateRangeType>YESTERDAY</dateRangeType><downloadFormat>CSV</downloadFormat></reportDefinition>
+
+Response Code: 200
+
+[Oct 03 2016 11:33:41.000000 - INFO] POST /api/adwords/reportdownload/v201605 HTTP/1.1
+Host: adwords.google.com
+User-Agent: curl, gzip
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.CjNxA7r5vBFAajeqllUDY2ams93mfk_H_Wr2QQY8h6LhE-lZt4deaJBCSzAyma5-S-h4asA
+developerToken: 3cQGzPPFUQYrohn-pUlgEw
+clientCustomerId: 2570035894
+Content-Length: 521
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------49feed699998d9e3
+
+Parameters:
+__rdxml: <?xml version="1.0" encoding="UTF-8"?>
+<reportDefinition><selector><fields>AccountDescriptiveName</fields><fields>Conversions</fields><fields>Cost</fields></selector><reportName>Account performance report #57f242120f698</reportName><reportType>ACCOUNT_PERFORMANCE_REPORT</reportType><dateRangeType>LAST_MONTH</dateRangeType><downloadFormat>CSV</downloadFormat></reportDefinition>
+
+Response Code: 200
+
+[Oct 04 2016 07:21:42.000000 - INFO] POST /api/adwords/reportdownload/v201605 HTTP/1.1
+Host: adwords.google.com
+User-Agent: curl, gzip
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.CjNyA5MvaiZx13EKxTp-Gzel5PYCPW0mnKcuPAo7NVJEyGBlw2f5zCosDUMMCgZLh0fkoyw
+developerToken: 3cQGzPPFUQYrohn-pUlgEw
+clientCustomerId: 2570035894
+Content-Length: 556
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------00035d3d3933998d
+
+Parameters:
+__rdxml: <?xml version="1.0" encoding="UTF-8"?>
+<reportDefinition><selector><fields>AccountDescriptiveName</fields><fields>Conversions</fields><fields>Cost</fields><fields>ExternalCustomerId</fields></selector><reportName>Account performance report #57f3588304a5e</reportName><reportType>ACCOUNT_PERFORMANCE_REPORT</reportType><dateRangeType>LAST_MONTH</dateRangeType><downloadFormat>CSV</downloadFormat></reportDefinition>
+
+Response Code: 200
+
+[Oct 04 2016 07:21:51.000000 - INFO] POST /api/adwords/reportdownload/v201605 HTTP/1.1
+Host: adwords.google.com
+User-Agent: curl, gzip
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.CjNyAwfmhDVdMYjnm2V9bHpLlCER23JYefnWRbDF7Ww6Sq1717YBKsG4maPS5RRzwnMXTkM
+developerToken: 3cQGzPPFUQYrohn-pUlgEw
+clientCustomerId: 2570035894
+Content-Length: 556
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------3e26b86d69687ab9
+
+Parameters:
+__rdxml: <?xml version="1.0" encoding="UTF-8"?>
+<reportDefinition><selector><fields>AccountDescriptiveName</fields><fields>Conversions</fields><fields>Cost</fields><fields>ExternalCustomerId</fields></selector><reportName>Account performance report #57f3588c85b95</reportName><reportType>ACCOUNT_PERFORMANCE_REPORT</reportType><dateRangeType>LAST_MONTH</dateRangeType><downloadFormat>CSV</downloadFormat></reportDefinition>
+
+Response Code: 200
+
+[Oct 04 2016 07:54:09.000000 - INFO] POST /api/adwords/reportdownload/v201605 HTTP/1.1
+Host: adwords.google.com
+User-Agent: curl, gzip
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.CjNyA4MGRGM3ix4QpYYb45oUuZ6PlK0pBYXctZeaq2lVEF5R8iQybxQHeDu3SgXf-XFj800
+developerToken: 3cQGzPPFUQYrohn-pUlgEw
+clientCustomerId: 2570035894
+Content-Length: 577
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------d706c55752e9d65b
+
+Parameters:
+__rdxml: <?xml version="1.0" encoding="UTF-8"?>
+<reportDefinition><selector><fields>AccountDescriptiveName</fields><fields>Conversions</fields><fields>Cost</fields><fields>ExternalCustomerId</fields><fields>Date</fields></selector><reportName>Account performance report #57f3601d53dce</reportName><reportType>ACCOUNT_PERFORMANCE_REPORT</reportType><dateRangeType>LAST_MONTH</dateRangeType><downloadFormat>CSV</downloadFormat></reportDefinition>
+
+Response Code: 200
+

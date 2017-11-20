@@ -1,0 +1,212 @@
+/*
+Title: Creating an HTML5 enhanced responsive-ready contact form, with custom javascript feature detection
+Tutorial on: http://www.onextrapixel.com
+Author: http://www.toddmotto.com
+*/
+
+@media screen and (max-device-width : 360px)
+{
+    html body div.wrapper div#main form#respo-form div#displayCWO table#t2 tbody tr.tblRowDisplay td
+    {
+       font-size:7px; 
+    }
+html body div.wrapper div#main form#respo-form div#tblCompWO table#t1 tbody tr th.tblhead
+    {
+       font-size:7px;  
+    }
+    html body div.wrapper div#main form#respo-form div#displayCWO table#t3 tbody tr td
+    {
+       font-size:7px;  
+    }
+html body div.wrapper div#main form#respo-form div#headerbtns table tbody tr td button
+  {
+      font-size:10px;
+  }
+  html body div.wrapper div#main form#respo-form div button#ic_wo
+  {
+      font-size:10px;
+  }
+ 
+  tr.tblRowDisplay > td
+  {
+    font-size:10px;
+  }
+
+ div#tblCompWO table tbody tr
+ {
+    font-size:10px;  
+ }
+div#headerbtns div button
+ {
+     font-size:10px; 
+     white-space: nowrap;
+     text-align: center;
+ }
+}
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+body {
+	font:13px/20px normal Helvetica, Arial, sans-serif;
+	background-color: black;
+	color:white;
+	background-image:url('../img/body_bg.jpg');
+}
+
+.tblhead
+{
+	background-color: grey;
+}
+tr:nth-child(even) {
+	background-color:#ffffff;
+	color:#000000;
+		}
+tr:nth-child(odd) {
+	background-color:#E5E5E5;
+		color:#000000;
+	}
+.tblRowDisplay
+{
+	cursor:pointer;
+	height:40px;
+}
+.wrapper {
+	max-width:500px;
+	width:95%;
+	margin:0 auto;
+	position:relative;
+}
+
+#respo-form input[type="text"],
+#respo-form input[type="email"],
+#respo-form input[type="tel"],
+#respo-form input[type="url"],
+#respo-form textarea,
+#respo-form {
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	background-image:url('../img/body_bg.jpg');
+	padding:25px;
+}
+#respo-form h3 {
+	font:13px/20px normal Helvetica, Arial, sans-serif;
+	color:white;
+	display:block;
+	font-size:1.5em;
+}
+#respo-form h4 {
+	font:13px/20px normal Helvetica, Arial, sans-serif;
+	color:white;
+	display:block;
+	font-size:19px;
+}
+#respo-form label span {
+	cursor:pointer;
+	color:white;
+	display:block;
+	margin:5px 0;
+	font-weight:900;
+	font-size:15px;
+}
+#respo-form input[type="text"],
+#respo-form input[type="password"],
+#respo-form input[type="email"],
+#respo-form input[type="tel"],
+#respo-form input[type="url"],
+#respo-form textarea {
+	width:100%;
+	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#respo-form input[type="text"]:hover,
+#respo-form input[type="email"]:hover,
+#respo-form input[type="tel"]:hover,
+#respo-form input[type="url"]:hover,
+#respo-form textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+#respo-form textarea {
+	height:300px;
+	max-width:100%;
+}
+#respo-form button{
+	cursor:pointer;
+	width:100%;
+	border:none;
+	
+	white-space: nowrap;
+	color:#FFF;
+
+	padding:10px;
+	
+	font-size: 18px;
+	font-weight:bold; 
+	background-color: #808080;
+border: 1px solid white;
+color: #FFFFFF;
+cursor: pointer;
+
+text-align: center;
+
+	
+}
+#respo-form input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+#respo-form button:hover {
+	
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+#respo-form button:active {
+	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+#respo-form input:focus,
+#respo-form textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
+#main #pagLink > a
+{
+	
+	color:white;
+}

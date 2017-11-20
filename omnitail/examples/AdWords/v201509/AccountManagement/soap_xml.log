@@ -1,0 +1,1666 @@
+[Feb 05 2016 08:00:03.000000 - INFO] POST /api/adwords/mcm/v201509/ManagedCustomerService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 375
+Authorization: Bearer ya29.fwLtTY8NYq0Fs5tA7e3oA8JYH5lxhxAum75mEDi0JmvhCl_m6WKB8d_WWBmiITfH9GnbKg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>6743897063</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:serviceSelector>
+        <ns1:fields>CustomerId</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+      </ns2:serviceSelector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 05 Feb 2016 07:00:05 GMT
+Expires: Fri, 05 Feb 2016 07:00:05 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 963
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509" xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b006699f7500a4c1961aa00ff66</requestId>
+      <serviceName>ManagedCustomerService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>161</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+      <ns2:rval>
+        <totalNumEntries>22</totalNumEntries>
+        <Page.Type>ManagedCustomerPage</Page.Type>
+        <ns2:entries>
+          <ns2:name>Az-Tex Hats</ns2:name>
+          <ns2:customerId>4329064370</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BSPNY</ns2:name>
+          <ns2:customerId>4139735130</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax.com</ns2:name>
+          <ns2:customerId>6377394920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Tennis Express</ns2:name>
+          <ns2:customerId>6587371639</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BoardCo.com</ns2:name>
+          <ns2:customerId>5493971629</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>NRSWorld.com</ns2:name>
+          <ns2:customerId>5539282978</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>A Brief Affair</ns2:name>
+          <ns2:customerId>7181722645</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Mineral Tiles</ns2:name>
+          <ns2:customerId>2859087333</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Really Good Stuff</ns2:name>
+          <ns2:customerId>8753651780</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Bold Rugs</ns2:name>
+          <ns2:customerId>7424820533</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Superior Lighting</ns2:name>
+          <ns2:customerId>6539291121</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>J. O'Brien Co.</ns2:name>
+          <ns2:customerId>7719507534</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Hustle Paintball</ns2:name>
+          <ns2:customerId>6053880220</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Matt Stover MCC</ns2:name>
+          <ns2:customerId>5323447604</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Blitz Paintball</ns2:name>
+          <ns2:customerId>4517427932</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax Gear Outlet</ns2:name>
+          <ns2:customerId>4695768920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Met Opera</ns2:name>
+          <ns2:customerId>6851874609</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC</ns2:name>
+          <ns2:customerId>4003813087</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 2</ns2:name>
+          <ns2:customerId>1226811775</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail Dev</ns2:name>
+          <ns2:customerId>6743897063</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 1</ns2:name>
+          <ns2:customerId>1728364983</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC Internal</ns2:name>
+          <ns2:customerId>5916136759</ns2:customerId>
+        </ns2:entries>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1226811775</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4003813087</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7424820533</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4329064370</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5323447604</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6851874609</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6053880220</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4695768920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6377394920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7181722645</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>8753651780</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5493971629</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4139735130</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4517427932</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5916136759</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6587371639</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5539282978</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6539291121</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7719507534</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>2859087333</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1728364983</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 05 2016 08:11:33.000000 - INFO] POST /api/adwords/mcm/v201509/ManagedCustomerService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 375
+Authorization: Bearer ya29.fwIqADPlH17X_JD1aKLGSDNdmTvf1hldzK6HmZ50W-4YgXXhEhnie6qa3U5UgV-10Ksnqg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>6743897063</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:serviceSelector>
+        <ns1:fields>CustomerId</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+      </ns2:serviceSelector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 05 Feb 2016 07:11:34 GMT
+Expires: Fri, 05 Feb 2016 07:11:34 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 962
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509" xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b008facc8480a4c74c7500f800c</requestId>
+      <serviceName>ManagedCustomerService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>175</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+      <ns2:rval>
+        <totalNumEntries>22</totalNumEntries>
+        <Page.Type>ManagedCustomerPage</Page.Type>
+        <ns2:entries>
+          <ns2:name>Az-Tex Hats</ns2:name>
+          <ns2:customerId>4329064370</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BSPNY</ns2:name>
+          <ns2:customerId>4139735130</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax.com</ns2:name>
+          <ns2:customerId>6377394920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Tennis Express</ns2:name>
+          <ns2:customerId>6587371639</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BoardCo.com</ns2:name>
+          <ns2:customerId>5493971629</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>NRSWorld.com</ns2:name>
+          <ns2:customerId>5539282978</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>A Brief Affair</ns2:name>
+          <ns2:customerId>7181722645</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Mineral Tiles</ns2:name>
+          <ns2:customerId>2859087333</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Really Good Stuff</ns2:name>
+          <ns2:customerId>8753651780</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Bold Rugs</ns2:name>
+          <ns2:customerId>7424820533</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Superior Lighting</ns2:name>
+          <ns2:customerId>6539291121</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>J. O'Brien Co.</ns2:name>
+          <ns2:customerId>7719507534</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Hustle Paintball</ns2:name>
+          <ns2:customerId>6053880220</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Matt Stover MCC</ns2:name>
+          <ns2:customerId>5323447604</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Blitz Paintball</ns2:name>
+          <ns2:customerId>4517427932</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax Gear Outlet</ns2:name>
+          <ns2:customerId>4695768920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Met Opera</ns2:name>
+          <ns2:customerId>6851874609</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC</ns2:name>
+          <ns2:customerId>4003813087</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 2</ns2:name>
+          <ns2:customerId>1226811775</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail Dev</ns2:name>
+          <ns2:customerId>6743897063</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 1</ns2:name>
+          <ns2:customerId>1728364983</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC Internal</ns2:name>
+          <ns2:customerId>5916136759</ns2:customerId>
+        </ns2:entries>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1226811775</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4003813087</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7424820533</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4329064370</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5323447604</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6851874609</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6053880220</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4695768920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6377394920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7181722645</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>8753651780</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5493971629</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4139735130</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4517427932</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5916136759</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6587371639</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5539282978</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6539291121</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7719507534</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>2859087333</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1728364983</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 05 2016 08:11:56.000000 - INFO] POST /api/adwords/mcm/v201509/ManagedCustomerService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 375
+Authorization: Bearer ya29.fwLpCVqlC4DL-Gd2h6MI_Cs-xxXTnTHKNcMsnjgTieXHwi1iMM8HYBw2hzCB0pgIlD4wFg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>6743897063</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:serviceSelector>
+        <ns1:fields>CustomerId</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+      </ns2:serviceSelector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 05 Feb 2016 07:11:57 GMT
+Expires: Fri, 05 Feb 2016 07:11:57 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 962
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509" xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b00911434000abf274fa1098ceb</requestId>
+      <serviceName>ManagedCustomerService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>143</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+      <ns2:rval>
+        <totalNumEntries>22</totalNumEntries>
+        <Page.Type>ManagedCustomerPage</Page.Type>
+        <ns2:entries>
+          <ns2:name>Az-Tex Hats</ns2:name>
+          <ns2:customerId>4329064370</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BSPNY</ns2:name>
+          <ns2:customerId>4139735130</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax.com</ns2:name>
+          <ns2:customerId>6377394920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Tennis Express</ns2:name>
+          <ns2:customerId>6587371639</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BoardCo.com</ns2:name>
+          <ns2:customerId>5493971629</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>NRSWorld.com</ns2:name>
+          <ns2:customerId>5539282978</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>A Brief Affair</ns2:name>
+          <ns2:customerId>7181722645</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Mineral Tiles</ns2:name>
+          <ns2:customerId>2859087333</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Really Good Stuff</ns2:name>
+          <ns2:customerId>8753651780</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Bold Rugs</ns2:name>
+          <ns2:customerId>7424820533</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Superior Lighting</ns2:name>
+          <ns2:customerId>6539291121</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>J. O'Brien Co.</ns2:name>
+          <ns2:customerId>7719507534</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Hustle Paintball</ns2:name>
+          <ns2:customerId>6053880220</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Matt Stover MCC</ns2:name>
+          <ns2:customerId>5323447604</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Blitz Paintball</ns2:name>
+          <ns2:customerId>4517427932</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax Gear Outlet</ns2:name>
+          <ns2:customerId>4695768920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Met Opera</ns2:name>
+          <ns2:customerId>6851874609</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC</ns2:name>
+          <ns2:customerId>4003813087</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 2</ns2:name>
+          <ns2:customerId>1226811775</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail Dev</ns2:name>
+          <ns2:customerId>6743897063</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 1</ns2:name>
+          <ns2:customerId>1728364983</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC Internal</ns2:name>
+          <ns2:customerId>5916136759</ns2:customerId>
+        </ns2:entries>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1226811775</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4003813087</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7424820533</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4329064370</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5323447604</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6851874609</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6053880220</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4695768920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6377394920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7181722645</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>8753651780</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5493971629</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4139735130</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4517427932</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5916136759</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6587371639</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5539282978</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6539291121</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7719507534</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>2859087333</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1728364983</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 05 2016 08:13:18.000000 - INFO] POST /api/adwords/mcm/v201509/ManagedCustomerService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 375
+Authorization: Bearer ya29.fwKW-LqJPzqeU2pp3s4XVEezxDyHYjxijDC8SrCQXIn0V6tRrmjhSRqekMP96I1UT1Ar_g
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>6743897063</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:serviceSelector>
+        <ns1:fields>CustomerId</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+      </ns2:serviceSelector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 05 Feb 2016 07:13:20 GMT
+Expires: Fri, 05 Feb 2016 07:13:20 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 961
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509" xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b0095fef2480abfc7424d0a77e4</requestId>
+      <serviceName>ManagedCustomerService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>79</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+      <ns2:rval>
+        <totalNumEntries>22</totalNumEntries>
+        <Page.Type>ManagedCustomerPage</Page.Type>
+        <ns2:entries>
+          <ns2:name>Az-Tex Hats</ns2:name>
+          <ns2:customerId>4329064370</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BSPNY</ns2:name>
+          <ns2:customerId>4139735130</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax.com</ns2:name>
+          <ns2:customerId>6377394920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Tennis Express</ns2:name>
+          <ns2:customerId>6587371639</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BoardCo.com</ns2:name>
+          <ns2:customerId>5493971629</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>NRSWorld.com</ns2:name>
+          <ns2:customerId>5539282978</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>A Brief Affair</ns2:name>
+          <ns2:customerId>7181722645</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Mineral Tiles</ns2:name>
+          <ns2:customerId>2859087333</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Really Good Stuff</ns2:name>
+          <ns2:customerId>8753651780</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Bold Rugs</ns2:name>
+          <ns2:customerId>7424820533</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Superior Lighting</ns2:name>
+          <ns2:customerId>6539291121</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>J. O'Brien Co.</ns2:name>
+          <ns2:customerId>7719507534</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Hustle Paintball</ns2:name>
+          <ns2:customerId>6053880220</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Matt Stover MCC</ns2:name>
+          <ns2:customerId>5323447604</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Blitz Paintball</ns2:name>
+          <ns2:customerId>4517427932</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax Gear Outlet</ns2:name>
+          <ns2:customerId>4695768920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Met Opera</ns2:name>
+          <ns2:customerId>6851874609</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC</ns2:name>
+          <ns2:customerId>4003813087</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 2</ns2:name>
+          <ns2:customerId>1226811775</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail Dev</ns2:name>
+          <ns2:customerId>6743897063</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 1</ns2:name>
+          <ns2:customerId>1728364983</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC Internal</ns2:name>
+          <ns2:customerId>5916136759</ns2:customerId>
+        </ns2:entries>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1226811775</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4003813087</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7424820533</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4329064370</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5323447604</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6851874609</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6053880220</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4695768920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6377394920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7181722645</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>8753651780</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5493971629</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4139735130</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4517427932</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5916136759</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6587371639</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5539282978</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6539291121</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7719507534</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>2859087333</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1728364983</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 05 2016 08:13:39.000000 - INFO] POST /api/adwords/mcm/v201509/ManagedCustomerService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 375
+Authorization: Bearer ya29.fwIyFG73qsiHajTJ1qLgVOVJ-btO-gYx14q5AoS35BDZKqTyikgkjzNBzX41z70-pICUYg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>6743897063</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:serviceSelector>
+        <ns1:fields>CustomerId</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+      </ns2:serviceSelector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 05 Feb 2016 07:13:41 GMT
+Expires: Fri, 05 Feb 2016 07:13:41 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 962
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509" xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b00973e86c80abfccd33804c1fd</requestId>
+      <serviceName>ManagedCustomerService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>80</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+      <ns2:rval>
+        <totalNumEntries>22</totalNumEntries>
+        <Page.Type>ManagedCustomerPage</Page.Type>
+        <ns2:entries>
+          <ns2:name>Az-Tex Hats</ns2:name>
+          <ns2:customerId>4329064370</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BSPNY</ns2:name>
+          <ns2:customerId>4139735130</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax.com</ns2:name>
+          <ns2:customerId>6377394920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Tennis Express</ns2:name>
+          <ns2:customerId>6587371639</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BoardCo.com</ns2:name>
+          <ns2:customerId>5493971629</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>NRSWorld.com</ns2:name>
+          <ns2:customerId>5539282978</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>A Brief Affair</ns2:name>
+          <ns2:customerId>7181722645</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Mineral Tiles</ns2:name>
+          <ns2:customerId>2859087333</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Really Good Stuff</ns2:name>
+          <ns2:customerId>8753651780</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Bold Rugs</ns2:name>
+          <ns2:customerId>7424820533</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Superior Lighting</ns2:name>
+          <ns2:customerId>6539291121</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>J. O'Brien Co.</ns2:name>
+          <ns2:customerId>7719507534</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Hustle Paintball</ns2:name>
+          <ns2:customerId>6053880220</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Matt Stover MCC</ns2:name>
+          <ns2:customerId>5323447604</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Blitz Paintball</ns2:name>
+          <ns2:customerId>4517427932</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax Gear Outlet</ns2:name>
+          <ns2:customerId>4695768920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Met Opera</ns2:name>
+          <ns2:customerId>6851874609</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC</ns2:name>
+          <ns2:customerId>4003813087</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 2</ns2:name>
+          <ns2:customerId>1226811775</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail Dev</ns2:name>
+          <ns2:customerId>6743897063</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 1</ns2:name>
+          <ns2:customerId>1728364983</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC Internal</ns2:name>
+          <ns2:customerId>5916136759</ns2:customerId>
+        </ns2:entries>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1226811775</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4003813087</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7424820533</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4329064370</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5323447604</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6851874609</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6053880220</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4695768920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6377394920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7181722645</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>8753651780</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5493971629</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4139735130</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4517427932</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5916136759</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6587371639</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5539282978</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6539291121</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7719507534</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>2859087333</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1728364983</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 05 2016 09:54:30.000000 - INFO] POST /api/adwords/mcm/v201509/ManagedCustomerService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 374
+Authorization: Bearer ya29.fwI2H9hfU2UR3cmnKSEBhJDaGOM8lJYo6ASQuMtpggPhFZjqVInjC0RxuN2q4OQSG__CwA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>9197135874</ns1:clientCustomerId>
+      <ns1:developerToken>dDdipQC2xWmL2WIIDCDvYw</ns1:developerToken>
+      <ns1:userAgent>vbridge (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:serviceSelector>
+        <ns1:fields>CustomerId</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+      </ns2:serviceSelector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 05 Feb 2016 08:54:31 GMT
+Expires: Fri, 05 Feb 2016 08:54:31 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 592
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509" xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b01ffe3d4210a4c21615f0cb017</requestId>
+      <serviceName>ManagedCustomerService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>265</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+      <ns2:rval>
+        <totalNumEntries>8</totalNumEntries>
+        <Page.Type>ManagedCustomerPage</Page.Type>
+        <ns2:entries>
+          <ns2:name>VBridge</ns2:name>
+          <ns2:customerId>9197135874</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>TestOnly</ns2:name>
+          <ns2:customerId>3410453340</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>vbridge - ami</ns2:name>
+          <ns2:customerId>5836023790</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Dentist-Direct</ns2:name>
+          <ns2:customerId>6943808773</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Bisjo Test</ns2:name>
+          <ns2:customerId>7461228875</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Account #54e19d68c4917</ns2:name>
+          <ns2:customerId>8244977222</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Deepa Test</ns2:name>
+          <ns2:customerId>2470192316</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Arif</ns2:name>
+          <ns2:customerId>1101806236</ns2:customerId>
+        </ns2:entries>
+        <ns2:links>
+          <ns2:managerCustomerId>9197135874</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5836023790</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>9197135874</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7461228875</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>9197135874</ns2:managerCustomerId>
+          <ns2:clientCustomerId>3410453340</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>9197135874</ns2:managerCustomerId>
+          <ns2:clientCustomerId>8244977222</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>9197135874</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1101806236</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>9197135874</ns2:managerCustomerId>
+          <ns2:clientCustomerId>2470192316</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>9197135874</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6943808773</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 05 2016 12:59:26.000000 - INFO] POST /api/adwords/mcm/v201509/ManagedCustomerService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 375
+Authorization: Bearer ya29.fwLbmlEVe2X6YIzKdtShJ51rSuzbLsXmTc6cXLGPDEQ-F0hYXUt8HDWMptPG9xZz7ZCklA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+  <SOAP-ENV:Header>
+    <ns2:RequestHeader>
+      <ns1:clientCustomerId>6743897063</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns2:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns2:get>
+      <ns2:serviceSelector>
+        <ns1:fields>CustomerId</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+      </ns2:serviceSelector>
+    </ns2:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 05 Feb 2016 11:59:27 GMT
+Expires: Fri, 05 Feb 2016 11:59:27 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 964
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:ResponseHeader xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509" xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b04953b4f880a4c534ab70bd823</requestId>
+      <serviceName>ManagedCustomerService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>345</responseTime>
+    </ns2:ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <ns2:getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509" xmlns:ns2="https://adwords.google.com/api/adwords/mcm/v201509">
+      <ns2:rval>
+        <totalNumEntries>22</totalNumEntries>
+        <Page.Type>ManagedCustomerPage</Page.Type>
+        <ns2:entries>
+          <ns2:name>Az-Tex Hats</ns2:name>
+          <ns2:customerId>4329064370</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BSPNY</ns2:name>
+          <ns2:customerId>4139735130</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax.com</ns2:name>
+          <ns2:customerId>6377394920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Tennis Express</ns2:name>
+          <ns2:customerId>6587371639</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>BoardCo.com</ns2:name>
+          <ns2:customerId>5493971629</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>NRSWorld.com</ns2:name>
+          <ns2:customerId>5539282978</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>A Brief Affair</ns2:name>
+          <ns2:customerId>7181722645</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Mineral Tiles</ns2:name>
+          <ns2:customerId>2859087333</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Really Good Stuff</ns2:name>
+          <ns2:customerId>8753651780</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Bold Rugs</ns2:name>
+          <ns2:customerId>7424820533</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Superior Lighting</ns2:name>
+          <ns2:customerId>6539291121</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>J. O'Brien Co.</ns2:name>
+          <ns2:customerId>7719507534</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Hustle Paintball</ns2:name>
+          <ns2:customerId>6053880220</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Matt Stover MCC</ns2:name>
+          <ns2:customerId>5323447604</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Blitz Paintball</ns2:name>
+          <ns2:customerId>4517427932</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Lax Gear Outlet</ns2:name>
+          <ns2:customerId>4695768920</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Met Opera</ns2:name>
+          <ns2:customerId>6851874609</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC</ns2:name>
+          <ns2:customerId>4003813087</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 2</ns2:name>
+          <ns2:customerId>1226811775</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail Dev</ns2:name>
+          <ns2:customerId>6743897063</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Test Account 1</ns2:name>
+          <ns2:customerId>1728364983</ns2:customerId>
+        </ns2:entries>
+        <ns2:entries>
+          <ns2:name>Omnitail, LLC Internal</ns2:name>
+          <ns2:customerId>5916136759</ns2:customerId>
+        </ns2:entries>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1226811775</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4003813087</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7424820533</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4329064370</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5323447604</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6851874609</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6053880220</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4695768920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6377394920</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7181722645</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>8753651780</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5493971629</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4139735130</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>4517427932</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>5323447604</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5916136759</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6587371639</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>5539282978</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>6539291121</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>7719507534</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>4003813087</ns2:managerCustomerId>
+          <ns2:clientCustomerId>2859087333</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+        <ns2:links>
+          <ns2:managerCustomerId>6743897063</ns2:managerCustomerId>
+          <ns2:clientCustomerId>1728364983</ns2:clientCustomerId>
+          <ns2:isHidden>false</ns2:isHidden>
+        </ns2:links>
+      </ns2:rval>
+    </ns2:getResponse>
+  </soap:Body>
+</soap:Envelope>
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/html5lib
+END
+Tokenizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/html5lib/Tokenizer.php
+END
+named-character-references.ser
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/html5lib/named-character-references.ser
+END
+Data.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/html5lib/Data.php
+END
+InputStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/html5lib/InputStream.php
+END
+TreeBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/html5lib/TreeBuilder.php
+END
+Parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/html5lib/Parser.php
+END

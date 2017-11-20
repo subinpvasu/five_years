@@ -1,0 +1,4641 @@
+[Feb 10 2016 12:13:25.000000 - INFO] POST /api/adwords/cm/v201509/CampaignCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 568
+Authorization: Bearer ya29.hAK2e5cS0zUz_1fvinD3VN1MBHry066BJiIggdy06Jc3ZE31bzJx1CiVq0-88izxFAf0yA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:predicates>
+          <ns1:field>CampaignId</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>328109084</ns1:values>
+        </ns1:predicates>
+        <ns1:predicates>
+          <ns1:field>CriteriaType</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>LANGUAGE</ns1:values>
+          <ns1:values>LOCATION</ns1:values>
+          <ns1:values>AGE_RANGE</ns1:values>
+          <ns1:values>CARRIER</ns1:values>
+          <ns1:values>OPERATING_SYSTEM_VERSION</ns1:values>
+          <ns1:values>GENDER</ns1:values>
+          <ns1:values>PROXIMITY</ns1:values>
+          <ns1:values>PLATFORM</ns1:values>
+        </ns1:predicates>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 10 Feb 2016 11:13:29 GMT
+Expires: Wed, 10 Feb 2016 11:13:29 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 496
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b68860dc5e00a4c0b42cf00d750</requestId>
+      <serviceName>CampaignCriterionService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>224</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <rval>
+        <totalNumEntries>5</totalNumEntries>
+        <Page.Type>CampaignCriterionPage</Page.Type>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Location">
+            <id>2124</id>
+            <type>LOCATION</type>
+            <Criterion.Type>Location</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Location">
+            <id>2840</id>
+            <type>LOCATION</type>
+            <Criterion.Type>Location</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30000</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30001</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30002</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:13:58.000000 - INFO] POST /api/adwords/cm/v201509/CampaignCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 568
+Authorization: Bearer ya29.hAIH3zT_3EvAk4pqZUkUIEBBN0O2j8o9Ni7Pf5yttrUQviDjS7OLRx3IXb_SF1-gozawtA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:predicates>
+          <ns1:field>CampaignId</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>328109084</ns1:values>
+        </ns1:predicates>
+        <ns1:predicates>
+          <ns1:field>CriteriaType</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>LANGUAGE</ns1:values>
+          <ns1:values>LOCATION</ns1:values>
+          <ns1:values>AGE_RANGE</ns1:values>
+          <ns1:values>CARRIER</ns1:values>
+          <ns1:values>OPERATING_SYSTEM_VERSION</ns1:values>
+          <ns1:values>GENDER</ns1:values>
+          <ns1:values>PROXIMITY</ns1:values>
+          <ns1:values>PLATFORM</ns1:values>
+        </ns1:predicates>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 10 Feb 2016 11:14:03 GMT
+Expires: Wed, 10 Feb 2016 11:14:03 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 498
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b68880fcfa00a4c5fa97404c294</requestId>
+      <serviceName>CampaignCriterionService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>172</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <rval>
+        <totalNumEntries>5</totalNumEntries>
+        <Page.Type>CampaignCriterionPage</Page.Type>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Location">
+            <id>2124</id>
+            <type>LOCATION</type>
+            <Criterion.Type>Location</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Location">
+            <id>2840</id>
+            <type>LOCATION</type>
+            <Criterion.Type>Location</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30000</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30001</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30002</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:15:03.000000 - INFO] POST /api/adwords/cm/v201509/CampaignCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 568
+Authorization: Bearer ya29.hAKmOQJR2XtkmcSv9PAUeaArqGUcfnKM1SxIt0pyAGs_VS8F_EynIK07U7lOrEoW6oFNoA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:predicates>
+          <ns1:field>CampaignId</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>328109084</ns1:values>
+        </ns1:predicates>
+        <ns1:predicates>
+          <ns1:field>CriteriaType</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>LANGUAGE</ns1:values>
+          <ns1:values>LOCATION</ns1:values>
+          <ns1:values>AGE_RANGE</ns1:values>
+          <ns1:values>CARRIER</ns1:values>
+          <ns1:values>OPERATING_SYSTEM_VERSION</ns1:values>
+          <ns1:values>GENDER</ns1:values>
+          <ns1:values>PROXIMITY</ns1:values>
+          <ns1:values>PLATFORM</ns1:values>
+        </ns1:predicates>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 10 Feb 2016 11:15:07 GMT
+Expires: Wed, 10 Feb 2016 11:15:07 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 497
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b688be159a00a4ca984b0061272</requestId>
+      <serviceName>CampaignCriterionService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>243</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <rval>
+        <totalNumEntries>5</totalNumEntries>
+        <Page.Type>CampaignCriterionPage</Page.Type>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Location">
+            <id>2124</id>
+            <type>LOCATION</type>
+            <Criterion.Type>Location</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Location">
+            <id>2840</id>
+            <type>LOCATION</type>
+            <Criterion.Type>Location</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30000</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30001</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>328109084</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30002</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:16:55.000000 - INFO] POST /api/adwords/cm/v201509/LocationCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 515
+Authorization: Bearer ya29.hAKNKuygb5r2qxROwXq59zueXTqRYQAzA_VG1Q_9CBzmszjvzEjDhEeYwdwfU8jK4SJxjw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:selector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>LocationName</ns1:fields>
+        <ns1:fields>CanonicalName</ns1:fields>
+        <ns1:fields>DisplayType</ns1:fields>
+        <ns1:fields>ParentLocations</ns1:fields>
+        <ns1:fields>Reach</ns1:fields>
+        <ns1:fields>TargetingStatus</ns1:fields>
+        <ns1:predicates>
+          <ns1:field>LocationName</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>Paris</ns1:values>
+          <ns1:values>Quebec</ns1:values>
+          <ns1:values>Spain</ns1:values>
+          <ns1:values>Deutschland</ns1:values>
+          <ns1:values>Canada</ns1:values>
+        </ns1:predicates>
+        <ns1:predicates>
+          <ns1:field>Locale</ns1:field>
+          <ns1:operator>EQUALS</ns1:operator>
+          <ns1:values>en</ns1:values>
+        </ns1:predicates>
+      </ns1:selector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+Date: Wed, 10 Feb 2016 11:16:58 GMT
+Expires: Wed, 10 Feb 2016 11:16:58 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b689287e1480a4cb28a27034501</requestId>
+      <serviceName>LocationCriterionService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>251</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <rval>
+        <location>
+          <id>1006094</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Paris,Ile-de-France,France</canonicalName>
+        <reach>12700000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9059985</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Charles de Gaulle Airport</locationName>
+          <displayType>Airport</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Charles de Gaulle Airport,Ile-de-France,France</canonicalName>
+        <reach>246000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1026678</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21176</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Texas</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Texas,United States</canonicalName>
+        <reach>39000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9041209</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Orly Airport</locationName>
+          <displayType>Airport</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Orly Airport,Ile-de-France,France</canonicalName>
+        <reach>123000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1002378</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>Neighborhood</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20121</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ontario</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Ontario,Canada</canonicalName>
+        <reach>11000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1026100</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21175</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Tennessee</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Tennessee,United States</canonicalName>
+        <reach>24000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9040871</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>Department</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Ile-de-France,France</canonicalName>
+        <reach>12700000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1017861</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21150</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Kentucky</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Kentucky,United States</canonicalName>
+        <reach>16000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1016756</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21147</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Illinois</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Illinois,United States</canonicalName>
+        <reach>14000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1013312</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21135</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Arkansas</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Arkansas,United States</canonicalName>
+        <reach>4000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>20123</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Quebec</locationName>
+          <displayType>Province</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Quebec,Canada</canonicalName>
+        <reach>4320000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1002624</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Quebec City</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20123</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Quebec</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+            <parentLocations>
+              <id>2124</id>
+              <Criterion.Type>Location</Criterion.Type>
+              <locationName>Canada</locationName>
+              <displayType>Country</displayType>
+              <targetingStatus>ACTIVE</targetingStatus>
+            </parentLocations>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Quebec City,Quebec,Canada</canonicalName>
+        <reach>365000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9000272</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>G2G</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20123</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Quebec</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+            <parentLocations>
+              <id>2124</id>
+              <Criterion.Type>Location</Criterion.Type>
+              <locationName>Canada</locationName>
+              <displayType>Country</displayType>
+              <targetingStatus>ACTIVE</targetingStatus>
+            </parentLocations>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>G2G,Quebec,Canada</canonicalName>
+        <reach>63000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9013709</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>38581</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21175</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Tennessee</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>38581,Tennessee,United States</canonicalName>
+        <reach>7000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9046709</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>DH7</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20339</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>England</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2826</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United Kingdom</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>DH7,England,United Kingdom</canonicalName>
+        <reach>33000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1001637</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Londrina</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20101</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>State of Parana</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2076</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Brazil</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Londrina,State of Parana,Brazil</canonicalName>
+        <reach>412000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9028773</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>80207</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21138</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Colorado</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>80207,Colorado,United States</canonicalName>
+        <reach>181000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9053537</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>59033</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21159</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Montana</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>59033,Montana,United States</canonicalName>
+        <reach>15000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>2724</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Spain</locationName>
+          <displayType>Country</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+        </location>
+        <canonicalName>Spain</canonicalName>
+        <reach>25600000</reach>
+        <locale>en</locale>
+        <searchTerm>Spain</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1000013</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Dubai</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>9041083</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Dubai</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2784</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United Arab Emirates</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Dubai,Dubai,United Arab Emirates</canonicalName>
+        <reach>5520000</reach>
+        <locale>en</locale>
+        <searchTerm>Spain</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1009300</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Meguro</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20636</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Tokyo</locationName>
+            <displayType>Prefecture</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2392</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Japan</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Meguro,Tokyo,Japan</canonicalName>
+        <reach>612000</reach>
+        <locale>en</locale>
+        <searchTerm>Spain</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1000890</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Deutschlandsberg</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20047</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Styria</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2040</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Austria</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Deutschlandsberg,Styria,Austria</canonicalName>
+        <reach>9000</reach>
+        <locale>en</locale>
+        <searchTerm>Deutschland</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>2276</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Germany</locationName>
+          <displayType>Country</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+        </location>
+        <canonicalName>Germany</canonicalName>
+        <reach>29800000</reach>
+        <locale>en</locale>
+        <searchTerm>Deutschland</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>2124</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Canada</locationName>
+          <displayType>Country</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+        </location>
+        <canonicalName>Canada</canonicalName>
+        <reach>17200000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9000828</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>L6A</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20121</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ontario</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>L6A,Ontario,Canada</canonicalName>
+        <reach>187000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9041076</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Canada de Gomez</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20021</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Santa Fe Province</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2032</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Argentina</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Canada de Gomez,Santa Fe Province,Argentina</canonicalName>
+        <reach>21000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9040235</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Nashik</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20462</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Maharashtra</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2356</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>India</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Nashik,Maharashtra,India</canonicalName>
+        <reach>210000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1017719</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Canada</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21150</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Kentucky</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Canada,Kentucky,United States</canonicalName>
+        <reach>0</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9044965</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>E14</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20339</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>England</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2826</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United Kingdom</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>E14,England,United Kingdom</canonicalName>
+        <reach>550000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>20708</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Jalisco</locationName>
+          <displayType>State</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>2484</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Mexico</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Jalisco,Mexico</canonicalName>
+        <reach>3070000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9058834</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Jackson County</locationName>
+          <displayType>County</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21160</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>North Carolina</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Jackson County,North Carolina,United States</canonicalName>
+        <reach>73000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1010012</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Tijuana</locationName>
+          <displayType>Municipality</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20696</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Baja California</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2484</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Mexico</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Tijuana,Baja California,Mexico</canonicalName>
+        <reach>780000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1010130</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Guadalupe</locationName>
+          <displayType>Municipality</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20713</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Nuevo Leon</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2484</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Mexico</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Guadalupe,Nuevo Leon,Mexico</canonicalName>
+        <reach>308000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:17:15.000000 - INFO] POST /api/adwords/cm/v201509/LocationCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 515
+Authorization: Bearer ya29.hAL6L1Y6tQpcwhkCmGrg6NpROj0nVRNPCGmNIC5DRQLw8wfn29foFyPT9rawGsvEzRiXQA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:selector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>LocationName</ns1:fields>
+        <ns1:fields>CanonicalName</ns1:fields>
+        <ns1:fields>DisplayType</ns1:fields>
+        <ns1:fields>ParentLocations</ns1:fields>
+        <ns1:fields>Reach</ns1:fields>
+        <ns1:fields>TargetingStatus</ns1:fields>
+        <ns1:predicates>
+          <ns1:field>LocationName</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>Paris</ns1:values>
+          <ns1:values>Quebec</ns1:values>
+          <ns1:values>Spain</ns1:values>
+          <ns1:values>Deutschland</ns1:values>
+          <ns1:values>Canada</ns1:values>
+        </ns1:predicates>
+        <ns1:predicates>
+          <ns1:field>Locale</ns1:field>
+          <ns1:operator>EQUALS</ns1:operator>
+          <ns1:values>en</ns1:values>
+        </ns1:predicates>
+      </ns1:selector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+Date: Wed, 10 Feb 2016 11:17:19 GMT
+Expires: Wed, 10 Feb 2016 11:17:19 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b6893c6e9280a4c5811cd09f919</requestId>
+      <serviceName>LocationCriterionService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>106</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <rval>
+        <location>
+          <id>1006094</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Paris,Ile-de-France,France</canonicalName>
+        <reach>12700000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9059985</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Charles de Gaulle Airport</locationName>
+          <displayType>Airport</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Charles de Gaulle Airport,Ile-de-France,France</canonicalName>
+        <reach>246000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1026678</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21176</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Texas</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Texas,United States</canonicalName>
+        <reach>39000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9041209</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Orly Airport</locationName>
+          <displayType>Airport</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Orly Airport,Ile-de-France,France</canonicalName>
+        <reach>123000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1002378</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>Neighborhood</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20121</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ontario</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Ontario,Canada</canonicalName>
+        <reach>11000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1026100</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21175</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Tennessee</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Tennessee,United States</canonicalName>
+        <reach>24000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9040871</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>Department</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Ile-de-France,France</canonicalName>
+        <reach>12700000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1017861</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21150</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Kentucky</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Kentucky,United States</canonicalName>
+        <reach>16000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1016756</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21147</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Illinois</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Illinois,United States</canonicalName>
+        <reach>14000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1013312</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21135</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Arkansas</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Arkansas,United States</canonicalName>
+        <reach>4000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>20123</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Quebec</locationName>
+          <displayType>Province</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Quebec,Canada</canonicalName>
+        <reach>4320000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1002624</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Quebec City</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20123</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Quebec</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+            <parentLocations>
+              <id>2124</id>
+              <Criterion.Type>Location</Criterion.Type>
+              <locationName>Canada</locationName>
+              <displayType>Country</displayType>
+              <targetingStatus>ACTIVE</targetingStatus>
+            </parentLocations>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Quebec City,Quebec,Canada</canonicalName>
+        <reach>365000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9000272</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>G2G</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20123</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Quebec</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+            <parentLocations>
+              <id>2124</id>
+              <Criterion.Type>Location</Criterion.Type>
+              <locationName>Canada</locationName>
+              <displayType>Country</displayType>
+              <targetingStatus>ACTIVE</targetingStatus>
+            </parentLocations>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>G2G,Quebec,Canada</canonicalName>
+        <reach>63000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9013709</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>38581</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21175</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Tennessee</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>38581,Tennessee,United States</canonicalName>
+        <reach>7000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9046709</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>DH7</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20339</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>England</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2826</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United Kingdom</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>DH7,England,United Kingdom</canonicalName>
+        <reach>33000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1001637</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Londrina</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20101</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>State of Parana</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2076</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Brazil</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Londrina,State of Parana,Brazil</canonicalName>
+        <reach>412000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9028773</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>80207</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21138</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Colorado</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>80207,Colorado,United States</canonicalName>
+        <reach>181000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9053537</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>59033</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21159</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Montana</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>59033,Montana,United States</canonicalName>
+        <reach>15000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>2724</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Spain</locationName>
+          <displayType>Country</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+        </location>
+        <canonicalName>Spain</canonicalName>
+        <reach>25600000</reach>
+        <locale>en</locale>
+        <searchTerm>Spain</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1000013</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Dubai</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>9041083</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Dubai</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2784</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United Arab Emirates</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Dubai,Dubai,United Arab Emirates</canonicalName>
+        <reach>5520000</reach>
+        <locale>en</locale>
+        <searchTerm>Spain</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1009300</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Meguro</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20636</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Tokyo</locationName>
+            <displayType>Prefecture</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2392</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Japan</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Meguro,Tokyo,Japan</canonicalName>
+        <reach>612000</reach>
+        <locale>en</locale>
+        <searchTerm>Spain</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1000890</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Deutschlandsberg</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20047</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Styria</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2040</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Austria</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Deutschlandsberg,Styria,Austria</canonicalName>
+        <reach>9000</reach>
+        <locale>en</locale>
+        <searchTerm>Deutschland</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>2276</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Germany</locationName>
+          <displayType>Country</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+        </location>
+        <canonicalName>Germany</canonicalName>
+        <reach>29800000</reach>
+        <locale>en</locale>
+        <searchTerm>Deutschland</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>2124</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Canada</locationName>
+          <displayType>Country</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+        </location>
+        <canonicalName>Canada</canonicalName>
+        <reach>17200000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9000828</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>L6A</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20121</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ontario</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>L6A,Ontario,Canada</canonicalName>
+        <reach>187000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9041076</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Canada de Gomez</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20021</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Santa Fe Province</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2032</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Argentina</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Canada de Gomez,Santa Fe Province,Argentina</canonicalName>
+        <reach>21000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9040235</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Nashik</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20462</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Maharashtra</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2356</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>India</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Nashik,Maharashtra,India</canonicalName>
+        <reach>210000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1017719</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Canada</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21150</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Kentucky</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Canada,Kentucky,United States</canonicalName>
+        <reach>0</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9044965</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>E14</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20339</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>England</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2826</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United Kingdom</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>E14,England,United Kingdom</canonicalName>
+        <reach>550000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>20708</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Jalisco</locationName>
+          <displayType>State</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>2484</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Mexico</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Jalisco,Mexico</canonicalName>
+        <reach>3070000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9058834</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Jackson County</locationName>
+          <displayType>County</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21160</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>North Carolina</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Jackson County,North Carolina,United States</canonicalName>
+        <reach>73000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1010012</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Tijuana</locationName>
+          <displayType>Municipality</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20696</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Baja California</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2484</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Mexico</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Tijuana,Baja California,Mexico</canonicalName>
+        <reach>780000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1010130</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Guadalupe</locationName>
+          <displayType>Municipality</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20713</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Nuevo Leon</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2484</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Mexico</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Guadalupe,Nuevo Leon,Mexico</canonicalName>
+        <reach>308000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:24:28.000000 - INFO] POST /api/adwords/cm/v201509/CampaignCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 569
+Authorization: Bearer ya29.hAK1QEyZGeIoLS8uL27RiYFDTxGTM6cyGFa20chstfWfT_8-YKH0FcL7VLCYUwWzMln10A
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:predicates>
+          <ns1:field>CampaignId</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>360723884</ns1:values>
+        </ns1:predicates>
+        <ns1:predicates>
+          <ns1:field>CriteriaType</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>LANGUAGE</ns1:values>
+          <ns1:values>LOCATION</ns1:values>
+          <ns1:values>AGE_RANGE</ns1:values>
+          <ns1:values>CARRIER</ns1:values>
+          <ns1:values>OPERATING_SYSTEM_VERSION</ns1:values>
+          <ns1:values>GENDER</ns1:values>
+          <ns1:values>PROXIMITY</ns1:values>
+          <ns1:values>PLATFORM</ns1:values>
+        </ns1:predicates>
+        <ns1:paging>
+          <ns1:startIndex>0</ns1:startIndex>
+          <ns1:numberResults>500</ns1:numberResults>
+        </ns1:paging>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 10 Feb 2016 11:24:32 GMT
+Expires: Wed, 10 Feb 2016 11:24:32 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 462
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b68ad938a500a4caca6950654f7</requestId>
+      <serviceName>CampaignCriterionService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>193</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <rval>
+        <totalNumEntries>3</totalNumEntries>
+        <Page.Type>CampaignCriterionPage</Page.Type>
+        <entries>
+          <campaignId>360723884</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30000</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>360723884</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30001</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+        <entries>
+          <campaignId>360723884</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Platform">
+            <id>30002</id>
+            <type>PLATFORM</type>
+            <Criterion.Type>Platform</Criterion.Type>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </entries>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:25:36.000000 - ERROR] POST /api/adwords/cm/v201509/CampaignCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 819
+Authorization: Bearer ya29.hAKFEJosmq2cFR4x7z8kh4zZ-wXtnhrC9UHcPNiKa9MN0MU5oiuTEq8dIAWnbHJbwMDpHQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:mutate>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>21137</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>2484</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Language">
+            <ns1:id>1000</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Language">
+            <ns1:id>1003</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:matchingFunction>
+              <ns1:operator>AND</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:IncomeOperand">
+                <ns1:tier>TIER_3</ns1:tier>
+              </ns1:lhsOperand>
+              <ns1:rhsOperand xsi:type="ns1:GeoTargetOperand">
+                <ns1:locations>1015116</ns1:locations>
+              </ns1:rhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:matchingFunction>
+              <ns1:operator>AND</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:PlacesOfInterestOperand">
+                <ns1:category>DOWNTOWN</ns1:category>
+              </ns1:lhsOperand>
+              <ns1:rhsOperand xsi:type="ns1:GeoTargetOperand">
+                <ns1:locations>1015116</ns1:locations>
+              </ns1:rhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:feedId>0</ns1:feedId>
+            <ns1:matchingFunction>
+              <ns1:operator>IDENTITY</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:LocationExtensionOperand">
+                <ns1:radius>
+                  <ns1:type>DOUBLE</ns1:type>
+                  <ns1:unit>MILES</ns1:unit>
+                  <ns1:doubleValue>10</ns1:doubleValue>
+                </ns1:radius>
+              </ns1:lhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:NegativeCampaignCriterion">
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>jupiter cruise</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+    </ns1:mutate>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 10 Feb 2016 11:25:40 GMT
+Expires: Wed, 10 Feb 2016 11:25:40 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 498
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b68b1a10be00a4c6daa0f0fe079</requestId>
+      <serviceName>CampaignCriterionService</serviceName>
+      <methodName>mutate</methodName>
+      <operations>8</operations>
+      <responseTime>67</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[RangeError.TOO_LOW @ operations[6].operand.criterion.feedId.id]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+          <message>[RangeError.TOO_LOW @ operations[6].operand.criterion.feedId.id]</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RangeError">
+            <fieldPath>operations[6].operand.criterion.feedId.id</fieldPath>
+            <trigger/>
+            <errorString>RangeError.TOO_LOW</errorString>
+            <ApiError.Type>RangeError</ApiError.Type>
+            <reason>TOO_LOW</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:26:28.000000 - INFO] POST /api/adwords/cm/v201509/LocationCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 520
+Authorization: Bearer ya29.hAKGur_oFYCfb24Rqvp17vjIxBxSixts2yn3rEPu-TBSM28jxkgD4AX4glOkOS5-E3kMXQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:selector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>LocationName</ns1:fields>
+        <ns1:fields>CanonicalName</ns1:fields>
+        <ns1:fields>DisplayType</ns1:fields>
+        <ns1:fields>ParentLocations</ns1:fields>
+        <ns1:fields>Reach</ns1:fields>
+        <ns1:fields>TargetingStatus</ns1:fields>
+        <ns1:predicates>
+          <ns1:field>LocationName</ns1:field>
+          <ns1:operator>IN</ns1:operator>
+          <ns1:values>Paris</ns1:values>
+          <ns1:values>Quebec</ns1:values>
+          <ns1:values>Spain</ns1:values>
+          <ns1:values>Deutschland</ns1:values>
+          <ns1:values>Canada</ns1:values>
+          <ns1:values>US</ns1:values>
+        </ns1:predicates>
+        <ns1:predicates>
+          <ns1:field>Locale</ns1:field>
+          <ns1:operator>EQUALS</ns1:operator>
+          <ns1:values>en</ns1:values>
+        </ns1:predicates>
+      </ns1:selector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+Date: Wed, 10 Feb 2016 11:26:32 GMT
+Expires: Wed, 10 Feb 2016 11:26:32 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b68b4bb9e080a4c9a27c202250b</requestId>
+      <serviceName>LocationCriterionService</serviceName>
+      <methodName>get</methodName>
+      <operations>1</operations>
+      <responseTime>145</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <getResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <rval>
+        <location>
+          <id>1006094</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Paris,Ile-de-France,France</canonicalName>
+        <reach>12700000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9059985</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Charles de Gaulle Airport</locationName>
+          <displayType>Airport</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Charles de Gaulle Airport,Ile-de-France,France</canonicalName>
+        <reach>246000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1026678</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21176</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Texas</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Texas,United States</canonicalName>
+        <reach>39000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9041209</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Orly Airport</locationName>
+          <displayType>Airport</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Orly Airport,Ile-de-France,France</canonicalName>
+        <reach>123000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1002378</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>Neighborhood</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20121</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ontario</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Ontario,Canada</canonicalName>
+        <reach>11000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1026100</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21175</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Tennessee</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Tennessee,United States</canonicalName>
+        <reach>24000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9040871</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>Department</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20321</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ile-de-France</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2250</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>France</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Ile-de-France,France</canonicalName>
+        <reach>12700000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1017861</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21150</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Kentucky</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Kentucky,United States</canonicalName>
+        <reach>16000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1016756</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21147</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Illinois</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Illinois,United States</canonicalName>
+        <reach>14000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1013312</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Paris</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21135</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Arkansas</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Paris,Arkansas,United States</canonicalName>
+        <reach>4000</reach>
+        <locale>en</locale>
+        <searchTerm>Paris</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>20123</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Quebec</locationName>
+          <displayType>Province</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Quebec,Canada</canonicalName>
+        <reach>4320000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1002624</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Quebec City</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20123</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Quebec</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+            <parentLocations>
+              <id>2124</id>
+              <Criterion.Type>Location</Criterion.Type>
+              <locationName>Canada</locationName>
+              <displayType>Country</displayType>
+              <targetingStatus>ACTIVE</targetingStatus>
+            </parentLocations>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Quebec City,Quebec,Canada</canonicalName>
+        <reach>365000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9000272</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>G2G</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20123</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Quebec</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+            <parentLocations>
+              <id>2124</id>
+              <Criterion.Type>Location</Criterion.Type>
+              <locationName>Canada</locationName>
+              <displayType>Country</displayType>
+              <targetingStatus>ACTIVE</targetingStatus>
+            </parentLocations>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>G2G,Quebec,Canada</canonicalName>
+        <reach>63000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9013709</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>38581</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21175</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Tennessee</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>38581,Tennessee,United States</canonicalName>
+        <reach>7000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9046709</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>DH7</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20339</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>England</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2826</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United Kingdom</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>DH7,England,United Kingdom</canonicalName>
+        <reach>33000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1001637</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Londrina</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20101</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>State of Parana</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2076</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Brazil</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Londrina,State of Parana,Brazil</canonicalName>
+        <reach>412000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9028773</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>80207</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21138</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Colorado</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>80207,Colorado,United States</canonicalName>
+        <reach>181000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9053537</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>59033</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21159</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Montana</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>59033,Montana,United States</canonicalName>
+        <reach>15000</reach>
+        <locale>en</locale>
+        <searchTerm>Quebec</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>2724</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Spain</locationName>
+          <displayType>Country</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+        </location>
+        <canonicalName>Spain</canonicalName>
+        <reach>25600000</reach>
+        <locale>en</locale>
+        <searchTerm>Spain</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1000013</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Dubai</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>9041083</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Dubai</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2784</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United Arab Emirates</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Dubai,Dubai,United Arab Emirates</canonicalName>
+        <reach>5520000</reach>
+        <locale>en</locale>
+        <searchTerm>Spain</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1009300</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Meguro</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20636</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Tokyo</locationName>
+            <displayType>Prefecture</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2392</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Japan</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Meguro,Tokyo,Japan</canonicalName>
+        <reach>612000</reach>
+        <locale>en</locale>
+        <searchTerm>Spain</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1000890</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Deutschlandsberg</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20047</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Styria</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2040</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Austria</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Deutschlandsberg,Styria,Austria</canonicalName>
+        <reach>9000</reach>
+        <locale>en</locale>
+        <searchTerm>Deutschland</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>2276</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Germany</locationName>
+          <displayType>Country</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+        </location>
+        <canonicalName>Germany</canonicalName>
+        <reach>29800000</reach>
+        <locale>en</locale>
+        <searchTerm>Deutschland</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>2124</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Canada</locationName>
+          <displayType>Country</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+        </location>
+        <canonicalName>Canada</canonicalName>
+        <reach>17200000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9000828</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>L6A</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20121</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Ontario</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2124</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>L6A,Ontario,Canada</canonicalName>
+        <reach>187000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9041076</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Canada de Gomez</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20021</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Santa Fe Province</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2032</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Argentina</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Canada de Gomez,Santa Fe Province,Argentina</canonicalName>
+        <reach>21000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9040235</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Nashik</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20462</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Maharashtra</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2356</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>India</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Nashik,Maharashtra,India</canonicalName>
+        <reach>210000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1017719</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Canada</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21150</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Kentucky</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Canada,Kentucky,United States</canonicalName>
+        <reach>0</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9044965</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>E14</locationName>
+          <displayType>Postal Code</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20339</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>England</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2826</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United Kingdom</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>E14,England,United Kingdom</canonicalName>
+        <reach>550000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>20708</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Jalisco</locationName>
+          <displayType>State</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>2484</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Mexico</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Jalisco,Mexico</canonicalName>
+        <reach>3070000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9058834</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Jackson County</locationName>
+          <displayType>County</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21160</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>North Carolina</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2840</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Jackson County,North Carolina,United States</canonicalName>
+        <reach>73000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1010012</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Tijuana</locationName>
+          <displayType>Municipality</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20696</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Baja California</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2484</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Mexico</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Tijuana,Baja California,Mexico</canonicalName>
+        <reach>780000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1010130</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Guadalupe</locationName>
+          <displayType>Municipality</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20713</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Nuevo Leon</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2484</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Mexico</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Guadalupe,Nuevo Leon,Mexico</canonicalName>
+        <reach>308000</reach>
+        <locale>en</locale>
+        <searchTerm>Canada</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>2840</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>United States</locationName>
+          <displayType>Country</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+        </location>
+        <canonicalName>United States</canonicalName>
+        <reach>185000000</reach>
+        <locale>en</locale>
+        <searchTerm>US</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1011490</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Ustka</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20857</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Pomeranian Voivodeship</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2616</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Poland</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Ustka,Pomeranian Voivodeship,Poland</canonicalName>
+        <reach>12000</reach>
+        <locale>en</locale>
+        <searchTerm>US</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1031130</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Ustron</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20859</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Silesian Voivodeship</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2616</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Poland</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Ustron,Silesian Voivodeship,Poland</canonicalName>
+        <reach>20000</reach>
+        <locale>en</locale>
+        <searchTerm>US</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1000122</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Ushuaia</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20024</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Tierra del Fuego Province</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2032</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Argentina</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Ushuaia,Tierra del Fuego Province,Argentina</canonicalName>
+        <reach>37000</reach>
+        <locale>en</locale>
+        <searchTerm>US</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1003288</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Uster</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20151</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Zurich</locationName>
+            <displayType>Canton</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2756</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Switzerland</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Uster,Zurich,Switzerland</canonicalName>
+        <reach>46000</reach>
+        <locale>en</locale>
+        <searchTerm>US</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1003766</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Usti nad Labem</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21503</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Usti nad Labem Region</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2203</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Czech Republic</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Usti nad Labem,Usti nad Labem Region,Czech Republic</canonicalName>
+        <reach>60000</reach>
+        <locale>en</locale>
+        <searchTerm>US</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>2850</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>U.S. Virgin Islands</locationName>
+          <displayType>Region</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+        </location>
+        <canonicalName>U.S. Virgin Islands</canonicalName>
+        <reach>49000</reach>
+        <locale>en</locale>
+        <searchTerm>US</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>9056895</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Usak</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>21376</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Usak</locationName>
+            <displayType>Province</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2792</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Turkey</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Usak,Usak,Turkey</canonicalName>
+        <reach>66000</reach>
+        <locale>en</locale>
+        <searchTerm>US</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1004427</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Usingen</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20231</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Hesse</locationName>
+            <displayType>State</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2276</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Germany</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Usingen,Hesse,Germany</canonicalName>
+        <reach>17000</reach>
+        <locale>en</locale>
+        <searchTerm>US</searchTerm>
+      </rval>
+      <rval>
+        <location>
+          <id>1003659</id>
+          <Criterion.Type>Location</Criterion.Type>
+          <locationName>Bogota</locationName>
+          <displayType>City</displayType>
+          <targetingStatus>ACTIVE</targetingStatus>
+          <parentLocations>
+            <id>20203</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Bogota</locationName>
+            <displayType>Region</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+          <parentLocations>
+            <id>2170</id>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Colombia</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </parentLocations>
+        </location>
+        <canonicalName>Bogota,Bogota,Colombia</canonicalName>
+        <reach>6930000</reach>
+        <locale>en</locale>
+        <searchTerm>US</searchTerm>
+      </rval>
+    </getResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:27:01.000000 - ERROR] POST /api/adwords/cm/v201509/CampaignCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 821
+Authorization: Bearer ya29.hAKvultIO9_yyHyxYlmuaRkh7VTDEdKh_nds84vha7YE9Qb8DN5asQVfulu-AkCFFYwdUg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:mutate>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>21137</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>2484</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Language">
+            <ns1:id>1000</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Language">
+            <ns1:id>1003</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:matchingFunction>
+              <ns1:operator>AND</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:IncomeOperand">
+                <ns1:tier>TIER_3</ns1:tier>
+              </ns1:lhsOperand>
+              <ns1:rhsOperand xsi:type="ns1:GeoTargetOperand">
+                <ns1:locations>1015116</ns1:locations>
+              </ns1:rhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:matchingFunction>
+              <ns1:operator>AND</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:PlacesOfInterestOperand">
+                <ns1:category>DOWNTOWN</ns1:category>
+              </ns1:lhsOperand>
+              <ns1:rhsOperand xsi:type="ns1:GeoTargetOperand">
+                <ns1:locations>1015116</ns1:locations>
+              </ns1:rhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:feedId>2840</ns1:feedId>
+            <ns1:matchingFunction>
+              <ns1:operator>IDENTITY</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:LocationExtensionOperand">
+                <ns1:radius>
+                  <ns1:type>DOUBLE</ns1:type>
+                  <ns1:unit>MILES</ns1:unit>
+                  <ns1:doubleValue>10</ns1:doubleValue>
+                </ns1:radius>
+              </ns1:lhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:NegativeCampaignCriterion">
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>jupiter cruise</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+    </ns1:mutate>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 10 Feb 2016 11:27:04 GMT
+Expires: Wed, 10 Feb 2016 11:27:04 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 696
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b68b6a345e00a4c4967ce04ef51</requestId>
+      <serviceName>CampaignCriterionService</serviceName>
+      <methodName>mutate</methodName>
+      <operations>8</operations>
+      <responseTime>414</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[2].operand.criterion; trigger:'SHOPPING', OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[3].operand.criterion; trigger:'SHOPPING', EntityNotFound.INVALID_ID @ operations[6].operand.criterion.feedId; trigger:'FeedId{id=2840}', RequestError.UNKNOWN @ operations[6].operand.criterion.feedId; trigger:'FeedId{id=2840}']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+          <message>[OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[2].operand.criterion; trigger:'SHOPPING', OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[3].operand.criterion; trigger:'SHOPPING', EntityNotFound.INVALID_ID @ operations[6].operand.criterion.feedId; trigger:'FeedId{id=2840}', RequestError.UNKNOWN @ operations[6].operand.criterion.feedId; trigger:'FeedId{id=2840}']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="OperationAccessDenied">
+            <fieldPath>operations[2].operand.criterion</fieldPath>
+            <trigger>SHOPPING</trigger>
+            <errorString>OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</errorString>
+            <ApiError.Type>OperationAccessDenied</ApiError.Type>
+            <reason>OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="OperationAccessDenied">
+            <fieldPath>operations[3].operand.criterion</fieldPath>
+            <trigger>SHOPPING</trigger>
+            <errorString>OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</errorString>
+            <ApiError.Type>OperationAccessDenied</ApiError.Type>
+            <reason>OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EntityNotFound">
+            <fieldPath>operations[6].operand.criterion.feedId</fieldPath>
+            <trigger>FeedId{id=2840}</trigger>
+            <errorString>EntityNotFound.INVALID_ID</errorString>
+            <ApiError.Type>EntityNotFound</ApiError.Type>
+            <reason>INVALID_ID</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RequestError">
+            <fieldPath>operations[6].operand.criterion.feedId</fieldPath>
+            <trigger>FeedId{id=2840}</trigger>
+            <errorString>RequestError.UNKNOWN</errorString>
+            <ApiError.Type>RequestError</ApiError.Type>
+            <reason>UNKNOWN</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:29:40.000000 - ERROR] POST /api/adwords/cm/v201509/CampaignCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 821
+Authorization: Bearer ya29.hAIvXZbSYY1EFaCmdgLOdrJcdpRIvjZ9KrtTzF2TYUEWfugNqXpBSzqRtIPZd2XnTCzHvQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:mutate>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>21137</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>2484</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Language">
+            <ns1:id>1000</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Language">
+            <ns1:id>1003</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:matchingFunction>
+              <ns1:operator>AND</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:IncomeOperand">
+                <ns1:tier>TIER_3</ns1:tier>
+              </ns1:lhsOperand>
+              <ns1:rhsOperand xsi:type="ns1:GeoTargetOperand">
+                <ns1:locations>1015116</ns1:locations>
+              </ns1:rhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:matchingFunction>
+              <ns1:operator>AND</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:PlacesOfInterestOperand">
+                <ns1:category>DOWNTOWN</ns1:category>
+              </ns1:lhsOperand>
+              <ns1:rhsOperand xsi:type="ns1:GeoTargetOperand">
+                <ns1:locations>1015116</ns1:locations>
+              </ns1:rhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:feedId>2124</ns1:feedId>
+            <ns1:matchingFunction>
+              <ns1:operator>IDENTITY</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:LocationExtensionOperand">
+                <ns1:radius>
+                  <ns1:type>DOUBLE</ns1:type>
+                  <ns1:unit>MILES</ns1:unit>
+                  <ns1:doubleValue>10</ns1:doubleValue>
+                </ns1:radius>
+              </ns1:lhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:NegativeCampaignCriterion">
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>jupiter cruise</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+    </ns1:mutate>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 10 Feb 2016 11:29:43 GMT
+Expires: Wed, 10 Feb 2016 11:29:43 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 695
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b68c01cac390a4cb2cac90c6bfb</requestId>
+      <serviceName>CampaignCriterionService</serviceName>
+      <methodName>mutate</methodName>
+      <operations>8</operations>
+      <responseTime>540</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[2].operand.criterion; trigger:'SHOPPING', OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[3].operand.criterion; trigger:'SHOPPING', EntityNotFound.INVALID_ID @ operations[6].operand.criterion.feedId; trigger:'FeedId{id=2124}', RequestError.UNKNOWN @ operations[6].operand.criterion.feedId; trigger:'FeedId{id=2124}']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+          <message>[OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[2].operand.criterion; trigger:'SHOPPING', OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[3].operand.criterion; trigger:'SHOPPING', EntityNotFound.INVALID_ID @ operations[6].operand.criterion.feedId; trigger:'FeedId{id=2124}', RequestError.UNKNOWN @ operations[6].operand.criterion.feedId; trigger:'FeedId{id=2124}']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="OperationAccessDenied">
+            <fieldPath>operations[2].operand.criterion</fieldPath>
+            <trigger>SHOPPING</trigger>
+            <errorString>OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</errorString>
+            <ApiError.Type>OperationAccessDenied</ApiError.Type>
+            <reason>OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="OperationAccessDenied">
+            <fieldPath>operations[3].operand.criterion</fieldPath>
+            <trigger>SHOPPING</trigger>
+            <errorString>OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</errorString>
+            <ApiError.Type>OperationAccessDenied</ApiError.Type>
+            <reason>OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EntityNotFound">
+            <fieldPath>operations[6].operand.criterion.feedId</fieldPath>
+            <trigger>FeedId{id=2124}</trigger>
+            <errorString>EntityNotFound.INVALID_ID</errorString>
+            <ApiError.Type>EntityNotFound</ApiError.Type>
+            <reason>INVALID_ID</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RequestError">
+            <fieldPath>operations[6].operand.criterion.feedId</fieldPath>
+            <trigger>FeedId{id=2124}</trigger>
+            <errorString>RequestError.UNKNOWN</errorString>
+            <ApiError.Type>RequestError</ApiError.Type>
+            <reason>UNKNOWN</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:30:59.000000 - ERROR] POST /api/adwords/cm/v201509/CampaignCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 819
+Authorization: Bearer ya29.hAKhchH6HaKfonQuCtIQnvFTkGxHGgxF2_ReHQWgKjKKrB2Z9EzeTZiNU_bnzB4bvBfMDg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:mutate>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>21137</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>2484</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Language">
+            <ns1:id>1000</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Language">
+            <ns1:id>1003</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:matchingFunction>
+              <ns1:operator>AND</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:IncomeOperand">
+                <ns1:tier>TIER_3</ns1:tier>
+              </ns1:lhsOperand>
+              <ns1:rhsOperand xsi:type="ns1:GeoTargetOperand">
+                <ns1:locations>1015116</ns1:locations>
+              </ns1:rhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:matchingFunction>
+              <ns1:operator>AND</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:PlacesOfInterestOperand">
+                <ns1:category>DOWNTOWN</ns1:category>
+              </ns1:lhsOperand>
+              <ns1:rhsOperand xsi:type="ns1:GeoTargetOperand">
+                <ns1:locations>1015116</ns1:locations>
+              </ns1:rhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:feedId>0</ns1:feedId>
+            <ns1:matchingFunction>
+              <ns1:operator>IDENTITY</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:LocationExtensionOperand">
+                <ns1:radius>
+                  <ns1:type>DOUBLE</ns1:type>
+                  <ns1:unit>MILES</ns1:unit>
+                  <ns1:doubleValue>10</ns1:doubleValue>
+                </ns1:radius>
+              </ns1:lhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:NegativeCampaignCriterion">
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>jupiter cruise</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+    </ns1:mutate>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 10 Feb 2016 11:31:03 GMT
+Expires: Wed, 10 Feb 2016 11:31:03 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 497
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b68c4e5dca80a4cad28650ef4ec</requestId>
+      <serviceName>CampaignCriterionService</serviceName>
+      <methodName>mutate</methodName>
+      <operations>8</operations>
+      <responseTime>106</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[RangeError.TOO_LOW @ operations[6].operand.criterion.feedId.id]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+          <message>[RangeError.TOO_LOW @ operations[6].operand.criterion.feedId.id]</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RangeError">
+            <fieldPath>operations[6].operand.criterion.feedId.id</fieldPath>
+            <trigger/>
+            <errorString>RangeError.TOO_LOW</errorString>
+            <ApiError.Type>RangeError</ApiError.Type>
+            <reason>TOO_LOW</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:31:23.000000 - ERROR] POST /api/adwords/cm/v201509/CampaignCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 706
+Authorization: Bearer ya29.hAL4AoGNiIsYrllqvVxl5U6v2DETKqJ9zcOebcWayulnftDtBhhcZVFf2f4l-QPFtsHM3Q
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:mutate>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>21137</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>2484</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Language">
+            <ns1:id>1000</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Language">
+            <ns1:id>1003</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:matchingFunction>
+              <ns1:operator>AND</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:IncomeOperand">
+                <ns1:tier>TIER_3</ns1:tier>
+              </ns1:lhsOperand>
+              <ns1:rhsOperand xsi:type="ns1:GeoTargetOperand">
+                <ns1:locations>1015116</ns1:locations>
+              </ns1:rhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:LocationGroups">
+            <ns1:matchingFunction>
+              <ns1:operator>AND</ns1:operator>
+              <ns1:lhsOperand xsi:type="ns1:PlacesOfInterestOperand">
+                <ns1:category>DOWNTOWN</ns1:category>
+              </ns1:lhsOperand>
+              <ns1:rhsOperand xsi:type="ns1:GeoTargetOperand">
+                <ns1:locations>1015116</ns1:locations>
+              </ns1:rhsOperand>
+            </ns1:matchingFunction>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:NegativeCampaignCriterion">
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>jupiter cruise</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+    </ns1:mutate>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 10 Feb 2016 11:31:27 GMT
+Expires: Wed, 10 Feb 2016 11:31:27 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 574
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b68c65320780a4c050a6307c926</requestId>
+      <serviceName>CampaignCriterionService</serviceName>
+      <methodName>mutate</methodName>
+      <operations>7</operations>
+      <responseTime>181</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[2].operand.criterion; trigger:'SHOPPING', OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[3].operand.criterion; trigger:'SHOPPING']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+          <message>[OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[2].operand.criterion; trigger:'SHOPPING', OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE @ operations[3].operand.criterion; trigger:'SHOPPING']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="OperationAccessDenied">
+            <fieldPath>operations[2].operand.criterion</fieldPath>
+            <trigger>SHOPPING</trigger>
+            <errorString>OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</errorString>
+            <ApiError.Type>OperationAccessDenied</ApiError.Type>
+            <reason>OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="OperationAccessDenied">
+            <fieldPath>operations[3].operand.criterion</fieldPath>
+            <trigger>SHOPPING</trigger>
+            <errorString>OperationAccessDenied.OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</errorString>
+            <ApiError.Type>OperationAccessDenied</ApiError.Type>
+            <reason>OPERATION_NOT_PERMITTED_FOR_CAMPAIGN_TYPE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:34:29.000000 - INFO] POST /api/adwords/cm/v201509/CampaignCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 520
+Authorization: Bearer ya29.hAIDqqS17TlLpouCStIP72wAr1xIq8RsRn1MxIfKyc2Qrh11dpieZLCIjqc1tFuC2YB81Q
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:mutate>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>2124</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:NegativeCampaignCriterion">
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>jupiter cruise</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+    </ns1:mutate>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 10 Feb 2016 11:34:33 GMT
+Expires: Wed, 10 Feb 2016 11:34:33 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 575
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b68d15f3c900a4c00321202309a</requestId>
+      <serviceName>CampaignCriterionService</serviceName>
+      <methodName>mutate</methodName>
+      <operations>2</operations>
+      <responseTime>329</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <mutateResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <rval>
+        <ListReturnValue.Type>CampaignCriterionReturnValue</ListReturnValue.Type>
+        <value>
+          <campaignId>360723884</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Location">
+            <id>2124</id>
+            <type>LOCATION</type>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </value>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="NegativeCampaignCriterion">
+          <campaignId>360723884</campaignId>
+          <isNegative>true</isNegative>
+          <criterion xsi:type="Keyword">
+            <id>3807880281</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>jupiter cruise</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <CampaignCriterion.Type>NegativeCampaignCriterion</CampaignCriterion.Type>
+        </value>
+      </rval>
+    </mutateResponse>
+  </soap:Body>
+</soap:Envelope>
+
+[Feb 10 2016 12:38:06.000000 - INFO] POST /api/adwords/cm/v201509/CampaignCriterionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.12, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 533
+Authorization: Bearer ya29.hAK0qhc-zRqXD4RWHbE9VL7QAO6zcevzBRJTtQGS1m9WIL8GL3F2dHL_-tzvAxI4UVaiNg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201509" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>718-172-2645</ns1:clientCustomerId>
+      <ns1:developerToken>cmGKSWCRtO60ETC-qlFKMA</ns1:developerToken>
+      <ns1:userAgent>Omnitail (AwApi-PHP/7.0.0, Common-PHP/7.0.0, PHP/5.5.12)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:mutate>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>2124</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand>
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Location">
+            <ns1:id>2840</ns1:id>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+      <ns1:operations>
+        <ns1:operator>ADD</ns1:operator>
+        <ns1:operand xsi:type="ns1:NegativeCampaignCriterion">
+          <ns1:campaignId>360723884</ns1:campaignId>
+          <ns1:criterion xsi:type="ns1:Keyword">
+            <ns1:text>Test keywords target</ns1:text>
+            <ns1:matchType>BROAD</ns1:matchType>
+          </ns1:criterion>
+        </ns1:operand>
+      </ns1:operations>
+    </ns1:mutate>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 10 Feb 2016 11:38:10 GMT
+Expires: Wed, 10 Feb 2016 11:38:10 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 600
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <requestId>00052b68de5a05600a4c9724520e3371</requestId>
+      <serviceName>CampaignCriterionService</serviceName>
+      <methodName>mutate</methodName>
+      <operations>3</operations>
+      <responseTime>297</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <mutateResponse xmlns="https://adwords.google.com/api/adwords/cm/v201509">
+      <rval>
+        <ListReturnValue.Type>CampaignCriterionReturnValue</ListReturnValue.Type>
+        <value>
+          <campaignId>360723884</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Location">
+            <id>2124</id>
+            <type>LOCATION</type>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>Canada</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </value>
+        <value>
+          <campaignId>360723884</campaignId>
+          <isNegative>false</isNegative>
+          <criterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Location">
+            <id>2840</id>
+            <type>LOCATION</type>
+            <Criterion.Type>Location</Criterion.Type>
+            <locationName>United States</locationName>
+            <displayType>Country</displayType>
+            <targetingStatus>ACTIVE</targetingStatus>
+          </criterion>
+          <CampaignCriterion.Type>CampaignCriterion</CampaignCriterion.Type>
+        </value>
+        <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="NegativeCampaignCriterion">
+          <campaignId>360723884</campaignId>
+          <isNegative>true</isNegative>
+          <criterion xsi:type="Keyword">
+            <id>163137607244</id>
+            <type>KEYWORD</type>
+            <Criterion.Type>Keyword</Criterion.Type>
+            <text>Test keywords target</text>
+            <matchType>BROAD</matchType>
+          </criterion>
+          <CampaignCriterion.Type>NegativeCampaignCriterion</CampaignCriterion.Type>
+        </value>
+      </rval>
+    </mutateResponse>
+  </soap:Body>
+</soap:Envelope>
+

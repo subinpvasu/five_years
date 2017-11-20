@@ -1,0 +1,53 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2015-09-07 07:21:22 --> Severity: Notice  --> Undefined variable: has_category C:\wamp\www\appointment\application\views\adminuser\calendar.php 131
+ERROR - 2015-09-07 08:58:10 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 16
+ERROR - 2015-09-07 08:58:10 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 17
+ERROR - 2015-09-07 08:58:10 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 18
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 16
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 17
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 18
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined variable: edit_appointment C:\wamp\www\appointment\application\views\userview\calendar.php 99
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined variable: customers C:\wamp\www\appointment\application\views\userview\calendar.php 100
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined variable: secretary_providers C:\wamp\www\appointment\application\views\userview\calendar.php 101
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined variable: role_slug C:\wamp\www\appointment\application\views\userview\calendar.php 167
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined variable: role_slug C:\wamp\www\appointment\application\views\userview\calendar.php 167
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: category_id C:\wamp\www\appointment\application\views\userview\calendar.php 242
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined variable: has_category C:\wamp\www\appointment\application\views\userview\calendar.php 248
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: subdomain_name C:\wamp\www\appointment\application\views\userview\calendar.php 287
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: subdomain_name C:\wamp\www\appointment\application\views\userview\calendar.php 287
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: subdomain_name C:\wamp\www\appointment\application\views\userview\calendar.php 287
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: subdomain_name C:\wamp\www\appointment\application\views\userview\calendar.php 287
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: subdomain_name C:\wamp\www\appointment\application\views\userview\calendar.php 287
+ERROR - 2015-09-07 08:58:26 --> Severity: Notice  --> Undefined index: subdomain_name C:\wamp\www\appointment\application\views\userview\calendar.php 287
+ERROR - 2015-09-07 08:58:27 --> Severity: Notice  --> Undefined index: subdomain_name C:\wamp\www\appointment\application\views\userview\calendar.php 287
+ERROR - 2015-09-07 08:58:27 --> Severity: Notice  --> Undefined index: subdomain_name C:\wamp\www\appointment\application\views\userview\calendar.php 287
+ERROR - 2015-09-07 08:58:27 --> Severity: Notice  --> Undefined index: subdomain_name C:\wamp\www\appointment\application\views\userview\calendar.php 287
+ERROR - 2015-09-07 08:58:27 --> Severity: Notice  --> Undefined index: subdomain_name C:\wamp\www\appointment\application\views\userview\calendar.php 287
+ERROR - 2015-09-07 09:44:05 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 16
+ERROR - 2015-09-07 09:44:05 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 17
+ERROR - 2015-09-07 09:44:05 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 18
+ERROR - 2015-09-07 09:45:55 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 16
+ERROR - 2015-09-07 09:45:55 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 17
+ERROR - 2015-09-07 09:45:55 --> Severity: Notice  --> Undefined variable: base_url C:\wamp\www\appointment\application\views\template\header.php 18
+ERROR - 2015-09-07 11:11:44 --> Severity: Notice  --> Undefined variable: has_category C:\wamp\www\appointment\application\views\adminuser\calendar.php 131
+ERROR - 2015-09-07 11:18:51 --> Severity: Notice  --> Undefined variable: has_category C:\wamp\www\appointment\application\views\adminuser\calendar.php 131
+ERROR - 2015-09-07 11:24:35 --> Severity: Notice  --> Undefined variable: has_category C:\wamp\www\appointment\application\views\adminuser\calendar.php 131
+ERROR - 2015-09-07 11:25:44 --> Could not find the language line "thank_your_for_appointment"
+ERROR - 2015-09-07 11:25:45 --> Severity: Warning  --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp\www\appointment\application\libraries\external\class.phpmailer.php 530
+ERROR - 2015-09-07 12:58:16 --> Severity: Notice  --> Undefined variable: has_category C:\wamp\www\appointment\application\views\adminuser\calendar.php 131
+ERROR - 2015-09-07 12:58:59 --> Severity: Notice  --> Undefined variable: has_category C:\wamp\www\appointment\application\views\adminuser\calendar.php 131
+ERROR - 2015-09-07 13:01:25 --> Severity: Notice  --> Undefined variable: has_category C:\wamp\www\appointment\application\views\adminuser\calendar.php 131

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BTW Dive</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="author" content="@toddmotto">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link href="<?php echo base_url();?>css/diver_style.css" rel="stylesheet">
+        
+        
+        <script type="text/javascript">
+            function update_comments()
+    {
+     //  var a=$("#comment").val();
+      // alert(a);
+        $.ajax({url: "/btwdive/index.php/customer/update_diver_comments/1",
+                type: "post",
+                data: {
+                    comments:  $("#comment").val(),
+                    pk_wo:$("#pk_wo").val()
+
+                },
+                success: function(result) {
+        alert("updated");            
+        self.close();
+//alert("updated");
+
+
+
+                }
+            });
+           
+
+
+    }
+            </script>
+</head>
+
+<body>
+    <?php
+	foreach ( $cleanings as $c ) :
+          
+            $dates = $c->SCHEDULE_DATE;
+            $comments = $c->COMMENTS;
+            $wostatus=$c->WO_STATUS;
+            endforeach;
+            ?>
+	<div class="wrapper">
+            <input type="hidden" id="pk_wo" value="<?php echo $pkwork; ?>" >
+                
+		<div id="main" style="padding:50px 0 0 0;">
+		
+		<!-- Form -->
+		<form id="respo-form" >
+			<div>
+                        <div align="left" >
+                     
+                        <button name="s" style="width:20%;font-size:15px;float:left" onclick="window.location='<?php echo base_url();?>index.php/customer/diver_home/'" type="button" id="homebtn">Home</button>
+                    </div>
+                    <div align="right">
+                         <button name="s"  style="width:20%;font-size:15px" onclick="window.location='<?php echo base_url();?>index.php/customer/diver_logout/'" type="button" id="Log_out">Log Out</button>
+                    </div>
+                            <div>
+                                &nbsp;
+                            </div>
+			<h2>Comments
+			 
+		  </h2>
+			<div>
+            &nbsp;
+            </div>
+            <div>
+				
+					<textarea  tabindex="15" id="comment" name="comments" ><?php echo $comments;?></textarea>
+				
+			</div>
+            
+			<div>
+				
+                            <button name="s" onclick="update_comments()"  type="button" id="btn_sbt">Submit</button>
+			</div>
+         
+		</form>
+		<!-- /Form -->
+		
+		</div>
+	</div>
+
+	
+<div style="bottom: 0px; position: absolute; width: 93%; text-align: center;font-weight: bold;">BTW
+		Dive &copy; 2014</div>	
+</body>
+</html>

@@ -1,0 +1,739 @@
+Campaign ID,Campaign Name,Adgroup ID,Adgroup Name,Criterion ID,Criterion Name,Start Date,End Date,Current Bid,Bid,Clicks,Costs,Impressions
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,151091285766,blank id cards,20160206,20160212,0.32,0.01,0,0.00,2
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,151091285766,blank id cards,20160206,20160212,0.32,0.32,0,0.00,19
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,151091285766,blank id cards,20160206,20160212,0.32,0.64,0,0.00,31
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,151091285766,blank id cards,20160206,20160212,0.32,0.89,0,0.00,43
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,151091285766,blank id cards,20160206,20160212,0.32,1.21,0,0.00,54
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,151091285766,blank id cards,20160206,20160212,0.32,1.53,0,0.00,64
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,151091285766,blank id cards,20160206,20160212,0.32,1.85,0,0.00,75
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,151091285766,blank id cards,20160206,20160212,0.32,2.21,0,0.00,83
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,151091285766,blank id cards,20160206,20160212,0.32,2.62,0,0.00,90
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,151091285766,blank id cards,20160206,20160212,0.32,2.93,1,1.15,100
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,18283950120,magicard cleaning kits products,20160206,20160212,1.00,0.11,0,0.00,1
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,18283950120,magicard cleaning kits products,20160206,20160212,1.00,0.18,0,0.00,2
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,18283950120,magicard cleaning kits products,20160206,20160212,1.00,0.82,0,0.00,3
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,18283950120,magicard cleaning kits products,20160206,20160212,1.00,0.95,0,0.00,4
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,18283950120,magicard cleaning kits products,20160206,20160212,1.00,1.00,0,0.00,4
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,18283950120,magicard cleaning kits products,20160206,20160212,1.00,1.50,0,0.00,4
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,18283950120,magicard cleaning kits products,20160206,20160212,1.00,2.31,0,0.00,5
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,18283950120,magicard cleaning kits products,20160206,20160212,1.00,2.53,0,0.00,6
+317234286,GSN - ID Card Printers - General,20088782646,GSN General - ID Card Printers,18283950120,id card printers,20160202,20160208,0.32,1.47,0,0.00,1
+317234286,GSN - ID Card Printers - General,20088782646,GSN General - ID Card Printers,18283950120,id card printers,20160202,20160208,0.32,1.89,0,0.00,2
+317234286,GSN - ID Card Printers - General,20088782646,GSN General - ID Card Printers,18283950120,id card printers,20160202,20160208,0.32,2.46,0,0.00,3
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,18283950120,blank id cards,20160206,20160212,0.32,0.01,0,0.00,2
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,18283950120,blank id cards,20160206,20160212,0.32,0.32,0,0.00,19
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,18283950120,blank id cards,20160206,20160212,0.32,0.64,0,0.00,31
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,18283950120,blank id cards,20160206,20160212,0.32,0.89,0,0.00,43
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,18283950120,blank id cards,20160206,20160212,0.32,1.21,0,0.00,54
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,18283950120,blank id cards,20160206,20160212,0.32,1.53,0,0.00,64
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,18283950120,blank id cards,20160206,20160212,0.32,1.85,0,0.00,75
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,18283950120,blank id cards,20160206,20160212,0.32,2.21,0,0.00,83
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,18283950120,blank id cards,20160206,20160212,0.32,2.62,0,0.00,90
+317233806,GSN - Blank ID Cards - General,20088780606,GSN General - Blank ID Cards,18283950120,blank id cards,20160206,20160212,0.32,2.93,1,1.15,100
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,152384285046,evolis cleaning kits products,20160206,20160212,1.00,1.69,0,0.00,1
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,152384285046,evolis cleaning kits products,20160206,20160212,1.00,1.96,0,0.00,3
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,152384285046,evolis cleaning kits products,20160206,20160212,1.00,2.20,0,0.00,4
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,152384285046,evolis cleaning kits products,20160206,20160212,1.00,2.46,0,0.00,6
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,152384285046,evolis cleaning kits products,20160206,20160212,1.00,2.51,0,0.00,8
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,152384285046,evolis cleaning kits products,20160206,20160212,1.00,2.66,0,0.00,9
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,152384285046,evolis cleaning kits products,20160206,20160212,1.00,2.90,0,0.00,10
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,152384285046,evolis cleaning kits products,20160206,20160212,1.00,2.96,0,0.00,11
+317234286,GSN - ID Card Printers - General,20088782646,GSN General - ID Card Printers,99406205809,id card printers,20160202,20160208,0.32,1.47,0,0.00,1
+317234286,GSN - ID Card Printers - General,20088782646,GSN General - ID Card Printers,99406205809,id card printers,20160202,20160208,0.32,1.89,0,0.00,2
+317234286,GSN - ID Card Printers - General,20088782646,GSN General - ID Card Printers,99406205809,id card printers,20160202,20160208,0.32,2.46,0,0.00,3
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,18283950120,security accessories,20160203,20160209,0.40,0.01,0,0.00,6
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,18283950120,security accessories,20160203,20160209,0.40,0.40,0,0.00,24
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,18283950120,security accessories,20160203,20160209,0.40,0.88,0,0.00,32
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,18283950120,security accessories,20160203,20160209,0.40,1.35,0,0.00,38
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,18283950120,security accessories,20160203,20160209,0.40,1.61,0,0.00,53
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,18283950120,security accessories,20160203,20160209,0.40,1.87,1,1.47,75
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,18283950120,security accessories,20160203,20160209,0.40,2.12,1,1.98,91
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,18283950120,security accessories,20160203,20160209,0.40,2.33,1,2.08,100
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,18283950120,security accessories,20160203,20160209,0.40,2.68,1,2.31,110
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,18283950120,security accessories,20160203,20160209,0.40,2.95,1,2.58,125
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,151091433606,fargo cleaning kits products,20160203,20160209,1.40,0.06,0,0.00,1
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,151091433606,fargo cleaning kits products,20160203,20160209,1.40,0.60,0,0.00,5
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,151091433606,fargo cleaning kits products,20160203,20160209,1.40,0.99,0,0.00,6
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,151091433606,fargo cleaning kits products,20160203,20160209,1.40,1.40,0,0.00,8
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,151091433606,fargo cleaning kits products,20160203,20160209,1.40,1.61,0,0.00,12
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,151091433606,fargo cleaning kits products,20160203,20160209,1.40,2.04,0,0.00,13
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,151091433606,fargo cleaning kits products,20160203,20160209,1.40,2.33,0,0.00,17
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,151091433606,fargo cleaning kits products,20160203,20160209,1.40,2.58,0,0.00,20
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,151091433606,fargo cleaning kits products,20160203,20160209,1.40,2.81,0,0.00,22
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,151091433606,fargo cleaning kits products,20160203,20160209,1.40,2.90,0,0.00,26
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,18283950120,id card printer supplies,20160201,20160207,0.32,0.01,0,0.00,7
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,18283950120,id card printer supplies,20160201,20160207,0.32,0.32,0,0.00,38
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,18283950120,id card printer supplies,20160201,20160207,0.32,0.69,0,0.00,57
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,18283950120,id card printer supplies,20160201,20160207,0.32,1.02,0,0.00,80
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,18283950120,id card printer supplies,20160201,20160207,0.32,1.35,0,0.00,101
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,18283950120,id card printer supplies,20160201,20160207,0.32,1.70,0,0.00,120
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,18283950120,id card printer supplies,20160201,20160207,0.32,2.00,0,0.00,145
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,18283950120,id card printer supplies,20160201,20160207,0.32,2.35,1,1.33,167
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,18283950120,id card printer supplies,20160201,20160207,0.32,2.70,1,1.62,186
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,18283950120,id card printer supplies,20160201,20160207,0.32,3.00,1,2.06,209
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,152379826086,datacard id card printers products,20160203,20160209,3.80,0.01,1,0.01,59
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,152379826086,datacard id card printers products,20160203,20160209,3.80,0.77,12,3.78,781
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,152379826086,datacard id card printers products,20160203,20160209,3.80,1.54,24,16.90,1520
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,152379826086,datacard id card printers products,20160203,20160209,3.80,2.25,37,40.40,2310
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,151090996086,fargo monochrome ribbons products,20160203,20160209,1.40,0.07,0,0.00,1
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,151090996086,fargo monochrome ribbons products,20160203,20160209,1.40,0.92,0,0.00,4
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,151090996086,fargo monochrome ribbons products,20160203,20160209,1.40,1.40,0,0.00,4
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,151090996086,fargo monochrome ribbons products,20160203,20160209,1.40,1.69,0,0.00,7
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,151090996086,fargo monochrome ribbons products,20160203,20160209,1.40,1.95,0,0.00,9
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,151090996086,fargo monochrome ribbons products,20160203,20160209,1.40,2.05,0,0.00,13
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,151090996086,fargo monochrome ribbons products,20160203,20160209,1.40,2.38,0,0.00,15
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,151090996086,fargo monochrome ribbons products,20160203,20160209,1.40,2.62,0,0.00,19
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,151090996086,fargo monochrome ribbons products,20160203,20160209,1.40,2.92,0,0.00,20
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,151090996086,fargo monochrome ribbons products,20160203,20160209,1.40,2.94,0,0.00,23
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,151093032486,fargo id card printers products,20160203,20160209,1.40,0.01,0,0.00,2
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,151093032486,fargo id card printers products,20160203,20160209,1.40,0.28,0,0.00,48
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,151093032486,fargo id card printers products,20160203,20160209,1.40,0.70,0,0.00,80
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,151093032486,fargo id card printers products,20160203,20160209,1.40,1.07,1,0.99,114
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,151093032486,fargo id card printers products,20160203,20160209,1.40,1.40,2,1.88,149
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,151093032486,fargo id card printers products,20160203,20160209,1.40,1.81,2,2.49,176
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,151093032486,fargo id card printers products,20160203,20160209,1.40,2.13,3,3.92,215
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,151093032486,fargo id card printers products,20160203,20160209,1.40,2.44,3,6.33,260
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,151093032486,fargo id card printers products,20160203,20160209,1.40,2.76,4,8.27,296
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,151093032486,fargo id card printers products,20160203,20160209,1.40,3.00,4,10.10,343
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,18283950120,fargo overlaminates products,20160203,20160209,3.33,0.01,0,0.00,1
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,18283950120,fargo overlaminates products,20160203,20160209,3.33,0.65,0,0.00,4
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,18283950120,fargo overlaminates products,20160203,20160209,3.33,1.81,0,0.00,6
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,18283950120,fargo overlaminates products,20160203,20160209,3.33,2.87,0,0.00,9
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,18283950120,fargo overlaminates products,20160203,20160209,3.33,3.33,0,0.00,11
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,18283950120,fargo overlaminates products,20160203,20160209,3.33,4.34,0,0.00,14
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,18283950120,fargo overlaminates products,20160203,20160209,3.33,4.79,0,0.00,17
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,18283950120,fargo overlaminates products,20160203,20160209,3.33,5.38,0,0.00,20
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,18283950120,fargo overlaminates products,20160203,20160209,3.33,5.87,0,0.00,22
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,18283950120,fargo overlaminates products,20160203,20160209,3.33,6.49,0,0.00,24
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,18283950120,fargo cleaning kits products,20160203,20160209,1.40,0.06,0,0.00,1
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,18283950120,fargo cleaning kits products,20160203,20160209,1.40,0.60,0,0.00,5
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,18283950120,fargo cleaning kits products,20160203,20160209,1.40,0.99,0,0.00,6
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,18283950120,fargo cleaning kits products,20160203,20160209,1.40,1.40,0,0.00,8
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,18283950120,fargo cleaning kits products,20160203,20160209,1.40,1.61,0,0.00,12
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,18283950120,fargo cleaning kits products,20160203,20160209,1.40,2.04,0,0.00,13
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,18283950120,fargo cleaning kits products,20160203,20160209,1.40,2.33,0,0.00,17
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,18283950120,fargo cleaning kits products,20160203,20160209,1.40,2.58,0,0.00,20
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,18283950120,fargo cleaning kits products,20160203,20160209,1.40,2.81,0,0.00,22
+317236686,GSN - Cleaning Kits - Brand: Fargo - Items - CL2,20088786246,GSN Item - Fargo Cleaning Kits Products,18283950120,fargo cleaning kits products,20160203,20160209,1.40,2.90,0,0.00,26
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,151093574646,id card printer supplies,20160201,20160207,0.32,0.01,0,0.00,7
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,151093574646,id card printer supplies,20160201,20160207,0.32,0.32,0,0.00,38
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,151093574646,id card printer supplies,20160201,20160207,0.32,0.69,0,0.00,57
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,151093574646,id card printer supplies,20160201,20160207,0.32,1.02,0,0.00,80
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,151093574646,id card printer supplies,20160201,20160207,0.32,1.35,0,0.00,101
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,151093574646,id card printer supplies,20160201,20160207,0.32,1.70,0,0.00,120
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,151093574646,id card printer supplies,20160201,20160207,0.32,2.00,0,0.00,145
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,151093574646,id card printer supplies,20160201,20160207,0.32,2.35,1,1.33,167
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,151093574646,id card printer supplies,20160201,20160207,0.32,2.70,1,1.62,186
+317234166,GSN - ID Card Printer Supplies - General,20088782526,GSN General - ID Card Printer Supplies,151093574646,id card printer supplies,20160201,20160207,0.32,3.00,1,2.06,209
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,152380996806,evolis color ribbons products,20160206,20160212,1.00,0.05,0,0.00,1
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,152380996806,evolis color ribbons products,20160206,20160212,1.00,0.55,0,0.00,6
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,152380996806,evolis color ribbons products,20160206,20160212,1.00,1.00,0,0.00,8
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,152380996806,evolis color ribbons products,20160206,20160212,1.00,1.50,0,0.00,9
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,152380996806,evolis color ribbons products,20160206,20160212,1.00,1.76,0,0.00,12
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,152380996806,evolis color ribbons products,20160206,20160212,1.00,2.03,0,0.00,14
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,152380996806,evolis color ribbons products,20160206,20160212,1.00,2.16,0,0.00,17
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,152380996806,evolis color ribbons products,20160206,20160212,1.00,2.39,0,0.00,21
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,152380996806,evolis color ribbons products,20160206,20160212,1.00,2.68,0,0.00,25
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,152380996806,evolis color ribbons products,20160206,20160212,1.00,2.87,0,0.00,26
+317234046,GSN - Color Ribbons - General,20088782406,GSN General - Color Ribbons,18283950120,color ribbons,20160203,20160209,0.32,2.51,0,0.00,1
+317234046,GSN - Color Ribbons - General,20088782406,GSN General - Color Ribbons,18283950120,color ribbons,20160203,20160209,0.32,2.86,0,0.00,1
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,18283950120,hid easylobby scanners products,20160206,20160212,1.40,0.01,2,0.02,54
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,18283950120,hid easylobby scanners products,20160206,20160212,1.40,0.21,4,0.18,295
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,18283950120,hid easylobby scanners products,20160206,20160212,1.40,0.60,5,1.06,451
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,18283950120,hid easylobby scanners products,20160206,20160212,1.40,0.99,6,2.15,613
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,18283950120,hid easylobby scanners products,20160206,20160212,1.40,1.40,7,3.66,740
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,18283950120,hid easylobby scanners products,20160206,20160212,1.40,1.70,13,15.20,933
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,18283950120,hid easylobby scanners products,20160206,20160212,1.40,1.99,18,24.40,1130
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,18283950120,hid easylobby scanners products,20160206,20160212,1.40,2.30,22,34.40,1300
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,18283950120,hid easylobby scanners products,20160206,20160212,1.40,2.68,24,37.60,1460
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,18283950120,hid easylobby scanners products,20160206,20160212,1.40,3.00,24,40.70,1630
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,18283950120,cleaning kits,20160206,20160212,0.32,0.06,0,0.00,1
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,18283950120,cleaning kits,20160206,20160212,0.32,0.32,0,0.00,5
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,18283950120,cleaning kits,20160206,20160212,0.32,0.68,0,0.00,16
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,18283950120,cleaning kits,20160206,20160212,0.32,1.00,0,0.00,27
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,18283950120,cleaning kits,20160206,20160212,0.32,1.33,0,0.00,39
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,18283950120,cleaning kits,20160206,20160212,0.32,1.69,0,0.00,49
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,18283950120,cleaning kits,20160206,20160212,0.32,2.05,1,1.07,58
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,18283950120,cleaning kits,20160206,20160212,0.32,2.35,1,1.69,70
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,18283950120,cleaning kits,20160206,20160212,0.32,2.63,1,2.21,83
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,18283950120,cleaning kits,20160206,20160212,0.32,3.00,1,3.09,91
+317236446,GSN - Blank ID Cards - Brand: Fargo - Items - CL2,20088786126,GSN Item - Fargo Blank ID Cards Products,18283950120,fargo blank id cards products,20160203,20160209,1.40,2.14,0,0.00,1
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,152375250486,datacard blank id cards products,20160206,20160212,1.90,0.04,0,0.00,1
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,152375250486,datacard blank id cards products,20160206,20160212,1.90,0.58,0,0.00,15
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,152375250486,datacard blank id cards products,20160206,20160212,1.90,1.15,0,0.00,26
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,152375250486,datacard blank id cards products,20160206,20160212,1.90,1.51,0,0.00,47
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,152375250486,datacard blank id cards products,20160206,20160212,1.90,1.90,0,0.00,64
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,152375250486,datacard blank id cards products,20160206,20160212,1.90,2.37,0,0.00,76
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,152375250486,datacard blank id cards products,20160206,20160212,1.90,2.71,0,0.00,90
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,152375250486,datacard blank id cards products,20160206,20160212,1.90,2.87,0,0.00,112
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,152375250486,datacard blank id cards products,20160206,20160212,1.90,3.29,1,0.88,121
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,152375250486,datacard blank id cards products,20160206,20160212,1.90,3.78,1,1.19,132
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,18283950120,hid easylobby visitor management software products,20160206,20160212,1.40,0.01,0,0.00,4
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,18283950120,hid easylobby visitor management software products,20160206,20160212,1.40,0.06,1,0.02,70
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,18283950120,hid easylobby visitor management software products,20160206,20160212,1.40,0.13,1,0.07,123
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,18283950120,hid easylobby visitor management software products,20160206,20160212,1.40,0.36,2,0.26,177
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,18283950120,hid easylobby visitor management software products,20160206,20160212,1.40,0.56,2,0.59,223
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,18283950120,hid easylobby visitor management software products,20160206,20160212,1.40,0.94,3,1.20,255
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,18283950120,hid easylobby visitor management software products,20160206,20160212,1.40,1.40,3,1.85,269
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,18283950120,hid easylobby visitor management software products,20160206,20160212,1.40,1.95,4,2.94,296
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,18283950120,hid easylobby visitor management software products,20160206,20160212,1.40,2.47,4,4.05,328
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,18283950120,hid easylobby visitor management software products,20160206,20160212,1.40,3.00,4,5.38,350
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,18283950120,evolis cleaning kits products,20160206,20160212,1.00,1.69,0,0.00,1
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,18283950120,evolis cleaning kits products,20160206,20160212,1.00,1.96,0,0.00,3
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,18283950120,evolis cleaning kits products,20160206,20160212,1.00,2.20,0,0.00,4
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,18283950120,evolis cleaning kits products,20160206,20160212,1.00,2.46,0,0.00,6
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,18283950120,evolis cleaning kits products,20160206,20160212,1.00,2.51,0,0.00,8
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,18283950120,evolis cleaning kits products,20160206,20160212,1.00,2.66,0,0.00,9
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,18283950120,evolis cleaning kits products,20160206,20160212,1.00,2.90,0,0.00,10
+318213126,GSN - Cleaning Kits - Brand: Evolis - Items - CL2,20317282206,GSN Item - Evolis Cleaning Kits Products,18283950120,evolis cleaning kits products,20160206,20160212,1.00,2.96,0,0.00,11
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,18283950120,nisca cleaning kits products,20160206,20160212,1.00,0.01,0,0.00,1
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,18283950120,nisca cleaning kits products,20160206,20160212,1.00,0.14,0,0.00,3
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,18283950120,nisca cleaning kits products,20160206,20160212,1.00,0.54,0,0.00,5
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,18283950120,nisca cleaning kits products,20160206,20160212,1.00,0.68,0,0.00,6
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,18283950120,nisca cleaning kits products,20160206,20160212,1.00,1.00,0,0.00,6
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,18283950120,nisca cleaning kits products,20160206,20160212,1.00,1.68,0,0.00,8
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,18283950120,nisca cleaning kits products,20160206,20160212,1.00,1.75,0,0.00,9
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,18283950120,nisca cleaning kits products,20160206,20160212,1.00,2.09,0,0.00,10
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,18283950120,nisca cleaning kits products,20160206,20160212,1.00,2.86,0,0.00,11
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,18283950120,fargo monochrome ribbons products,20160203,20160209,1.40,0.07,0,0.00,1
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,18283950120,fargo monochrome ribbons products,20160203,20160209,1.40,0.92,0,0.00,4
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,18283950120,fargo monochrome ribbons products,20160203,20160209,1.40,1.40,0,0.00,4
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,18283950120,fargo monochrome ribbons products,20160203,20160209,1.40,1.69,0,0.00,7
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,18283950120,fargo monochrome ribbons products,20160203,20160209,1.40,1.95,0,0.00,9
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,18283950120,fargo monochrome ribbons products,20160203,20160209,1.40,2.05,0,0.00,13
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,18283950120,fargo monochrome ribbons products,20160203,20160209,1.40,2.38,0,0.00,15
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,18283950120,fargo monochrome ribbons products,20160203,20160209,1.40,2.62,0,0.00,19
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,18283950120,fargo monochrome ribbons products,20160203,20160209,1.40,2.92,0,0.00,20
+317237286,GSN - Monochrome Ribbons - Brand: Fargo - Items - CL2,20088787806,GSN Item - Fargo Monochrome Ribbons Products,18283950120,fargo monochrome ribbons products,20160203,20160209,1.40,2.94,0,0.00,23
+317242326,GSN - All Products,20088871206,GSN - All Products,18283950120,,20160205,20160211,0.20,0.01,1,0.00,21
+317242326,GSN - All Products,20088871206,GSN - All Products,18283950120,,20160205,20160211,0.20,0.20,5,0.39,247
+317242326,GSN - All Products,20088871206,GSN - All Products,18283950120,,20160205,20160211,0.20,0.46,7,1.11,401
+317242326,GSN - All Products,20088871206,GSN - All Products,18283950120,,20160205,20160211,0.20,0.73,9,2.42,553
+317242326,GSN - All Products,20088871206,GSN - All Products,18283950120,,20160205,20160211,0.20,1.05,11,5.05,685
+317242326,GSN - All Products,20088871206,GSN - All Products,18283950120,,20160205,20160211,0.20,1.39,12,8.04,804
+317242326,GSN - All Products,20088871206,GSN - All Products,18283950120,,20160205,20160211,0.20,1.78,13,12.00,903
+317242326,GSN - All Products,20088871206,GSN - All Products,18283950120,,20160205,20160211,0.20,2.17,15,15.90,998
+317242326,GSN - All Products,20088871206,GSN - All Products,18283950120,,20160205,20160211,0.20,2.59,16,20.40,1070
+317242326,GSN - All Products,20088871206,GSN - All Products,18283950120,,20160205,20160211,0.20,3.00,17,24.30,1150
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,151091226246,hid id card software products,20160203,20160209,1.40,0.04,0,0.00,2
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,151091226246,hid id card software products,20160203,20160209,1.40,0.26,0,0.00,3
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,151091226246,hid id card software products,20160203,20160209,1.40,0.67,0,0.00,3
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,151091226246,hid id card software products,20160203,20160209,1.40,1.26,0,0.00,4
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,151091226246,hid id card software products,20160203,20160209,1.40,1.40,0,0.00,4
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,151091226246,hid id card software products,20160203,20160209,1.40,1.96,0,0.00,5
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,151091226246,hid id card software products,20160203,20160209,1.40,2.20,0,0.00,5
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,151091226246,hid id card software products,20160203,20160209,1.40,2.26,0,0.00,6
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,151091226246,hid id card software products,20160203,20160209,1.40,2.72,0,0.00,7
+317234046,GSN - Color Ribbons - General,20088782406,GSN General - Color Ribbons,151093861446,color ribbons,20160203,20160209,0.32,2.51,0,0.00,1
+317234046,GSN - Color Ribbons - General,20088782406,GSN General - Color Ribbons,151093861446,color ribbons,20160203,20160209,0.32,2.86,0,0.00,1
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,18283950120,hid id card software products,20160203,20160209,1.40,0.04,0,0.00,2
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,18283950120,hid id card software products,20160203,20160209,1.40,0.26,0,0.00,3
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,18283950120,hid id card software products,20160203,20160209,1.40,0.67,0,0.00,3
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,18283950120,hid id card software products,20160203,20160209,1.40,1.26,0,0.00,4
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,18283950120,hid id card software products,20160203,20160209,1.40,1.40,0,0.00,4
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,18283950120,hid id card software products,20160203,20160209,1.40,1.96,0,0.00,5
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,18283950120,hid id card software products,20160203,20160209,1.40,2.20,0,0.00,5
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,18283950120,hid id card software products,20160203,20160209,1.40,2.26,0,0.00,6
+317237166,GSN - ID Card Software - Brand: HID - Items - CL2,20088787686,GSN Item - HID ID Card Software Products,18283950120,hid id card software products,20160203,20160209,1.40,2.72,0,0.00,7
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,18283950120,zebra color ribbons products,20160201,20160207,1.00,0.44,0,0.00,14
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,18283950120,zebra color ribbons products,20160201,20160207,1.00,0.73,0,0.00,34
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,18283950120,zebra color ribbons products,20160201,20160207,1.00,1.00,0,0.00,53
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,18283950120,zebra color ribbons products,20160201,20160207,1.00,1.46,0,0.00,65
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,18283950120,zebra color ribbons products,20160201,20160207,1.00,1.83,0,0.00,80
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,18283950120,zebra color ribbons products,20160201,20160207,1.00,2.10,1,0.93,102
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,18283950120,zebra color ribbons products,20160201,20160207,1.00,2.39,1,1.58,125
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,18283950120,zebra color ribbons products,20160201,20160207,1.00,2.72,1,2.44,146
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,18283950120,zebra color ribbons products,20160201,20160207,1.00,3.00,1,3.02,166
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,18283950120,fargo id card printers products,20160203,20160209,1.40,0.01,0,0.00,2
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,18283950120,fargo id card printers products,20160203,20160209,1.40,0.28,0,0.00,48
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,18283950120,fargo id card printers products,20160203,20160209,1.40,0.70,0,0.00,80
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,18283950120,fargo id card printers products,20160203,20160209,1.40,1.07,1,0.99,114
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,18283950120,fargo id card printers products,20160203,20160209,1.40,1.40,2,1.88,149
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,18283950120,fargo id card printers products,20160203,20160209,1.40,1.81,2,2.49,176
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,18283950120,fargo id card printers products,20160203,20160209,1.40,2.13,3,3.92,215
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,18283950120,fargo id card printers products,20160203,20160209,1.40,2.44,3,6.33,260
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,18283950120,fargo id card printers products,20160203,20160209,1.40,2.76,4,8.27,296
+317237046,GSN - ID Card Printers - Brand: Fargo - Items - CL2,20088787566,GSN Item - Fargo ID Card Printers Products,18283950120,fargo id card printers products,20160203,20160209,1.40,3.00,4,10.10,343
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,151093791126,hid easylobby visitor management software products,20160206,20160212,1.40,0.01,0,0.00,4
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,151093791126,hid easylobby visitor management software products,20160206,20160212,1.40,0.06,1,0.02,70
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,151093791126,hid easylobby visitor management software products,20160206,20160212,1.40,0.13,1,0.07,123
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,151093791126,hid easylobby visitor management software products,20160206,20160212,1.40,0.36,2,0.26,177
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,151093791126,hid easylobby visitor management software products,20160206,20160212,1.40,0.56,2,0.59,223
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,151093791126,hid easylobby visitor management software products,20160206,20160212,1.40,0.94,3,1.20,255
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,151093791126,hid easylobby visitor management software products,20160206,20160212,1.40,1.40,3,1.85,269
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,151093791126,hid easylobby visitor management software products,20160206,20160212,1.40,1.95,4,2.94,296
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,151093791126,hid easylobby visitor management software products,20160206,20160212,1.40,2.47,4,4.05,328
+317237646,GSN - Visitor Management Software - Brand: HID EasyLobby - Items - CL2,20088792846,GSN Item - HID EasyLobby Visitor Management Software Products,151093791126,hid easylobby visitor management software products,20160206,20160212,1.40,3.00,4,5.38,350
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,18283950120,datacard id card printers products,20160203,20160209,3.80,0.01,1,0.01,59
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,18283950120,datacard id card printers products,20160203,20160209,3.80,0.77,12,3.78,781
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,18283950120,datacard id card printers products,20160203,20160209,3.80,1.54,24,16.90,1520
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,18283950120,datacard id card printers products,20160203,20160209,3.80,2.25,37,40.40,2310
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,18283950120,datacard id card printers products,20160203,20160209,3.80,2.93,51,74.80,3100
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,18283950120,datacard id card printers products,20160203,20160209,3.80,3.80,60,112.00,3730
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,18283950120,datacard id card printers products,20160203,20160209,3.80,4.73,69,161.00,4350
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,18283950120,datacard id card printers products,20160203,20160209,3.80,5.64,78,217.00,4960
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,18283950120,datacard id card printers products,20160203,20160209,3.80,6.63,86,281.00,5510
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,18283950120,datacard id card printers products,20160203,20160209,3.80,7.60,93,347.00,6030
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,152378682966,nisca cleaning kits products,20160206,20160212,1.00,0.01,0,0.00,1
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,152378682966,nisca cleaning kits products,20160206,20160212,1.00,0.14,0,0.00,3
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,152378682966,nisca cleaning kits products,20160206,20160212,1.00,0.54,0,0.00,5
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,152378682966,nisca cleaning kits products,20160206,20160212,1.00,0.68,0,0.00,6
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,152378682966,nisca cleaning kits products,20160206,20160212,1.00,1.00,0,0.00,6
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,152378682966,nisca cleaning kits products,20160206,20160212,1.00,1.68,0,0.00,8
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,152378682966,nisca cleaning kits products,20160206,20160212,1.00,1.75,0,0.00,9
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,152378682966,nisca cleaning kits products,20160206,20160212,1.00,2.09,0,0.00,10
+318213246,GSN - Cleaning Kits - Brand: Nisca - Items - CL2,20317282326,GSN Item - Nisca Cleaning Kits Products,152378682966,nisca cleaning kits products,20160206,20160212,1.00,2.86,0,0.00,11
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,73084002893,cleaning kits,20160206,20160212,0.32,0.06,0,0.00,1
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,73084002893,cleaning kits,20160206,20160212,0.32,0.32,0,0.00,5
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,73084002893,cleaning kits,20160206,20160212,0.32,0.68,0,0.00,16
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,73084002893,cleaning kits,20160206,20160212,0.32,1.00,0,0.00,27
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,73084002893,cleaning kits,20160206,20160212,0.32,1.33,0,0.00,39
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,73084002893,cleaning kits,20160206,20160212,0.32,1.69,0,0.00,49
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,73084002893,cleaning kits,20160206,20160212,0.32,2.05,1,1.07,58
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,73084002893,cleaning kits,20160206,20160212,0.32,2.35,1,1.69,70
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,73084002893,cleaning kits,20160206,20160212,0.32,2.63,1,2.21,83
+317233926,GSN - Cleaning Kits - General,20088782286,GSN General - Cleaning Kits,73084002893,cleaning kits,20160206,20160212,0.32,3.00,1,3.09,91
+318213726,GSN - Color Ribbons - Brand: Magicard - Items - CL2,20317380006,GSN Item - Magicard Color Ribbons Products,152380501926,magicard color ribbons products,20160206,20160212,2.31,4.15,0,0.00,1
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,18283950120,evolis blank id cards products,20160206,20160212,1.00,0.05,0,0.00,1
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,18283950120,evolis blank id cards products,20160206,20160212,1.00,0.21,0,0.00,5
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,18283950120,evolis blank id cards products,20160206,20160212,1.00,0.40,0,0.00,7
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,18283950120,evolis blank id cards products,20160206,20160212,1.00,1.00,0,0.00,7
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,18283950120,evolis blank id cards products,20160206,20160212,1.00,1.49,0,0.00,9
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,18283950120,evolis blank id cards products,20160206,20160212,1.00,1.80,0,0.00,10
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,18283950120,evolis blank id cards products,20160206,20160212,1.00,2.02,0,0.00,12
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,18283950120,evolis blank id cards products,20160206,20160212,1.00,2.32,0,0.00,13
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,18283950120,evolis blank id cards products,20160206,20160212,1.00,2.62,0,0.00,14
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,18283950120,evolis blank id cards products,20160206,20160212,1.00,2.80,0,0.00,16
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,18283950120,fargo id card printer supplies products,20160203,20160209,1.40,0.01,0,0.00,1
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,18283950120,fargo id card printer supplies products,20160203,20160209,1.40,0.55,0,0.00,4
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,18283950120,fargo id card printer supplies products,20160203,20160209,1.40,0.80,0,0.00,9
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,18283950120,fargo id card printer supplies products,20160203,20160209,1.40,1.40,0,0.00,10
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,18283950120,fargo id card printer supplies products,20160203,20160209,1.40,1.77,0,0.00,13
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,18283950120,fargo id card printer supplies products,20160203,20160209,1.40,1.81,0,0.00,17
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,18283950120,fargo id card printer supplies products,20160203,20160209,1.40,2.34,0,0.00,17
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,18283950120,fargo id card printer supplies products,20160203,20160209,1.40,2.54,0,0.00,21
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,18283950120,fargo id card printer supplies products,20160203,20160209,1.40,2.82,0,0.00,24
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,18283950120,fargo id card printer supplies products,20160203,20160209,1.40,2.95,0,0.00,28
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,18283950120,datacard blank id cards products,20160206,20160212,1.90,0.04,0,0.00,1
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,18283950120,datacard blank id cards products,20160206,20160212,1.90,0.58,0,0.00,15
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,18283950120,datacard blank id cards products,20160206,20160212,1.90,1.15,0,0.00,26
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,18283950120,datacard blank id cards products,20160206,20160212,1.90,1.51,0,0.00,47
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,18283950120,datacard blank id cards products,20160206,20160212,1.90,1.90,0,0.00,64
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,18283950120,datacard blank id cards products,20160206,20160212,1.90,2.37,0,0.00,76
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,18283950120,datacard blank id cards products,20160206,20160212,1.90,2.71,0,0.00,90
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,18283950120,datacard blank id cards products,20160206,20160212,1.90,2.87,0,0.00,112
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,18283950120,datacard blank id cards products,20160206,20160212,1.90,3.29,1,0.88,121
+318212646,GSN - Blank ID Cards - Brand: Datacard - Items - CL2,20317233126,GSN Item - Datacard Blank ID Cards Products,18283950120,datacard blank id cards products,20160206,20160212,1.90,3.78,1,1.19,132
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,152379625926,nisca color ribbons products,20160206,20160212,1.00,0.01,0,0.00,1
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,152379625926,nisca color ribbons products,20160206,20160212,1.00,0.04,0,0.00,2
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,152379625926,nisca color ribbons products,20160206,20160212,1.00,0.36,0,0.00,2
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,152379625926,nisca color ribbons products,20160206,20160212,1.00,1.00,0,0.00,2
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,152379625926,nisca color ribbons products,20160206,20160212,1.00,1.52,0,0.00,3
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,152379625926,nisca color ribbons products,20160206,20160212,1.00,1.79,0,0.00,4
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,152379625926,nisca color ribbons products,20160206,20160212,1.00,2.44,0,0.00,4
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,152379625926,nisca color ribbons products,20160206,20160212,1.00,2.51,0,0.00,5
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,152379625926,nisca color ribbons products,20160206,20160212,1.00,2.91,0,0.00,6
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,18283950120,fargo color ribbons products,20160203,20160209,1.40,0.02,0,0.00,2
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,18283950120,fargo color ribbons products,20160203,20160209,1.40,0.54,0,0.00,9
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,18283950120,fargo color ribbons products,20160203,20160209,1.40,0.91,0,0.00,17
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,18283950120,fargo color ribbons products,20160203,20160209,1.40,1.40,0,0.00,23
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,18283950120,fargo color ribbons products,20160203,20160209,1.40,1.81,0,0.00,29
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,18283950120,fargo color ribbons products,20160203,20160209,1.40,1.95,0,0.00,41
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,18283950120,fargo color ribbons products,20160203,20160209,1.40,2.17,0,0.00,52
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,18283950120,fargo color ribbons products,20160203,20160209,1.40,2.44,0,0.00,63
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,18283950120,fargo color ribbons products,20160203,20160209,1.40,2.69,0,0.00,73
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,18283950120,fargo color ribbons products,20160203,20160209,1.40,2.96,0,0.00,82
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,151093442166,fargo id card printer supplies products,20160203,20160209,1.40,0.01,0,0.00,1
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,151093442166,fargo id card printer supplies products,20160203,20160209,1.40,0.55,0,0.00,4
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,151093442166,fargo id card printer supplies products,20160203,20160209,1.40,0.80,0,0.00,9
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,151093442166,fargo id card printer supplies products,20160203,20160209,1.40,1.40,0,0.00,10
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,151093442166,fargo id card printer supplies products,20160203,20160209,1.40,1.77,0,0.00,13
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,151093442166,fargo id card printer supplies products,20160203,20160209,1.40,1.81,0,0.00,17
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,151093442166,fargo id card printer supplies products,20160203,20160209,1.40,2.34,0,0.00,17
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,151093442166,fargo id card printer supplies products,20160203,20160209,1.40,2.54,0,0.00,21
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,151093442166,fargo id card printer supplies products,20160203,20160209,1.40,2.82,0,0.00,24
+317236926,GSN - ID Card Printer Supplies - Brand: Fargo - Items - CL2,20088787326,GSN Item - Fargo ID Card Printer Supplies Products,151093442166,fargo id card printer supplies products,20160203,20160209,1.40,2.95,0,0.00,28
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,151093718646,hid easylobby scanners products,20160206,20160212,1.40,0.01,2,0.02,54
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,151093718646,hid easylobby scanners products,20160206,20160212,1.40,0.21,4,0.18,295
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,151093718646,hid easylobby scanners products,20160206,20160212,1.40,0.60,5,1.06,451
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,151093718646,hid easylobby scanners products,20160206,20160212,1.40,0.99,6,2.15,613
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,151093718646,hid easylobby scanners products,20160206,20160212,1.40,1.40,7,3.66,740
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,151093718646,hid easylobby scanners products,20160206,20160212,1.40,1.70,13,15.20,933
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,151093718646,hid easylobby scanners products,20160206,20160212,1.40,1.99,18,24.40,1130
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,151093718646,hid easylobby scanners products,20160206,20160212,1.40,2.30,22,34.40,1300
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,151093718646,hid easylobby scanners products,20160206,20160212,1.40,2.68,24,37.60,1460
+317237526,GSN - Scanners - Brand: HID EasyLobby - Items - CL2,20088792726,GSN Item - HID EasyLobby Scanners Products,151093718646,hid easylobby scanners products,20160206,20160212,1.40,3.00,24,40.70,1630
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,18283950120,evolis color ribbons products,20160206,20160212,1.00,0.05,0,0.00,1
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,18283950120,evolis color ribbons products,20160206,20160212,1.00,0.55,0,0.00,6
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,18283950120,evolis color ribbons products,20160206,20160212,1.00,1.00,0,0.00,8
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,18283950120,evolis color ribbons products,20160206,20160212,1.00,1.50,0,0.00,9
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,18283950120,evolis color ribbons products,20160206,20160212,1.00,1.76,0,0.00,12
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,18283950120,evolis color ribbons products,20160206,20160212,1.00,2.03,0,0.00,14
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,18283950120,evolis color ribbons products,20160206,20160212,1.00,2.16,0,0.00,17
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,18283950120,evolis color ribbons products,20160206,20160212,1.00,2.39,0,0.00,21
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,18283950120,evolis color ribbons products,20160206,20160212,1.00,2.68,0,0.00,25
+318213606,GSN - Color Ribbons - Brand: Evolis - Items - CL2,20317379886,GSN Item - Evolis Color Ribbons Products,18283950120,evolis color ribbons products,20160206,20160212,1.00,2.87,0,0.00,26
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,18283950120,visitor management software,20160206,20160212,0.32,0.01,0,0.00,4
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,18283950120,visitor management software,20160206,20160212,0.32,0.32,0,0.00,63
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,18283950120,visitor management software,20160206,20160212,0.32,0.68,0,0.00,97
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,18283950120,visitor management software,20160206,20160212,0.32,1.00,0,0.00,130
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,18283950120,visitor management software,20160206,20160212,0.32,1.31,0,0.00,166
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,18283950120,visitor management software,20160206,20160212,0.32,1.66,0,0.00,198
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,18283950120,visitor management software,20160206,20160212,0.32,1.98,1,2.05,232
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,18283950120,visitor management software,20160206,20160212,0.32,2.26,1,2.78,271
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,18283950120,visitor management software,20160206,20160212,0.32,2.64,1,3.39,298
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,18283950120,visitor management software,20160206,20160212,0.32,3.00,1,4.12,327
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,152381788806,magicard cleaning kits products,20160206,20160212,1.00,0.11,0,0.00,1
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,152381788806,magicard cleaning kits products,20160206,20160212,1.00,0.18,0,0.00,2
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,152381788806,magicard cleaning kits products,20160206,20160212,1.00,0.82,0,0.00,3
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,152381788806,magicard cleaning kits products,20160206,20160212,1.00,0.95,0,0.00,4
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,152381788806,magicard cleaning kits products,20160206,20160212,1.00,1.00,0,0.00,4
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,152381788806,magicard cleaning kits products,20160206,20160212,1.00,1.50,0,0.00,4
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,152381788806,magicard cleaning kits products,20160206,20160212,1.00,2.31,0,0.00,5
+318213366,GSN - Cleaning Kits - Brand: Magicard - Items - CL2,20317331046,GSN Item - Magicard Cleaning Kits Products,152381788806,magicard cleaning kits products,20160206,20160212,1.00,2.53,0,0.00,6
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,90623659461,id card software,20160206,20160212,0.32,0.04,0,0.00,5
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,90623659461,id card software,20160206,20160212,0.32,0.32,0,0.00,23
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,90623659461,id card software,20160206,20160212,0.32,0.79,0,0.00,31
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,90623659461,id card software,20160206,20160212,0.32,1.14,0,0.00,46
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,90623659461,id card software,20160206,20160212,0.32,1.49,0,0.00,60
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,90623659461,id card software,20160206,20160212,0.32,1.79,0,0.00,78
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,90623659461,id card software,20160206,20160212,0.32,2.09,1,0.95,93
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,90623659461,id card software,20160206,20160212,0.32,2.42,1,1.39,109
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,90623659461,id card software,20160206,20160212,0.32,2.67,1,1.88,127
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,90623659461,id card software,20160206,20160212,0.32,3.00,1,2.42,143
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,152381162166,zebra color ribbons products,20160201,20160207,1.00,0.44,0,0.00,14
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,152381162166,zebra color ribbons products,20160201,20160207,1.00,0.73,0,0.00,34
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,152381162166,zebra color ribbons products,20160201,20160207,1.00,1.00,0,0.00,53
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,152381162166,zebra color ribbons products,20160201,20160207,1.00,1.46,0,0.00,65
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,152381162166,zebra color ribbons products,20160201,20160207,1.00,1.83,0,0.00,80
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,152381162166,zebra color ribbons products,20160201,20160207,1.00,2.10,1,0.93,102
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,152381162166,zebra color ribbons products,20160201,20160207,1.00,2.39,1,1.58,125
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,152381162166,zebra color ribbons products,20160201,20160207,1.00,2.72,1,2.44,146
+318213966,GSN - Color Ribbons - Brand: Zebra - Items - CL2,20317428846,GSN Item - Zebra Color Ribbons Products,152381162166,zebra color ribbons products,20160201,20160207,1.00,3.00,1,3.02,166
+318213726,GSN - Color Ribbons - Brand: Magicard - Items - CL2,20317380006,GSN Item - Magicard Color Ribbons Products,18283950120,magicard color ribbons products,20160206,20160212,2.31,4.15,0,0.00,1
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,152379825846,evolis blank id cards products,20160206,20160212,1.00,0.05,0,0.00,1
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,152379825846,evolis blank id cards products,20160206,20160212,1.00,0.21,0,0.00,5
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,152379825846,evolis blank id cards products,20160206,20160212,1.00,0.40,0,0.00,7
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,152379825846,evolis blank id cards products,20160206,20160212,1.00,1.00,0,0.00,7
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,152379825846,evolis blank id cards products,20160206,20160212,1.00,1.49,0,0.00,9
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,152379825846,evolis blank id cards products,20160206,20160212,1.00,1.80,0,0.00,10
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,152379825846,evolis blank id cards products,20160206,20160212,1.00,2.02,0,0.00,12
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,152379825846,evolis blank id cards products,20160206,20160212,1.00,2.32,0,0.00,13
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,152379825846,evolis blank id cards products,20160206,20160212,1.00,2.62,0,0.00,14
+318212766,GSN - Blank ID Cards - Brand: Evolis - Items - CL2,20317233246,GSN Item - Evolis Blank ID Cards Products,152379825846,evolis blank id cards products,20160206,20160212,1.00,2.80,0,0.00,16
+317236446,GSN - Blank ID Cards - Brand: Fargo - Items - CL2,20088786126,GSN Item - Fargo Blank ID Cards Products,151094006886,fargo blank id cards products,20160203,20160209,1.40,2.14,0,0.00,1
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,152381161926,datacard cleaning kits products,20160206,20160212,1.90,0.25,0,0.00,7
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,152381161926,datacard cleaning kits products,20160206,20160212,1.90,0.47,0,0.00,13
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,152381161926,datacard cleaning kits products,20160206,20160212,1.90,0.85,0,0.00,18
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,152381161926,datacard cleaning kits products,20160206,20160212,1.90,1.06,0,0.00,23
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,152381161926,datacard cleaning kits products,20160206,20160212,1.90,1.48,0,0.00,26
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,152381161926,datacard cleaning kits products,20160206,20160212,1.90,1.90,0,0.00,29
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,152381161926,datacard cleaning kits products,20160206,20160212,1.90,2.26,0,0.00,34
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,152381161926,datacard cleaning kits products,20160206,20160212,1.90,2.88,0,0.00,37
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,152381161926,datacard cleaning kits products,20160206,20160212,1.90,3.39,0,0.00,39
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,18283950120,nisca color ribbons products,20160206,20160212,1.00,0.01,0,0.00,1
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,18283950120,nisca color ribbons products,20160206,20160212,1.00,0.04,0,0.00,2
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,18283950120,nisca color ribbons products,20160206,20160212,1.00,0.36,0,0.00,2
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,18283950120,nisca color ribbons products,20160206,20160212,1.00,1.00,0,0.00,2
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,18283950120,nisca color ribbons products,20160206,20160212,1.00,1.52,0,0.00,3
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,18283950120,nisca color ribbons products,20160206,20160212,1.00,1.79,0,0.00,4
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,18283950120,nisca color ribbons products,20160206,20160212,1.00,2.44,0,0.00,4
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,18283950120,nisca color ribbons products,20160206,20160212,1.00,2.51,0,0.00,5
+318213846,GSN - Color Ribbons - Brand: Nisca - Items - CL2,20317380126,GSN Item - Nisca Color Ribbons Products,18283950120,nisca color ribbons products,20160206,20160212,1.00,2.91,0,0.00,6
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,18283950120,datacard cleaning kits products,20160206,20160212,1.90,0.25,0,0.00,7
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,18283950120,datacard cleaning kits products,20160206,20160212,1.90,0.47,0,0.00,13
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,18283950120,datacard cleaning kits products,20160206,20160212,1.90,0.85,0,0.00,18
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,18283950120,datacard cleaning kits products,20160206,20160212,1.90,1.06,0,0.00,23
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,18283950120,datacard cleaning kits products,20160206,20160212,1.90,1.48,0,0.00,26
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,18283950120,datacard cleaning kits products,20160206,20160212,1.90,1.90,0,0.00,29
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,18283950120,datacard cleaning kits products,20160206,20160212,1.90,2.26,0,0.00,34
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,18283950120,datacard cleaning kits products,20160206,20160212,1.90,2.88,0,0.00,37
+318212886,GSN - Cleaning Kits - Brand: Datacard - Items - CL2,20317233486,GSN Item - Datacard Cleaning Kits Products,18283950120,datacard cleaning kits products,20160206,20160212,1.90,3.39,0,0.00,39
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,152380645206,security accessories,20160203,20160209,0.40,0.01,0,0.00,6
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,152380645206,security accessories,20160203,20160209,0.40,0.40,0,0.00,24
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,152380645206,security accessories,20160203,20160209,0.40,0.88,0,0.00,32
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,152380645206,security accessories,20160203,20160209,0.40,1.35,0,0.00,38
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,152380645206,security accessories,20160203,20160209,0.40,1.61,0,0.00,53
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,152380645206,security accessories,20160203,20160209,0.40,1.87,1,1.47,75
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,152380645206,security accessories,20160203,20160209,0.40,2.12,1,1.98,91
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,152380645206,security accessories,20160203,20160209,0.40,2.33,1,2.08,100
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,152380645206,security accessories,20160203,20160209,0.40,2.68,1,2.31,110
+318208446,GSN - Security Accessories - General,20314457406,GSN General - Security Accessories,152380645206,security accessories,20160203,20160209,0.40,2.95,1,2.58,125
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,151092028326,fargo color ribbons products,20160203,20160209,1.40,0.02,0,0.00,2
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,151092028326,fargo color ribbons products,20160203,20160209,1.40,0.54,0,0.00,9
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,151092028326,fargo color ribbons products,20160203,20160209,1.40,0.91,0,0.00,17
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,151092028326,fargo color ribbons products,20160203,20160209,1.40,1.40,0,0.00,23
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,151092028326,fargo color ribbons products,20160203,20160209,1.40,1.81,0,0.00,29
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,151092028326,fargo color ribbons products,20160203,20160209,1.40,1.95,0,0.00,41
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,151092028326,fargo color ribbons products,20160203,20160209,1.40,2.17,0,0.00,52
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,151092028326,fargo color ribbons products,20160203,20160209,1.40,2.44,0,0.00,63
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,151092028326,fargo color ribbons products,20160203,20160209,1.40,2.69,0,0.00,73
+317236806,GSN - Color Ribbons - Brand: Fargo - Items - CL2,20088787206,GSN Item - Fargo Color Ribbons Products,151092028326,fargo color ribbons products,20160203,20160209,1.40,2.96,0,0.00,82
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,151090995846,visitor management software,20160206,20160212,0.32,0.01,0,0.00,4
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,151090995846,visitor management software,20160206,20160212,0.32,0.32,0,0.00,63
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,151090995846,visitor management software,20160206,20160212,0.32,0.68,0,0.00,97
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,151090995846,visitor management software,20160206,20160212,0.32,1.00,0,0.00,130
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,151090995846,visitor management software,20160206,20160212,0.32,1.31,0,0.00,166
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,151090995846,visitor management software,20160206,20160212,0.32,1.66,0,0.00,198
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,151090995846,visitor management software,20160206,20160212,0.32,1.98,1,2.05,232
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,151090995846,visitor management software,20160206,20160212,0.32,2.26,1,2.78,271
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,151090995846,visitor management software,20160206,20160212,0.32,2.64,1,3.39,298
+317234886,GSN - Visitor Management Software - General,20088783246,GSN General - Visitor Management Software,151090995846,visitor management software,20160206,20160212,0.32,3.00,1,4.12,327
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,151092817206,fargo overlaminates products,20160203,20160209,3.33,0.01,0,0.00,1
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,151092817206,fargo overlaminates products,20160203,20160209,3.33,0.65,0,0.00,4
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,151092817206,fargo overlaminates products,20160203,20160209,3.33,1.81,0,0.00,6
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,151092817206,fargo overlaminates products,20160203,20160209,3.33,2.87,0,0.00,9
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,151092817206,fargo overlaminates products,20160203,20160209,3.33,3.33,0,0.00,11
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,151092817206,fargo overlaminates products,20160203,20160209,3.33,4.34,0,0.00,14
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,151092817206,fargo overlaminates products,20160203,20160209,3.33,4.79,0,0.00,17
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,151092817206,fargo overlaminates products,20160203,20160209,3.33,5.38,0,0.00,20
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,151092817206,fargo overlaminates products,20160203,20160209,3.33,5.87,0,0.00,22
+317237406,GSN - Overlaminates - Brand: Fargo - Items - CL2,20088792606,GSN Item - Fargo Overlaminates Products,151092817206,fargo overlaminates products,20160203,20160209,3.33,6.49,0,0.00,24
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,18283950120,id card software,20160206,20160212,0.32,0.04,0,0.00,5
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,18283950120,id card software,20160206,20160212,0.32,0.32,0,0.00,23
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,18283950120,id card software,20160206,20160212,0.32,0.79,0,0.00,31
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,18283950120,id card software,20160206,20160212,0.32,1.14,0,0.00,46
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,18283950120,id card software,20160206,20160212,0.32,1.49,0,0.00,60
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,18283950120,id card software,20160206,20160212,0.32,1.79,0,0.00,78
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,18283950120,id card software,20160206,20160212,0.32,2.09,1,0.95,93
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,18283950120,id card software,20160206,20160212,0.32,2.42,1,1.39,109
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,18283950120,id card software,20160206,20160212,0.32,2.67,1,1.88,127
+317234406,GSN - ID Card Software - General,20088782766,GSN General - ID Card Software,18283950120,id card software,20160206,20160212,0.32,3.00,1,2.42,143
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,18283950120,datacard overlaminates products,20160206,20160212,1.90,0.02,0,0.00,1
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,18283950120,datacard overlaminates products,20160206,20160212,1.90,0.68,0,0.00,17
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,18283950120,datacard overlaminates products,20160206,20160212,1.90,1.30,0,0.00,34
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,18283950120,datacard overlaminates products,20160206,20160212,1.90,1.90,0,0.00,51
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,18283950120,datacard overlaminates products,20160206,20160212,1.90,2.24,1,1.27,72
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,18283950120,datacard overlaminates products,20160206,20160212,1.90,2.57,1,2.52,90
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,18283950120,datacard overlaminates products,20160206,20160212,1.90,2.72,2,3.07,117
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,18283950120,datacard overlaminates products,20160206,20160212,1.90,2.74,2,3.53,144
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,18283950120,datacard overlaminates products,20160206,20160212,1.90,3.17,2,3.85,160
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,18283950120,datacard overlaminates products,20160206,20160212,1.90,3.75,2,4.16,166
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,18283950120,bayco night stick security accessories products,20160201,20160207,1.00,0.01,0,0.00,26
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,18283950120,bayco night stick security accessories products,20160201,20160207,1.00,0.56,2,0.21,305
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,18283950120,bayco night stick security accessories products,20160201,20160207,1.00,1.00,5,1.36,811
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,18283950120,bayco night stick security accessories products,20160201,20160207,1.00,1.33,8,2.94,1230
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,18283950120,bayco night stick security accessories products,20160201,20160207,1.00,1.59,11,5.24,1720
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,18283950120,bayco night stick security accessories products,20160201,20160207,1.00,1.83,16,8.65,2230
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,18283950120,bayco night stick security accessories products,20160201,20160207,1.00,2.09,20,12.00,2690
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,18283950120,bayco night stick security accessories products,20160201,20160207,1.00,2.38,24,17.10,3170
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,18283950120,bayco night stick security accessories products,20160201,20160207,1.00,2.68,28,22.00,3590
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,18283950120,bayco night stick security accessories products,20160201,20160207,1.00,3.00,32,27.90,4000
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,18283950120,evolis monochrome ribbons products,20160205,20160211,1.00,0.11,0,0.00,1
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,18283950120,evolis monochrome ribbons products,20160205,20160211,1.00,1.00,0,0.00,3
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,18283950120,evolis monochrome ribbons products,20160205,20160211,1.00,1.51,0,0.00,3
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,18283950120,evolis monochrome ribbons products,20160205,20160211,1.00,1.78,0,0.00,7
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,18283950120,evolis monochrome ribbons products,20160205,20160211,1.00,2.01,0,0.00,11
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,18283950120,evolis monochrome ribbons products,20160205,20160211,1.00,2.07,0,0.00,16
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,18283950120,evolis monochrome ribbons products,20160205,20160211,1.00,2.30,0,0.00,20
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,18283950120,evolis monochrome ribbons products,20160205,20160211,1.00,2.50,1,0.99,24
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,18283950120,evolis monochrome ribbons products,20160205,20160211,1.00,2.72,1,1.09,28
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,18283950120,evolis monochrome ribbons products,20160205,20160211,1.00,2.89,1,1.37,32
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,152381789046,evolis monochrome ribbons products,20160205,20160211,1.00,0.11,0,0.00,1
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,152381789046,evolis monochrome ribbons products,20160205,20160211,1.00,1.00,0,0.00,3
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,152381789046,evolis monochrome ribbons products,20160205,20160211,1.00,1.51,0,0.00,3
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,152381789046,evolis monochrome ribbons products,20160205,20160211,1.00,1.78,0,0.00,7
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,152381789046,evolis monochrome ribbons products,20160205,20160211,1.00,2.01,0,0.00,11
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,152381789046,evolis monochrome ribbons products,20160205,20160211,1.00,2.07,0,0.00,16
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,152381789046,evolis monochrome ribbons products,20160205,20160211,1.00,2.30,0,0.00,20
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,152381789046,evolis monochrome ribbons products,20160205,20160211,1.00,2.50,1,0.99,24
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,152381789046,evolis monochrome ribbons products,20160205,20160211,1.00,2.72,1,1.09,28
+318215046,GSN - Monochrome Ribbons - Brand: Evolis - Items - CL2,20317527246,GSN Item - Evolis Monochrome Ribbons Products,152381789046,evolis monochrome ribbons products,20160205,20160211,1.00,2.89,1,1.37,32
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,152382611046,zebra id card printers products,20160206,20160212,1.00,0.01,0,0.00,3
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,152382611046,zebra id card printers products,20160206,20160212,1.00,0.55,0,0.00,26
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,152382611046,zebra id card printers products,20160206,20160212,1.00,1.00,0,0.00,58
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,152382611046,zebra id card printers products,20160206,20160212,1.00,1.39,0,0.00,94
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,152382611046,zebra id card printers products,20160206,20160212,1.00,1.64,1,0.96,141
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,152382611046,zebra id card printers products,20160206,20160212,1.00,1.99,1,1.28,178
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,152382611046,zebra id card printers products,20160206,20160212,1.00,2.23,1,2.05,227
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,152382611046,zebra id card printers products,20160206,20160212,1.00,2.49,2,2.82,273
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,152382611046,zebra id card printers products,20160206,20160212,1.00,2.74,2,4.36,323
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,152382611046,zebra id card printers products,20160206,20160212,1.00,3.00,2,5.32,370
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,152379826086,datacard id card printers products,20160203,20160209,3.80,2.93,51,74.80,3100
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,152379826086,datacard id card printers products,20160203,20160209,3.80,3.80,60,112.00,3730
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,152379826086,datacard id card printers products,20160203,20160209,3.80,4.73,69,161.00,4350
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,152379826086,datacard id card printers products,20160203,20160209,3.80,5.64,78,217.00,4960
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,152379826086,datacard id card printers products,20160203,20160209,3.80,6.63,86,281.00,5510
+318214086,GSN - ID Card Printers - Brand: Datacard - Items - CL2,20317428966,GSN Item - Datacard ID Card Printers Products,152379826086,datacard id card printers products,20160203,20160209,3.80,7.60,93,347.00,6030
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,152380331046,evolis id card printers products,20160202,20160208,1.00,0.51,0,0.00,39
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,152380331046,evolis id card printers products,20160202,20160208,1.00,1.00,0,0.00,77
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,152380331046,evolis id card printers products,20160202,20160208,1.00,1.35,1,0.68,113
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,152380331046,evolis id card printers products,20160202,20160208,1.00,1.73,1,0.85,147
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,152380331046,evolis id card printers products,20160202,20160208,1.00,2.03,1,1.36,189
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,152380331046,evolis id card printers products,20160202,20160208,1.00,2.20,2,3.13,244
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,152380331046,evolis id card printers products,20160202,20160208,1.00,2.45,2,4.38,295
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,152380331046,evolis id card printers products,20160202,20160208,1.00,2.74,3,4.95,345
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,152380331046,evolis id card printers products,20160202,20160208,1.00,3.00,3,5.66,389
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,152384285286,zebra overlaminates products,20160201,20160207,1.00,0.01,0,0.00,1
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,152384285286,zebra overlaminates products,20160201,20160207,1.00,0.32,0,0.00,6
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,152384285286,zebra overlaminates products,20160201,20160207,1.00,0.75,0,0.00,9
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,152384285286,zebra overlaminates products,20160201,20160207,1.00,1.00,0,0.00,13
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,152384285286,zebra overlaminates products,20160201,20160207,1.00,1.18,0,0.00,17
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,152384285286,zebra overlaminates products,20160201,20160207,1.00,1.56,0,0.00,19
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,152384285286,zebra overlaminates products,20160201,20160207,1.00,1.94,0,0.00,21
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,152384285286,zebra overlaminates products,20160201,20160207,1.00,2.09,0,0.00,25
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,152384285286,zebra overlaminates products,20160201,20160207,1.00,2.35,0,0.00,29
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,152384285286,zebra overlaminates products,20160201,20160207,1.00,2.72,0,0.00,31
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,152382461286,zebra monochrome ribbons products,20160206,20160212,1.00,0.05,0,0.00,2
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,152382461286,zebra monochrome ribbons products,20160206,20160212,1.00,0.56,0,0.00,7
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,152382461286,zebra monochrome ribbons products,20160206,20160212,1.00,1.00,0,0.00,14
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,152382461286,zebra monochrome ribbons products,20160206,20160212,1.00,1.15,0,0.00,24
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,152382461286,zebra monochrome ribbons products,20160206,20160212,1.00,1.65,0,0.00,27
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,152382461286,zebra monochrome ribbons products,20160206,20160212,1.00,1.98,0,0.00,34
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,152382461286,zebra monochrome ribbons products,20160206,20160212,1.00,2.22,1,1.06,44
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,152382461286,zebra monochrome ribbons products,20160206,20160212,1.00,2.42,1,1.43,52
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,152382461286,zebra monochrome ribbons products,20160206,20160212,1.00,2.72,1,1.84,61
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,152382461286,zebra monochrome ribbons products,20160206,20160212,1.00,2.96,1,2.08,70
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,152379256806,magicard monochrome ribbons products,20160202,20160208,1.00,0.53,0,0.00,1
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,152379256806,magicard monochrome ribbons products,20160202,20160208,1.00,0.95,0,0.00,1
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,152379256806,magicard monochrome ribbons products,20160202,20160208,1.00,1.00,0,0.00,1
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,152379256806,magicard monochrome ribbons products,20160202,20160208,1.00,1.04,0,0.00,1
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,152379256806,magicard monochrome ribbons products,20160202,20160208,1.00,2.07,0,0.00,1
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,152379256806,magicard monochrome ribbons products,20160202,20160208,1.00,2.19,0,0.00,1
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,152380546086,datacard monochrome ribbons products,20160206,20160212,1.90,0.01,0,0.00,30
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,152380546086,datacard monochrome ribbons products,20160206,20160212,1.90,0.19,0,0.00,41
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,152380546086,datacard monochrome ribbons products,20160206,20160212,1.90,0.45,1,0.12,51
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,152380546086,datacard monochrome ribbons products,20160206,20160212,1.90,0.76,1,0.21,58
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,152380546086,datacard monochrome ribbons products,20160206,20160212,1.90,1.13,1,0.37,66
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,152380546086,datacard monochrome ribbons products,20160206,20160212,1.90,1.53,2,0.52,73
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,152380546086,datacard monochrome ribbons products,20160206,20160212,1.90,1.90,2,0.79,80
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,152380546086,datacard monochrome ribbons products,20160206,20160212,1.90,2.44,2,1.02,82
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,152380546086,datacard monochrome ribbons products,20160206,20160212,1.90,2.88,2,1.34,88
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,152380546086,datacard monochrome ribbons products,20160206,20160212,1.90,3.28,3,1.44,90
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,18283950120,zebra monochrome ribbons products,20160206,20160212,1.00,0.05,0,0.00,2
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,18283950120,zebra monochrome ribbons products,20160206,20160212,1.00,0.56,0,0.00,7
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,18283950120,zebra monochrome ribbons products,20160206,20160212,1.00,1.00,0,0.00,14
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,18283950120,zebra monochrome ribbons products,20160206,20160212,1.00,1.15,0,0.00,24
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,18283950120,zebra monochrome ribbons products,20160206,20160212,1.00,1.65,0,0.00,27
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,18283950120,zebra monochrome ribbons products,20160206,20160212,1.00,1.98,0,0.00,34
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,18283950120,zebra monochrome ribbons products,20160206,20160212,1.00,2.22,1,1.06,44
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,18283950120,zebra monochrome ribbons products,20160206,20160212,1.00,2.42,1,1.43,52
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,18283950120,zebra monochrome ribbons products,20160206,20160212,1.00,2.72,1,1.84,61
+318215406,GSN - Monochrome Ribbons - Brand: Zebra - Items - CL2,20317576206,GSN Item - Zebra Monochrome Ribbons Products,18283950120,zebra monochrome ribbons products,20160206,20160212,1.00,2.96,1,2.08,70
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,18283950120,datacard visitor management software products,20160206,20160212,1.90,0.01,0,0.00,1
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,18283950120,datacard visitor management software products,20160206,20160212,1.90,0.31,0,0.00,12
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,18283950120,datacard visitor management software products,20160206,20160212,1.90,0.69,0,0.00,21
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,18283950120,datacard visitor management software products,20160206,20160212,1.90,1.33,0,0.00,27
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,18283950120,datacard visitor management software products,20160206,20160212,1.90,1.90,0,0.00,31
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,18283950120,datacard visitor management software products,20160206,20160212,1.90,2.03,0,0.00,42
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,18283950120,datacard visitor management software products,20160206,20160212,1.90,2.41,1,0.49,53
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,18283950120,datacard visitor management software products,20160206,20160212,1.90,2.78,1,0.58,58
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,18283950120,datacard visitor management software products,20160206,20160212,1.90,3.33,1,0.64,62
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,18283950120,datacard visitor management software products,20160206,20160212,1.90,3.79,1,0.72,68
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,152380502166,datacard visitor management software products,20160206,20160212,1.90,0.01,0,0.00,1
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,152380502166,datacard visitor management software products,20160206,20160212,1.90,0.31,0,0.00,12
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,152380502166,datacard visitor management software products,20160206,20160212,1.90,0.69,0,0.00,21
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,152380502166,datacard visitor management software products,20160206,20160212,1.90,1.33,0,0.00,27
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,152380502166,datacard visitor management software products,20160206,20160212,1.90,1.90,0,0.00,31
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,152380502166,datacard visitor management software products,20160206,20160212,1.90,2.03,0,0.00,42
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,152380502166,datacard visitor management software products,20160206,20160212,1.90,2.41,1,0.49,53
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,152380502166,datacard visitor management software products,20160206,20160212,1.90,2.78,1,0.58,58
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,152380502166,datacard visitor management software products,20160206,20160212,1.90,3.33,1,0.64,62
+318216366,GSN - Visitor Management Software - Brand: Datacard - Items - CL2,20317723086,GSN Item - Datacard Visitor Management Software Products,152380502166,datacard visitor management software products,20160206,20160212,1.90,3.79,1,0.72,68
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,18283950120,datacard id card software products,20160206,20160212,1.90,0.14,0,0.00,1
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,18283950120,datacard id card software products,20160206,20160212,1.90,0.15,0,0.00,2
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,18283950120,datacard id card software products,20160206,20160212,1.90,0.34,0,0.00,3
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,18283950120,datacard id card software products,20160206,20160212,1.90,0.41,0,0.00,4
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,18283950120,datacard id card software products,20160206,20160212,1.90,0.53,0,0.00,5
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,18283950120,datacard id card software products,20160206,20160212,1.90,0.61,0,0.00,6
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,18283950120,datacard id card software products,20160206,20160212,1.90,0.98,0,0.00,6
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,18283950120,datacard id card software products,20160206,20160212,1.90,1.56,0,0.00,6
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,18283950120,datacard id card software products,20160206,20160212,1.90,1.90,0,0.00,6
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,18283950120,evolis id card printers products,20160202,20160208,1.00,0.51,0,0.00,39
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,18283950120,evolis id card printers products,20160202,20160208,1.00,1.00,0,0.00,77
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,18283950120,evolis id card printers products,20160202,20160208,1.00,1.35,1,0.68,113
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,18283950120,evolis id card printers products,20160202,20160208,1.00,1.73,1,0.85,147
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,18283950120,evolis id card printers products,20160202,20160208,1.00,2.03,1,1.36,189
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,18283950120,evolis id card printers products,20160202,20160208,1.00,2.20,2,3.13,244
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,18283950120,evolis id card printers products,20160202,20160208,1.00,2.45,2,4.38,295
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,18283950120,evolis id card printers products,20160202,20160208,1.00,2.74,3,4.95,345
+318214206,GSN - ID Card Printers - Brand: Evolis - Items - CL2,20317429086,GSN Item - Evolis ID Card Printers Products,18283950120,evolis id card printers products,20160202,20160208,1.00,3.00,3,5.66,389
+318215286,GSN - Monochrome Ribbons - Brand: Nisca - Items - CL2,20317576086,GSN Item - Nisca Monochrome Ribbons Products,18283950120,nisca monochrome ribbons products,20160206,20160212,1.00,2.24,0,0.00,1
+318215286,GSN - Monochrome Ribbons - Brand: Nisca - Items - CL2,20317576086,GSN Item - Nisca Monochrome Ribbons Products,18283950120,nisca monochrome ribbons products,20160206,20160212,1.00,2.57,0,0.00,2
+318215286,GSN - Monochrome Ribbons - Brand: Nisca - Items - CL2,20317576086,GSN Item - Nisca Monochrome Ribbons Products,18283950120,nisca monochrome ribbons products,20160206,20160212,1.00,2.65,0,0.00,4
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,152380906806,bayco night stick security accessories products,20160201,20160207,1.00,0.01,0,0.00,26
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,152380906806,bayco night stick security accessories products,20160201,20160207,1.00,0.56,2,0.21,305
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,152380906806,bayco night stick security accessories products,20160201,20160207,1.00,1.00,5,1.36,811
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,152380906806,bayco night stick security accessories products,20160201,20160207,1.00,1.33,8,2.94,1230
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,152380906806,bayco night stick security accessories products,20160201,20160207,1.00,1.59,11,5.24,1720
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,152380906806,bayco night stick security accessories products,20160201,20160207,1.00,1.83,16,8.65,2230
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,152380906806,bayco night stick security accessories products,20160201,20160207,1.00,2.09,20,12.00,2690
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,152380906806,bayco night stick security accessories products,20160201,20160207,1.00,2.38,24,17.10,3170
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,152380906806,bayco night stick security accessories products,20160201,20160207,1.00,2.68,28,22.00,3590
+318216126,GSN - Security Accessories - Brand: Bayco Night Stick - Items - CL2,20317674246,GSN Item - Bayco Night Stick Security Accessories Products,152380906806,bayco night stick security accessories products,20160201,20160207,1.00,3.00,32,27.90,4000
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,18283950120,zebra id card printers products,20160206,20160212,1.00,0.01,0,0.00,3
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,18283950120,zebra id card printers products,20160206,20160212,1.00,0.55,0,0.00,26
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,18283950120,zebra id card printers products,20160206,20160212,1.00,1.00,0,0.00,58
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,18283950120,zebra id card printers products,20160206,20160212,1.00,1.39,0,0.00,94
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,18283950120,zebra id card printers products,20160206,20160212,1.00,1.64,1,0.96,141
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,18283950120,zebra id card printers products,20160206,20160212,1.00,1.99,1,1.28,178
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,18283950120,zebra id card printers products,20160206,20160212,1.00,2.23,1,2.05,227
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,18283950120,zebra id card printers products,20160206,20160212,1.00,2.49,2,2.82,273
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,18283950120,zebra id card printers products,20160206,20160212,1.00,2.74,2,4.36,323
+318214686,GSN - ID Card Printers - Brand: Zebra - Items - CL2,20317478286,GSN Item - Zebra ID Card Printers Products,18283950120,zebra id card printers products,20160206,20160212,1.00,3.00,2,5.32,370
+318215646,GSN - Overlaminates - Brand: Magicard - Items - CL2,20317625166,GSN Item - Magicard Overlaminates Products,152379257046,magicard overlaminates products,20160206,20160212,1.00,2.65,0,0.00,1
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,18283950120,magicard monochrome ribbons products,20160202,20160208,1.00,0.53,0,0.00,1
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,18283950120,magicard monochrome ribbons products,20160202,20160208,1.00,0.95,0,0.00,1
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,18283950120,magicard monochrome ribbons products,20160202,20160208,1.00,1.00,0,0.00,1
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,18283950120,magicard monochrome ribbons products,20160202,20160208,1.00,1.04,0,0.00,1
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,18283950120,magicard monochrome ribbons products,20160202,20160208,1.00,2.07,0,0.00,1
+318215166,GSN - Monochrome Ribbons - Brand: Magicard - Items - CL2,20317575966,GSN Item - Magicard Monochrome Ribbons Products,18283950120,magicard monochrome ribbons products,20160202,20160208,1.00,2.19,0,0.00,1
+318215646,GSN - Overlaminates - Brand: Magicard - Items - CL2,20317625166,GSN Item - Magicard Overlaminates Products,18283950120,magicard overlaminates products,20160206,20160212,1.00,2.65,0,0.00,1
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,18283950120,zebra overlaminates products,20160201,20160207,1.00,0.01,0,0.00,1
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,18283950120,zebra overlaminates products,20160201,20160207,1.00,0.32,0,0.00,6
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,18283950120,zebra overlaminates products,20160201,20160207,1.00,0.75,0,0.00,9
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,18283950120,zebra overlaminates products,20160201,20160207,1.00,1.00,0,0.00,13
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,18283950120,zebra overlaminates products,20160201,20160207,1.00,1.18,0,0.00,17
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,18283950120,zebra overlaminates products,20160201,20160207,1.00,1.56,0,0.00,19
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,18283950120,zebra overlaminates products,20160201,20160207,1.00,1.94,0,0.00,21
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,18283950120,zebra overlaminates products,20160201,20160207,1.00,2.09,0,0.00,25
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,18283950120,zebra overlaminates products,20160201,20160207,1.00,2.35,0,0.00,29
+318215886,GSN - Overlaminates - Brand: Zebra - Items - CL2,20317674006,GSN Item - Zebra Overlaminates Products,18283950120,zebra overlaminates products,20160201,20160207,1.00,2.72,0,0.00,31
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,152383984806,datacard overlaminates products,20160206,20160212,1.90,0.02,0,0.00,1
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,152383984806,datacard overlaminates products,20160206,20160212,1.90,0.68,0,0.00,17
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,152383984806,datacard overlaminates products,20160206,20160212,1.90,1.30,0,0.00,34
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,152383984806,datacard overlaminates products,20160206,20160212,1.90,1.90,0,0.00,51
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,152383984806,datacard overlaminates products,20160206,20160212,1.90,2.24,1,1.27,72
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,152383984806,datacard overlaminates products,20160206,20160212,1.90,2.57,1,2.52,90
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,152383984806,datacard overlaminates products,20160206,20160212,1.90,2.72,2,3.07,117
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,152383984806,datacard overlaminates products,20160206,20160212,1.90,2.74,2,3.53,144
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,152383984806,datacard overlaminates products,20160206,20160212,1.90,3.17,2,3.85,160
+318215526,GSN - Overlaminates - Brand: Datacard - Items - CL2,20317624926,GSN Item - Datacard Overlaminates Products,152383984806,datacard overlaminates products,20160206,20160212,1.90,3.75,2,4.16,166
+318215286,GSN - Monochrome Ribbons - Brand: Nisca - Items - CL2,20317576086,GSN Item - Nisca Monochrome Ribbons Products,152383261446,nisca monochrome ribbons products,20160206,20160212,1.00,2.24,0,0.00,1
+318215286,GSN - Monochrome Ribbons - Brand: Nisca - Items - CL2,20317576086,GSN Item - Nisca Monochrome Ribbons Products,152383261446,nisca monochrome ribbons products,20160206,20160212,1.00,2.57,0,0.00,2
+318215286,GSN - Monochrome Ribbons - Brand: Nisca - Items - CL2,20317576086,GSN Item - Nisca Monochrome Ribbons Products,152383261446,nisca monochrome ribbons products,20160206,20160212,1.00,2.65,0,0.00,4
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,18283950120,nisca overlaminates products,20160206,20160212,1.00,0.93,0,0.00,1
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,18283950120,nisca overlaminates products,20160206,20160212,1.00,1.00,0,0.00,1
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,18283950120,nisca overlaminates products,20160206,20160212,1.00,1.55,0,0.00,2
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,18283950120,nisca overlaminates products,20160206,20160212,1.00,1.68,0,0.00,4
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,18283950120,nisca overlaminates products,20160206,20160212,1.00,2.12,0,0.00,8
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,18283950120,nisca overlaminates products,20160206,20160212,1.00,2.14,0,0.00,11
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,18283950120,nisca overlaminates products,20160206,20160212,1.00,2.29,0,0.00,12
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,18283950120,nisca overlaminates products,20160206,20160212,1.00,2.35,0,0.00,13
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,152379896406,datacard id card software products,20160206,20160212,1.90,0.14,0,0.00,1
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,152379896406,datacard id card software products,20160206,20160212,1.90,0.15,0,0.00,2
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,152379896406,datacard id card software products,20160206,20160212,1.90,0.34,0,0.00,3
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,152379896406,datacard id card software products,20160206,20160212,1.90,0.41,0,0.00,4
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,152379896406,datacard id card software products,20160206,20160212,1.90,0.53,0,0.00,5
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,152379896406,datacard id card software products,20160206,20160212,1.90,0.61,0,0.00,6
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,152379896406,datacard id card software products,20160206,20160212,1.90,0.98,0,0.00,6
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,152379896406,datacard id card software products,20160206,20160212,1.90,1.56,0,0.00,6
+318214806,GSN - ID Card Software - Brand: Datacard - Items - CL2,20317478406,GSN Item - Datacard ID Card Software Products,152379896406,datacard id card software products,20160206,20160212,1.90,1.90,0,0.00,6
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,18283950120,datacard monochrome ribbons products,20160206,20160212,1.90,0.01,0,0.00,30
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,18283950120,datacard monochrome ribbons products,20160206,20160212,1.90,0.19,0,0.00,41
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,18283950120,datacard monochrome ribbons products,20160206,20160212,1.90,0.45,1,0.12,51
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,18283950120,datacard monochrome ribbons products,20160206,20160212,1.90,0.76,1,0.21,58
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,18283950120,datacard monochrome ribbons products,20160206,20160212,1.90,1.13,1,0.37,66
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,18283950120,datacard monochrome ribbons products,20160206,20160212,1.90,1.53,2,0.52,73
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,18283950120,datacard monochrome ribbons products,20160206,20160212,1.90,1.90,2,0.79,80
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,18283950120,datacard monochrome ribbons products,20160206,20160212,1.90,2.44,2,1.02,82
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,18283950120,datacard monochrome ribbons products,20160206,20160212,1.90,2.88,2,1.34,88
+318214926,GSN - Monochrome Ribbons - Brand: Datacard - Items - CL2,20317527126,GSN Item - Datacard Monochrome Ribbons Products,18283950120,datacard monochrome ribbons products,20160206,20160212,1.90,3.28,3,1.44,90
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,152378480166,nisca overlaminates products,20160206,20160212,1.00,0.93,0,0.00,1
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,152378480166,nisca overlaminates products,20160206,20160212,1.00,1.00,0,0.00,1
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,152378480166,nisca overlaminates products,20160206,20160212,1.00,1.55,0,0.00,2
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,152378480166,nisca overlaminates products,20160206,20160212,1.00,1.68,0,0.00,4
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,152378480166,nisca overlaminates products,20160206,20160212,1.00,2.12,0,0.00,8
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,152378480166,nisca overlaminates products,20160206,20160212,1.00,2.14,0,0.00,11
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,152378480166,nisca overlaminates products,20160206,20160212,1.00,2.29,0,0.00,12
+318215766,GSN - Overlaminates - Brand: Nisca - Items - CL2,20317625286,GSN Item - Nisca Overlaminates Products,152378480166,nisca overlaminates products,20160206,20160212,1.00,2.35,0,0.00,13

@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes
+END
+Font_WOFF_Table_Directory_Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_WOFF_Table_Directory_Entry.php
+END
+Font_Glyph_Outline_Component.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Glyph_Outline_Component.php
+END
+Font_Header.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Header.php
+END
+Font_Table_Directory_Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_Directory_Entry.php
+END
+Adobe_Font_Metrics.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Adobe_Font_Metrics.php
+END
+Font_Table_name_Record.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_name_Record.php
+END
+Font_TrueType_Collection.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_TrueType_Collection.php
+END
+Font_Glyph_Outline_Composite.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Glyph_Outline_Composite.php
+END
+Font_Table_hmtx.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_hmtx.php
+END
+font.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/font.cls.php
+END
+Font_Table_name.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_name.php
+END
+Font_Table_maxp.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_maxp.php
+END
+Font_OpenType.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_OpenType.php
+END
+Font_Table_kern.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_kern.php
+END
+Font_TrueType.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_TrueType.php
+END
+Font_EOT.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_EOT.php
+END
+Font_Table_cmap.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_cmap.php
+END
+Font_Table_hhea.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_hhea.php
+END
+Font_Table.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table.php
+END
+Font_Glyph_Outline.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Glyph_Outline.php
+END
+Font_Table_head.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_head.php
+END
+Font_Table_post.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_post.php
+END
+Font_Table_loca.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_loca.php
+END
+Font_OpenType_Table_Directory_Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_OpenType_Table_Directory_Entry.php
+END
+Font_WOFF_Header.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_WOFF_Header.php
+END
+Font_TrueType_Table_Directory_Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_TrueType_Table_Directory_Entry.php
+END
+Font_WOFF.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_WOFF.php
+END
+Font_Table_os2.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_os2.php
+END
+Font_Binary_Stream.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Binary_Stream.php
+END
+Font.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font.php
+END
+Encoding_Map.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Encoding_Map.php
+END
+Font_EOT_Header.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_EOT_Header.php
+END
+Font_Glyph_Outline_Simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Glyph_Outline_Simple.php
+END
+Font_Table_glyf.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_Table_glyf.php
+END
+Font_TrueType_Header.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/btw_php/!svn/ver/8/system/helpers/dompdf/lib/php-font-lib/classes/Font_TrueType_Header.php
+END

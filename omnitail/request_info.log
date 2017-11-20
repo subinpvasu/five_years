@@ -1,0 +1,3211 @@
+<pre>Array
+(
+    [campaign10] => Array
+        (
+            [name] => campaign10
+            [id] => 673076086
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673091182
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [39972674771] => Array
+        (
+            [id] => 39972674771
+            [name] => adgroup10
+            [campaignId] => 673076086
+            [campaign_name] => campaign10
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [854396325] => Array
+                        (
+                            [keyword] => keyword201
+                            [matchType] => BROAD
+                            [id] => 854396325
+                            [isDownloaded] => 0
+                        )
+
+                    [854398365] => Array
+                        (
+                            [keyword] => keyword301
+                            [matchType] => BROAD
+                            [id] => 854398365
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [33932810043] => Array
+        (
+            [id] => 33932810043
+            [name] => adgroup101
+            [campaignId] => 673091182
+            [campaign_name] => campaign101
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [854396325] => Array
+                        (
+                            [keyword] => keyword201
+                            [matchType] => BROAD
+                            [id] => 854396325
+                            [isDownloaded] => 0
+                        )
+
+                    [854398365] => Array
+                        (
+                            [keyword] => keyword301
+                            [matchType] => BROAD
+                            [id] => 854398365
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [campaign10|adgroup10] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword201
+                    [3] => keyword301
+                    [4] => keyword401
+                )
+
+        )
+
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword201
+                    [3] => keyword301
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876115] => Array
+        (
+            [keyword] => keyword10
+            [matchType] => BROAD
+            [id] => 1052876115
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876325] => Array
+        (
+            [keyword] => keyword20
+            [matchType] => BROAD
+            [id] => 1052876325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876445] => Array
+        (
+            [keyword] => keyword30
+            [matchType] => BROAD
+            [id] => 1052876445
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876625] => Array
+        (
+            [keyword] => keyword40
+            [matchType] => BROAD
+            [id] => 1052876625
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads CompletedExtended Text Ads Completed<pre>Array
+(
+    [campaign10] => Array
+        (
+            [name] => campaign10
+            [id] => 673076086
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673091182
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [39972674771] => Array
+        (
+            [id] => 39972674771
+            [name] => adgroup10
+            [campaignId] => 673076086
+            [campaign_name] => campaign10
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [1074228562] => Array
+                        (
+                            [keyword] => keyword1010
+                            [matchType] => BROAD
+                            [id] => 1074228562
+                            [isDownloaded] => 0
+                        )
+
+                    [854396325] => Array
+                        (
+                            [keyword] => keyword201
+                            [matchType] => BROAD
+                            [id] => 854396325
+                            [isDownloaded] => 0
+                        )
+
+                    [854398365] => Array
+                        (
+                            [keyword] => keyword301
+                            [matchType] => BROAD
+                            [id] => 854398365
+                            [isDownloaded] => 0
+                        )
+
+                    [1076481142] => Array
+                        (
+                            [keyword] => keyword4010
+                            [matchType] => BROAD
+                            [id] => 1076481142
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [33932810043] => Array
+        (
+            [id] => 33932810043
+            [name] => adgroup101
+            [campaignId] => 673091182
+            [campaign_name] => campaign101
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [campaign10|adgroup10] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword1010
+                    [2] => keyword201
+                    [3] => keyword301
+                    [4] => keyword4010
+                )
+
+        )
+
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876115] => Array
+        (
+            [keyword] => keyword10
+            [matchType] => BROAD
+            [id] => 1052876115
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876325] => Array
+        (
+            [keyword] => keyword20
+            [matchType] => BROAD
+            [id] => 1052876325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876445] => Array
+        (
+            [keyword] => keyword30
+            [matchType] => BROAD
+            [id] => 1052876445
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876625] => Array
+        (
+            [keyword] => keyword40
+            [matchType] => BROAD
+            [id] => 1052876625
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [campaign10] => Array
+        (
+            [name] => campaign10
+            [id] => 673076086
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673091182
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [39972674771] => Array
+        (
+            [id] => 39972674771
+            [name] => adgroup10
+            [campaignId] => 673076086
+            [campaign_name] => campaign10
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [33932810043] => Array
+        (
+            [id] => 33932810043
+            [name] => adgroup101
+            [campaignId] => 673091182
+            [campaign_name] => campaign101
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876115] => Array
+        (
+            [keyword] => keyword10
+            [matchType] => BROAD
+            [id] => 1052876115
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876325] => Array
+        (
+            [keyword] => keyword20
+            [matchType] => BROAD
+            [id] => 1052876325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876445] => Array
+        (
+            [keyword] => keyword30
+            [matchType] => BROAD
+            [id] => 1052876445
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876625] => Array
+        (
+            [keyword] => keyword40
+            [matchType] => BROAD
+            [id] => 1052876625
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [campaign10] => Array
+        (
+            [name] => campaign10
+            [id] => 673076086
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673091182
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [test_campaign] => Array
+        (
+            [name] => test_campaign
+            [id] => 673238578
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 0
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [39972674771] => Array
+        (
+            [id] => 39972674771
+            [name] => adgroup10
+            [campaignId] => 673076086
+            [campaign_name] => campaign10
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [33932810043] => Array
+        (
+            [id] => 33932810043
+            [name] => adgroup101
+            [campaignId] => 673091182
+            [campaign_name] => campaign101
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [33734653429] => Array
+        (
+            [name] => test_adgroupabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd
+            [id] => 33734653429
+            [bid] => 25000000
+            [campaign_name] => test_campaign
+            [campaignId] => 673238578
+            [isDownloaded] => 0
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [1074228562] => Array
+                        (
+                            [keyword] => keyword1010
+                            [matchType] => BROAD
+                            [id] => 1074228562
+                            [isDownloaded] => 0
+                        )
+
+                    [854396325] => Array
+                        (
+                            [keyword] => keyword201
+                            [matchType] => BROAD
+                            [id] => 854396325
+                            [isDownloaded] => 0
+                        )
+
+                    [854398365] => Array
+                        (
+                            [keyword] => keyword301
+                            [matchType] => BROAD
+                            [id] => 854398365
+                            [isDownloaded] => 0
+                        )
+
+                    [1076481142] => Array
+                        (
+                            [keyword] => keyword4010
+                            [matchType] => BROAD
+                            [id] => 1076481142
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [test_campaign|test_adgroupabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword1010
+                    [2] => keyword201
+                    [3] => keyword301
+                    [4] => keyword4010
+                )
+
+        )
+
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876115] => Array
+        (
+            [keyword] => keyword10
+            [matchType] => BROAD
+            [id] => 1052876115
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876325] => Array
+        (
+            [keyword] => keyword20
+            [matchType] => BROAD
+            [id] => 1052876325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876445] => Array
+        (
+            [keyword] => keyword30
+            [matchType] => BROAD
+            [id] => 1052876445
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876625] => Array
+        (
+            [keyword] => keyword40
+            [matchType] => BROAD
+            [id] => 1052876625
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [campaign10] => Array
+        (
+            [name] => campaign10
+            [id] => 673076086
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673091182
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [test_campaign] => Array
+        (
+            [name] => test_campaign
+            [id] => 673238578
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [39972674771] => Array
+        (
+            [id] => 39972674771
+            [name] => adgroup10
+            [campaignId] => 673076086
+            [campaign_name] => campaign10
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [33932810043] => Array
+        (
+            [id] => 33932810043
+            [name] => adgroup101
+            [campaignId] => 673091182
+            [campaign_name] => campaign101
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [33734653429] => Array
+        (
+            [id] => 33734653429
+            [name] => test_adgroupabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd
+            [campaignId] => 673238578
+            [campaign_name] => test_campaign
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [1074228562] => Array
+                        (
+                            [keyword] => keyword1010
+                            [matchType] => BROAD
+                            [id] => 1074228562
+                            [isDownloaded] => 0
+                        )
+
+                    [854396325] => Array
+                        (
+                            [keyword] => keyword201
+                            [matchType] => BROAD
+                            [id] => 854396325
+                            [isDownloaded] => 0
+                        )
+
+                    [854398365] => Array
+                        (
+                            [keyword] => keyword301
+                            [matchType] => BROAD
+                            [id] => 854398365
+                            [isDownloaded] => 0
+                        )
+
+                    [1076481142] => Array
+                        (
+                            [keyword] => keyword4010
+                            [matchType] => BROAD
+                            [id] => 1076481142
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [test_campaign|test_adgroupabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword1010
+                    [2] => keyword201
+                    [3] => keyword301
+                    [4] => keyword4010
+                )
+
+        )
+
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876115] => Array
+        (
+            [keyword] => keyword10
+            [matchType] => BROAD
+            [id] => 1052876115
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876325] => Array
+        (
+            [keyword] => keyword20
+            [matchType] => BROAD
+            [id] => 1052876325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876445] => Array
+        (
+            [keyword] => keyword30
+            [matchType] => BROAD
+            [id] => 1052876445
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876625] => Array
+        (
+            [keyword] => keyword40
+            [matchType] => BROAD
+            [id] => 1052876625
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [campaign10] => Array
+        (
+            [name] => campaign10
+            [id] => 673076086
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673091182
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [test_campaign] => Array
+        (
+            [name] => test_campaign
+            [id] => 673238578
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [39972674771] => Array
+        (
+            [id] => 39972674771
+            [name] => adgroup10
+            [campaignId] => 673076086
+            [campaign_name] => campaign10
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [33932810043] => Array
+        (
+            [id] => 33932810043
+            [name] => adgroup101
+            [campaignId] => 673091182
+            [campaign_name] => campaign101
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [33734653429] => Array
+        (
+            [id] => 33734653429
+            [name] => test_adgroupabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd
+            [campaignId] => 673238578
+            [campaign_name] => test_campaign
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876115] => Array
+        (
+            [keyword] => keyword10
+            [matchType] => BROAD
+            [id] => 1052876115
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876325] => Array
+        (
+            [keyword] => keyword20
+            [matchType] => BROAD
+            [id] => 1052876325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876445] => Array
+        (
+            [keyword] => keyword30
+            [matchType] => BROAD
+            [id] => 1052876445
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876625] => Array
+        (
+            [keyword] => keyword40
+            [matchType] => BROAD
+            [id] => 1052876625
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [campaign10] => Array
+        (
+            [name] => campaign10
+            [id] => 673076086
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673091182
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [test_campaign] => Array
+        (
+            [name] => test_campaign
+            [id] => 673238578
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [39972674771] => Array
+        (
+            [id] => 39972674771
+            [name] => adgroup10
+            [campaignId] => 673076086
+            [campaign_name] => campaign10
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [33932810043] => Array
+        (
+            [id] => 33932810043
+            [name] => adgroup101
+            [campaignId] => 673091182
+            [campaign_name] => campaign101
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [33734653429] => Array
+        (
+            [id] => 33734653429
+            [name] => test_adgroupabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd
+            [campaignId] => 673238578
+            [campaign_name] => test_campaign
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876115] => Array
+        (
+            [keyword] => keyword10
+            [matchType] => BROAD
+            [id] => 1052876115
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876325] => Array
+        (
+            [keyword] => keyword20
+            [matchType] => BROAD
+            [id] => 1052876325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876445] => Array
+        (
+            [keyword] => keyword30
+            [matchType] => BROAD
+            [id] => 1052876445
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876625] => Array
+        (
+            [keyword] => keyword40
+            [matchType] => BROAD
+            [id] => 1052876625
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [campaign10] => Array
+        (
+            [name] => campaign10
+            [id] => 673076086
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673091182
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [test_campaign] => Array
+        (
+            [name] => test_campaign
+            [id] => 673238578
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [39972674771] => Array
+        (
+            [id] => 39972674771
+            [name] => adgroup10
+            [campaignId] => 673076086
+            [campaign_name] => campaign10
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [33932810043] => Array
+        (
+            [id] => 33932810043
+            [name] => adgroup101
+            [campaignId] => 673091182
+            [campaign_name] => campaign101
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [33734653429] => Array
+        (
+            [id] => 33734653429
+            [name] => test_adgroupabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd
+            [campaignId] => 673238578
+            [campaign_name] => test_campaign
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876115] => Array
+        (
+            [keyword] => keyword10
+            [matchType] => BROAD
+            [id] => 1052876115
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876325] => Array
+        (
+            [keyword] => keyword20
+            [matchType] => BROAD
+            [id] => 1052876325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876445] => Array
+        (
+            [keyword] => keyword30
+            [matchType] => BROAD
+            [id] => 1052876445
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876625] => Array
+        (
+            [keyword] => keyword40
+            [matchType] => BROAD
+            [id] => 1052876625
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [campaign10] => Array
+        (
+            [name] => campaign10
+            [id] => 673076086
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673091182
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [test_campaign] => Array
+        (
+            [name] => test_campaign
+            [id] => 673238578
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [39972674771] => Array
+        (
+            [id] => 39972674771
+            [name] => adgroup10
+            [campaignId] => 673076086
+            [campaign_name] => campaign10
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [33932810043] => Array
+        (
+            [id] => 33932810043
+            [name] => adgroup101
+            [campaignId] => 673091182
+            [campaign_name] => campaign101
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [33734653429] => Array
+        (
+            [id] => 33734653429
+            [name] => test_adgroupabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd
+            [campaignId] => 673238578
+            [campaign_name] => test_campaign
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876115] => Array
+        (
+            [keyword] => keyword10
+            [matchType] => BROAD
+            [id] => 1052876115
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876325] => Array
+        (
+            [keyword] => keyword20
+            [matchType] => BROAD
+            [id] => 1052876325
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876445] => Array
+        (
+            [keyword] => keyword30
+            [matchType] => BROAD
+            [id] => 1052876445
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1052876625] => Array
+        (
+            [keyword] => keyword40
+            [matchType] => BROAD
+            [id] => 1052876625
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 39972674771
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 33932810043
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [test_campaign] => Array
+        (
+            [name] => test_campaign
+            [id] => 673280836
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 0
+            [isUpdated] => 0
+        )
+
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673280839
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 0
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [32715114445] => Array
+        (
+            [name] => adgroup101
+            [id] => 32715114445
+            [bid] => 25000000
+            [campaign_name] => test_campaign
+            [campaignId] => 673280836
+            [isDownloaded] => 0
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [1074228562] => Array
+                        (
+                            [keyword] => keyword1010
+                            [matchType] => BROAD
+                            [id] => 1074228562
+                            [isDownloaded] => 0
+                        )
+
+                    [854396325] => Array
+                        (
+                            [keyword] => keyword201
+                            [matchType] => BROAD
+                            [id] => 854396325
+                            [isDownloaded] => 0
+                        )
+
+                    [854398365] => Array
+                        (
+                            [keyword] => keyword301
+                            [matchType] => BROAD
+                            [id] => 854398365
+                            [isDownloaded] => 0
+                        )
+
+                    [1076481142] => Array
+                        (
+                            [keyword] => keyword4010
+                            [matchType] => BROAD
+                            [id] => 1076481142
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [32715114605] => Array
+        (
+            [name] => adgroup101
+            [id] => 32715114605
+            [bid] => 25000000
+            [campaign_name] => campaign101
+            [campaignId] => 673280839
+            [isDownloaded] => 0
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [test_campaign|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword1010
+                    [2] => keyword201
+                    [3] => keyword301
+                    [4] => keyword4010
+                )
+
+        )
+
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673280839
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [test_campaign] => Array
+        (
+            [name] => test_campaign
+            [id] => 673280836
+            [budgetid] => 941743085
+            [amount] => 100000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [32715114445] => Array
+        (
+            [id] => 32715114445
+            [name] => adgroup101
+            [campaignId] => 673280836
+            [campaign_name] => test_campaign
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [1074228562] => Array
+                        (
+                            [keyword] => keyword1010
+                            [matchType] => BROAD
+                            [id] => 1074228562
+                            [isDownloaded] => 0
+                        )
+
+                    [854396325] => Array
+                        (
+                            [keyword] => keyword201
+                            [matchType] => BROAD
+                            [id] => 854396325
+                            [isDownloaded] => 0
+                        )
+
+                    [854398365] => Array
+                        (
+                            [keyword] => keyword301
+                            [matchType] => BROAD
+                            [id] => 854398365
+                            [isDownloaded] => 0
+                        )
+
+                    [1076481142] => Array
+                        (
+                            [keyword] => keyword4010
+                            [matchType] => BROAD
+                            [id] => 1076481142
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [32715114605] => Array
+        (
+            [id] => 32715114605
+            [name] => adgroup101
+            [campaignId] => 673280839
+            [campaign_name] => campaign101
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [test_campaign|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword1010
+                    [2] => keyword201
+                    [3] => keyword301
+                    [4] => keyword4010
+                )
+
+        )
+
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673280839
+            [budgetid] => 942010252
+            [amount] => 110000000
+            [isDownloaded] => 1
+            [isUpdated] => 1
+        )
+
+    [test_campaign] => Array
+        (
+            [name] => test_campaign
+            [id] => 673280836
+            [budgetid] => 942114936
+            [amount] => 110000000
+            [isDownloaded] => 1
+            [isUpdated] => 1
+        )
+
+)
+Array
+(
+    [32715114445] => Array
+        (
+            [id] => 32715114445
+            [name] => adgroup101
+            [campaignId] => 673280836
+            [campaign_name] => test_campaign
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [1074228562] => Array
+                        (
+                            [keyword] => keyword1010
+                            [matchType] => BROAD
+                            [id] => 1074228562
+                            [isDownloaded] => 0
+                        )
+
+                    [854396325] => Array
+                        (
+                            [keyword] => keyword201
+                            [matchType] => BROAD
+                            [id] => 854396325
+                            [isDownloaded] => 0
+                        )
+
+                    [854398365] => Array
+                        (
+                            [keyword] => keyword301
+                            [matchType] => BROAD
+                            [id] => 854398365
+                            [isDownloaded] => 0
+                        )
+
+                    [1076481142] => Array
+                        (
+                            [keyword] => keyword4010
+                            [matchType] => BROAD
+                            [id] => 1076481142
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [32715114605] => Array
+        (
+            [id] => 32715114605
+            [name] => adgroup101
+            [campaignId] => 673280839
+            [campaign_name] => campaign101
+            [bid] => 25000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [test_campaign|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword1010
+                    [2] => keyword201
+                    [3] => keyword301
+                    [4] => keyword4010
+                )
+
+        )
+
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673280839
+            [budgetid] => 942010252
+            [amount] => 110000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [test_campaign] => Array
+        (
+            [name] => test_campaign
+            [id] => 673280836
+            [budgetid] => 942114936
+            [amount] => 110000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [32715114445] => Array
+        (
+            [id] => 32715114445
+            [name] => adgroup101
+            [campaignId] => 673280836
+            [campaign_name] => test_campaign
+            [bid] => 30000000
+            [isDownloaded] => 1
+            [isUpdated] => 1
+            [Keyword] => Array
+                (
+                    [1074228562] => Array
+                        (
+                            [keyword] => keyword1010
+                            [matchType] => BROAD
+                            [id] => 1074228562
+                            [isDownloaded] => 0
+                        )
+
+                    [854396325] => Array
+                        (
+                            [keyword] => keyword201
+                            [matchType] => BROAD
+                            [id] => 854396325
+                            [isDownloaded] => 0
+                        )
+
+                    [854398365] => Array
+                        (
+                            [keyword] => keyword301
+                            [matchType] => BROAD
+                            [id] => 854398365
+                            [isDownloaded] => 0
+                        )
+
+                    [1076481142] => Array
+                        (
+                            [keyword] => keyword4010
+                            [matchType] => BROAD
+                            [id] => 1076481142
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [32715114605] => Array
+        (
+            [id] => 32715114605
+            [name] => adgroup101
+            [campaignId] => 673280839
+            [campaign_name] => campaign101
+            [bid] => 30000000
+            [isDownloaded] => 1
+            [isUpdated] => 1
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [test_campaign|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword1010
+                    [2] => keyword201
+                    [3] => keyword301
+                    [4] => keyword4010
+                )
+
+        )
+
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed<pre>Array
+(
+    [campaign101] => Array
+        (
+            [name] => campaign101
+            [id] => 673280839
+            [budgetid] => 942010252
+            [amount] => 110000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+    [test_campaign] => Array
+        (
+            [name] => test_campaign
+            [id] => 673280836
+            [budgetid] => 942114936
+            [amount] => 110000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+        )
+
+)
+Array
+(
+    [32715114445] => Array
+        (
+            [id] => 32715114445
+            [name] => adgroup101
+            [campaignId] => 673280836
+            [campaign_name] => test_campaign
+            [bid] => 30000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [1074228562] => Array
+                        (
+                            [keyword] => keyword1010
+                            [matchType] => BROAD
+                            [id] => 1074228562
+                            [isDownloaded] => 0
+                        )
+
+                    [854396325] => Array
+                        (
+                            [keyword] => keyword201
+                            [matchType] => BROAD
+                            [id] => 854396325
+                            [isDownloaded] => 0
+                        )
+
+                    [854398365] => Array
+                        (
+                            [keyword] => keyword301
+                            [matchType] => BROAD
+                            [id] => 854398365
+                            [isDownloaded] => 0
+                        )
+
+                    [1076481142] => Array
+                        (
+                            [keyword] => keyword4010
+                            [matchType] => BROAD
+                            [id] => 1076481142
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+    [32715114605] => Array
+        (
+            [id] => 32715114605
+            [name] => adgroup101
+            [campaignId] => 673280839
+            [campaign_name] => campaign101
+            [bid] => 30000000
+            [isDownloaded] => 1
+            [isUpdated] => 0
+            [Keyword] => Array
+                (
+                    [854399295] => Array
+                        (
+                            [keyword] => keyword101
+                            [matchType] => BROAD
+                            [id] => 854399295
+                            [isDownloaded] => 0
+                        )
+
+                    [1913910450] => Array
+                        (
+                            [keyword] => keyword2010
+                            [matchType] => BROAD
+                            [id] => 1913910450
+                            [isDownloaded] => 0
+                        )
+
+                    [2268345201] => Array
+                        (
+                            [keyword] => keyword3010
+                            [matchType] => BROAD
+                            [id] => 2268345201
+                            [isDownloaded] => 0
+                        )
+
+                    [854393835] => Array
+                        (
+                            [keyword] => keyword401
+                            [matchType] => BROAD
+                            [id] => 854393835
+                            [isDownloaded] => 0
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [test_campaign|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword1010
+                    [2] => keyword201
+                    [3] => keyword301
+                    [4] => keyword4010
+                )
+
+        )
+
+    [campaign101|adgroup101] => Array
+        (
+            [0] => Array
+                (
+                    [1] => keyword101
+                    [2] => keyword2010
+                    [3] => keyword3010
+                    [4] => keyword401
+                )
+
+        )
+
+)
+Array
+(
+    [854393835] => Array
+        (
+            [keyword] => keyword401
+            [matchType] => BROAD
+            [id] => 854393835
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [854396325] => Array
+        (
+            [keyword] => keyword201
+            [matchType] => BROAD
+            [id] => 854396325
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [854398365] => Array
+        (
+            [keyword] => keyword301
+            [matchType] => BROAD
+            [id] => 854398365
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [854399295] => Array
+        (
+            [keyword] => keyword101
+            [matchType] => BROAD
+            [id] => 854399295
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [1074228562] => Array
+        (
+            [keyword] => keyword1010
+            [matchType] => BROAD
+            [id] => 1074228562
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [1076481142] => Array
+        (
+            [keyword] => keyword4010
+            [matchType] => BROAD
+            [id] => 1076481142
+            [AdGroupId] => 32715114445
+            [isDownloaded] => 1
+        )
+
+    [1913910450] => Array
+        (
+            [keyword] => keyword2010
+            [matchType] => BROAD
+            [id] => 1913910450
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+    [2268345201] => Array
+        (
+            [keyword] => keyword3010
+            [matchType] => BROAD
+            [id] => 2268345201
+            [AdGroupId] => 32715114605
+            [isDownloaded] => 1
+        )
+
+)
+</pre>Extended Text Ads Completed

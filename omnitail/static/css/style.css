@@ -1,0 +1,325 @@
+body{background-color:#f3f3f3 ;}
+html,body{
+    position: relative;
+    height: 100%;
+}
+.logout{
+    color: #000;
+    margin-right: 11px;
+    text-align: right;
+    text-decoration: underline;
+}
+.navagation{
+    margin-top: 5px;
+    float: right;
+}
+
+header{
+    border-bottom:1px solid #000;
+    padding:10px 10px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;}
+
+
+section{
+    padding:40px 10px;
+    }
+.box{
+    overflow-y:auto;
+    border:3px solid #000;
+    padding:10px;
+    background-color: #fff;}
+
+.inner-box{
+    border:1px solid #000;
+    padding:12px 10px;
+    margin-bottom:15px;}
+
+.account-list{
+    margin:6px 0 0;
+    padding:0px;
+    overflow-y:auto;}
+
+.account-list li {
+    display: inline-block;
+    font-size: 15px;
+    list-style: outside none none;
+    text-align: center;
+    width: 24%;
+}
+
+.account-list li span{
+    font-weight: bold;
+    margin-left:3px;
+}
+.discount-btn{
+    background-color:#ccc;
+    color:#fff;
+    border:1px solid #000;
+    border-radius:8px;
+    margin-right:20px;
+    float: left;
+}
+.customer_id {
+    margin-right: 50px;
+    text-align: left;
+}
+.customer_id_lable {
+    margin-right: 50px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.customer_lable{
+    font-size: 10px;
+}
+.account{
+    font-weight:bold;
+    margin-top:45px;
+    color: #030303;
+    }
+.discount-btn2 {
+    background-color: #ccc;
+    border: 1px solid #000;
+    border-radius: 8px;
+    color: #000;
+    margin-right: 30px;
+    padding: 8px 15px;
+    text-decoration: underline;
+}
+.number li a{
+    border:0px !important;
+    color:#000;
+    padding:6px 8px;
+}
+.number {
+    float:right;
+    margin:0px;
+}
+/*   popoup css   */
+.modal-body .badge{
+    background-color: transparent !important;
+    border: medium none !important;
+    border-radius: 0 !important;
+    color: #333;
+    float: right;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+
+    margin-right: 52px;
+    padding: 1px 0 0;
+   }
+   .drag-file{
+       min-height: 200px;
+    padding: 0 10px;
+    border:1px solid #ccc;
+    margin-left:14px;
+    margin-right:14px;
+    text-align:center;
+    margin-top:8px;}
+.drag-file h3{
+    line-height:114px;}
+
+.modal-body P{
+    font-weight:bold;}
+
+.activity-box{
+    border:1px solid #ccc;
+    overflow-y:auto;
+    min-height:230px;}
+.modal-activity-box{
+    border:2px solid #ccc !important;}
+.modal-activity-box .modal-body{
+    overflow-y:auto;
+    }
+.function-btn{
+    bottom:0px;
+    height:30px;
+    padding:0px 17px;}
+.activity-content{
+    min-height:190px;
+    overflow-y:auto;
+    padding:0px 5px;}
+
+.activity-btn{
+    background-color:#ccc !important;
+    padding:5px 25px !important;}
+.budget {
+    float: right;
+    padding-right: 25px;
+}
+/*   end popoup css   */
+
+ @media only screen and (max-width: 479px) {
+    .account-list li{
+        display:block;
+        padding:0;
+        text-align:left;
+    }
+    .discount-btn{
+        margin-top:15px;
+        margin-right:15px;
+    }
+    .discount-btn2{
+        margin-right:0px;
+    }
+}
+
+@media only screen and (min-width: 768px)and (max-width:995px) {
+    .discount-btn{
+        margin-right:3px;
+    }
+    .account-list li{
+        padding:0px 12px;
+    }
+
+    .discount-btn2{
+        margin-right:0px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 667px) and  (orientation: landscape) {
+    .account-list li{
+        display:block;
+        padding:0;
+        text-align:left;
+    }
+    .discount-btn{
+        margin-top:15px;
+        margin-right:15px;
+    }
+    .discount-btn2{
+        margin-right:0px;
+    }
+}
+.login-container{
+    position: relative;
+    width: 300px;
+    margin: 80px auto;
+    padding: 20px 40px 40px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+#output{
+    position: absolute;
+    width: 300px;
+    top: -75px;
+    left: 0;
+    color: #fff;
+}
+
+#output.alert-success{
+    background: rgb(25, 204, 25);
+}
+
+#output.alert-danger{
+    background: rgb(228, 105, 105);
+}
+
+
+.login-container::before,.login-container::after{
+    content: "";
+    position: absolute;
+    width: 100%;height: 100%;
+    top: 3.5px;left: 0;
+    background: #fff;
+    z-index: -1;
+    -webkit-transform: rotateZ(4deg);
+    -moz-transform: rotateZ(4deg);
+    -ms-transform: rotateZ(4deg);
+    border: 1px solid #ccc;
+
+}
+
+.login-container::after{
+    top: 5px;
+    z-index: -2;
+    -webkit-transform: rotateZ(-2deg);
+     -moz-transform: rotateZ(-2deg);
+      -ms-transform: rotateZ(-2deg);
+
+}
+
+.avatar{
+    width: 100px;height: 100px;
+    margin: 10px auto 30px;
+    border-radius: 100%;
+    border: 2px solid #aaa;
+    background-size: cover;
+}
+
+.form-box input{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    height:40px;
+    border: 1px solid #ccc;;
+    background: #fafafa;
+    transition:0.2s ease-in-out;
+
+}
+
+.form-box input:focus{
+    outline: 0;
+    background: #eee;
+}
+
+.form-box input[type="text"]{
+    border-radius: 5px 5px 0 0;
+    text-transform: lowercase;
+}
+
+.form-box input[type="password"]{
+    border-radius: 0 0 5px 5px;
+    border-top: 0;
+}
+
+.form-box button.login{
+    margin-top:15px;
+    padding: 10px 20px;
+}
+.logo{
+    padding-left:60px;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

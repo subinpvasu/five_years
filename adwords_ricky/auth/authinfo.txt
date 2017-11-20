@@ -1,0 +1,9 @@
+Auth Infos 
+Newly created code is 4/yyIIpGQO5E_Eh4DveGwWwETdHUnJVkUHwdgXWYBzhd8 
+client_id::468464043387.apps.googleusercontent.com:: 
+client_secret::HMEdj6M_kK37djfKEXQLQv06:: 
+refresh_token::1/q8QrD9zz3_s-Zgi6D3JZ0k6WJcCk0iJja03CY4GXie1IgOrJDtdun6zK6XiATCKT:: 
+access_token::ya29.xAGXSGOUdM4pLNVj40x3s7x_zHrkegC9LGKdHO5jDpiHAoil-Dx_hYHhiKKGFVG2rUXz:: 
+token_type::Bearer:: 
+expires_in::3600:: 
+timestamp::1438619997:: 

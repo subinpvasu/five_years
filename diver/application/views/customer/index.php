@@ -1,0 +1,1032 @@
+<?php 
+date_default_timezone_set('US/Pacific');
+?>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Welcome to BTW Dive</title>
+
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./css/jquery-ui.css"/>
+<script src="./jquery/jquery-1.10.2.js"></script>
+<script src="./jquery/jquery-ui.js"></script>
+<link rel="stylesheet" href="./css/progress.css">
+<script src="./jquery/jquery.min.js"></script>
+<script src="./jquery/progress.js"></script>
+<script src="./jquery/progressui.js"></script>
+<script>
+$(function() {
+	$( "#from_mi" ).datepicker();
+	});
+	$(function() {
+	$( "#to_mi" ).datepicker();
+	});
+	$(function() {
+	$( "#from_li" ).datepicker();
+	});
+	$(function() {
+	$( "#to_li" ).datepicker();
+	});
+function redirectPerfect(url)
+{
+	//window.location=url;
+	var m = '<a href="'+url+'" target="_blank" id="pathlink"></a>';
+	document.getElementById("path").innerHTML=m;
+	document.getElementById("pathlink").click();
+
+	
+}
+//Monthly Invoices-Report
+function monthlyInvoices()
+{
+    document.getElementById('montly_inv').style.display='block';document.getElementById('fade').style.display='block';
+	
+}
+//List of invoices
+function listInvoices()
+{
+    document.getElementById('list_invoice').style.display='block';document.getElementById('fade2').style.display='block';
+	//alert("Under Construction.");
+}
+//monthly invoice clik
+   function print_mon_inv()
+    {
+       
+        var from = $("#from_mi").val();
+        var to = $("#to_mi").val();
+      document.getElementById('montly_inv').style.display='none';
+      document.getElementById('fade').style.display='none';
+      from = from.replace(/\//g,'^');
+      to = to.replace(/\//g,'^');
+    window.open("<?php echo site_url('/customer/displayMonthlyInvoices') ?>" + '/'+ from + '/'+ to);
+      // alert("hai");
+    }
+     function print_list_inv()
+    {
+       
+        var from = $("#from_li").val();
+        var to = $("#to_li").val();
+      document.getElementById('list_invoice').style.display='none';
+      document.getElementById('fade2').style.display='none';
+      from = from.replace(/\//g,'^');
+      to = to.replace(/\//g,'^');
+    window.open("<?php echo site_url('/customer/list_invoices') ?>" + '/'+ from + '/'+ to+'/0');
+      // alert("hai");
+    }
+function customerSearchByName(mode)
+{
+	var mask;
+	var dialog;
+	var search;
+	var heading;
+	var info;
+	var details;
+	var foot;
+
+	var subsearcha;
+	var subsearchb;
+	
+	
+	dialog = document.createElement("div");
+	mask = document.createElement("div");
+	search  = document.createElement("div");
+	heading = document.createElement("div");
+	info = document.createElement("div");
+	details = document.createElement("div");
+	foot = document.createElement("div");
+
+	//dialog.setAttribute('onmouseover','updateCounter()');//onblur="resetCounter()"
+	//dialog.setAttribute('onblur','resetCounter()');
+	
+	subsearcha = document.createElement("span");
+	subsearchb = document.createElement("span");
+
+	
+	mask.id="maskid";
+	dialog.id="dialogid";
+	search.id="searchid";
+	heading.id="headingid";
+	info.id="infoid";
+	details.id="detailsid";
+	foot.id="footid";
+
+	subsearcha.id="subsearchaid";
+	subsearchb.id="subsearchbid"; 
+	/****************************/
+	
+    
+	subsearcha.innerHTML='Enter Customer Name';
+
+	switch(mode)
+	{
+	case 1:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,1)">';
+		break;
+	case 2:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,2)">';
+		break;
+	case 3:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,3)">';
+		break;
+	case 4:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,4)">';
+		break;
+	case 5:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,5)">';
+		break;
+	case 6:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,6)">';
+		break;
+	case 7:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,7)">';
+		break;
+	case 8:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,8)">';
+		break;
+	case 9:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,9)">';
+		break;
+	case 10:
+		heading.innerHTML='InvoiceNo/Customer/Net Amount Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,10)">';
+		break;
+	case 11:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,11)">';
+		break;
+	case 12:
+		heading.innerHTML='InvoiceNo/Customer/Net Amount Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,12)">';
+		break;
+	case 13:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,13)">';
+		break;
+	case 14:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,14)">';
+		break;
+	case 20:
+		heading.innerHTML='Work Order # / Customer / Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,20)">';
+		break;
+		default:
+			break;
+
+	}
+
+	
+	
+	//heading.innerHTML='Customer/Boat Details';//InvoiceNo/Customer/Net Amount Details
+	
+	heading.style.display='none';
+	//info.innerHTML='Double Click Or Press ENTER On Your Selection from the list to Proceed<input type="hidden" id="loadcount" value="0"/>';
+	//details.innerHTML='Details here';
+	foot.innerHTML='<button class="btn" onclick="removeDialogBox(&apos;maskid&apos;,&apos;dialogid&apos;)">Exit</button>';
+
+	
+	/****************************/
+	
+	dialog.appendChild(search);
+	dialog.appendChild(heading);
+	dialog.appendChild(info);
+	dialog.appendChild(details);
+	dialog.appendChild(foot);
+	search.appendChild(subsearcha);
+	search.appendChild(subsearchb);
+	document.body.appendChild(mask);
+	document.body.appendChild(dialog);
+
+	document.getElementById("core").focus();
+	
+	
+	
+	
+}
+function credits(mode)
+{
+	var mask;
+	var dialog;
+	var search;
+	var heading;
+	var info;
+	var details;
+	var foot;
+
+	var subsearcha;
+	var subsearchb;
+	
+	
+	dialog = document.createElement("div");
+	mask = document.createElement("div");
+	search  = document.createElement("div");
+	heading = document.createElement("div");
+	info = document.createElement("div");
+	details = document.createElement("div");
+	foot = document.createElement("div");
+
+	//dialog.setAttribute('onmouseover','updateCounter()');//onblur="resetCounter()"
+	//dialog.setAttribute('onblur','resetCounter()');
+	
+	subsearcha = document.createElement("span");
+	subsearchb = document.createElement("span");
+
+	
+	mask.id="maskid";
+	dialog.id="dialogid";
+	search.id="searchid";
+	heading.id="headingid";
+	info.id="infoid";
+	details.id="detailsid";
+	foot.id="footid";
+
+	subsearcha.id="subsearchaid";
+	subsearchb.id="subsearchbid"; 
+	/****************************/
+	
+    
+	subsearcha.innerHTML='Enter Customer Name';
+
+	switch(mode)
+	{
+	case 1:
+		heading.innerHTML='Customer/Boat Details';
+		subsearchb.innerHTML='<input type="text" id="core" class="textbox" onkeyup="displayCustomerByNameOrBoat(this.value,15)">';
+		break;
+	
+		default:
+			break;
+
+	}
+
+	
+	
+	//heading.innerHTML='Customer/Boat Details';//InvoiceNo/Customer/Net Amount Details
+	
+	heading.style.display='none';
+	//info.innerHTML='Double Click Or Press ENTER On Your Selection from the list to Proceed<input type="hidden" id="loadcount" value="0"/>';
+	//details.innerHTML='Details here';
+	foot.innerHTML='<button class="btn" onclick="removeDialogBox(&apos;maskid&apos;,&apos;dialogid&apos;)">Exit</button>';
+
+	
+	/****************************/
+	
+	dialog.appendChild(search);
+	dialog.appendChild(heading);
+	dialog.appendChild(info);
+	dialog.appendChild(details);
+	dialog.appendChild(foot);
+	search.appendChild(subsearcha);
+	search.appendChild(subsearchb);
+	document.body.appendChild(mask);
+	document.body.appendChild(dialog);
+
+	document.getElementById("core").focus();
+	
+	
+	
+	
+}
+
+
+
+
+
+function loadAJAX()
+{
+	if (window.XMLHttpRequest){
+	  xmlhttp=new XMLHttpRequest();
+	  }	else {
+	  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	  }
+	  return xmlhttp;
+}
+
+function displayCustomerByNameOrBoat(sbn,str)
+{
+	if(sbn.length>0){
+		sbn = sbn.replace(/\//g,"^");
+	loadAJAX().onreadystatechange=function()
+	  {
+		if(xmlhttp.readyState<4)
+		  {
+			  document.getElementById("detailsid").innerHTML='<img width="100px" height="100px" src="<?php echo base_url() ?>img/loading_gif.gif" style="position:relative;top:0px;left:0px;">';
+		  }
+	  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+	    {
+		  document.getElementById("headingid").style.display='block';
+		  document.getElementById("detailsid").style.overflowY='none';
+		  document.getElementById("detailsid").innerHTML=xmlhttp.responseText;
+		
+		  $(document).ready(function(){
+				$("#detailsid tr:even").css("background-color", "#ffffff");
+				$("#detailsid tr:odd").css("background-color", "#E5E5E5");
+				$("#detailsid tr:even").css("color", "#000000");
+				$("#detailsid tr:odd").css("color", "#000000");
+			});
+	    }
+	  };
+	  
+	  switch(str)
+	  {
+	  case 1:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxCusomerListCustomer/"+sbn,true);
+		  break;
+	  case 2:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxCusomerListAccount/"+sbn,true);
+		  break;
+	  case 3:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxCusomerListInactive/"+sbn,true);
+		  break;
+	  case 4:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxCusomerListWork/"+sbn,true);
+		  break;
+	  case 5:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxCleaningWork/"+sbn,true);
+		  break;
+	  case 6:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxAnodeWork/"+sbn,true);
+		  break;
+	  case 7:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxMechanicalWork/"+sbn,true);//ajaxCompleteWork
+		  break;
+	  case 8:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxCompleteWork/"+sbn,true);//ajaxCompleteWork
+		  break;
+	  case 9:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxAddNewWork/"+sbn,true);//ajaxCompleteWork
+		  break;
+	  case 10:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxIndividualInvoices/"+sbn,true);
+		  break;
+	  case 11:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxRestoreInvoices/"+sbn,true);
+		  break;
+	  case 12:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxDeleteInvoices/"+sbn,true);
+		  break;
+	  case 13:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxVoidInvoices/"+sbn,true);
+		  break;
+	  case 14:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/useforotheruse/"+sbn,true);//not used any where
+		  break;
+	  case 15:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxCredits/"+sbn,true);//credits
+		  break;
+	  case 20:
+		  xmlhttp.open("POST","/btwdive/index.php/customer/ajaxRestoreWorkOrder/"+sbn,true);//used for the void work order display.
+		  break;
+		  default:
+			  break;
+	  }
+	
+	xmlhttp.send();
+	}
+}
+function removeDialogBox(mask,dialog)
+{
+	 	var elemo = document.getElementById(mask);
+	    var elemt = document.getElementById(dialog);
+	    elemt.parentNode.removeChild(elemt);
+	    elemo.parentNode.removeChild(elemo);
+	    return false;
+}
+function distributionCustomers(str)
+{
+	var major = str.split("!");
+	var result = '';
+	for(var i=1;i<major.length;i++)
+	{
+result = result + major[i];
+	}
+	document.getElementById("detailsid").innerHTML=result;
+}
+function updateCounter()
+{
+	alert("update counter");
+	var now  = document.getElementById("loadcount").value;
+	if(now == 1)
+	{try {
+$("#core").keyup();
+document.getElementById("loadcount").value=0;
+	}catch(e){alert(e.message);}
+	}
+}
+function resetCounter()
+{
+	alert("reset counter");
+	document.getElementById("loadcount").value=1;
+}
+function underconstruction()
+{
+	alert("Under Construction.");
+}
+//RESTORE INVOICE
+var submenu = ["NEW CUSTOMER",
+               "MODIFY CUSTOMER",
+               "CUSTOMER ACCOUNT",
+               "INACTIVE CUSTOMER",
+               "WORK HISTORY",
+               "OUTSTANDING BALANCES",
+               "CLEANING WORK ORDERS",
+               "ANODE WORK ORDERS",
+               "MECHANICAL WORK ORDERS",
+               "DAILY WORK ORDERS",
+               "ADD NEW WORK ORDER",
+               "COMPLETED WORK ORDERS",
+               "CREATE INVOICES FROM WO",
+               "SEND INVOICES",
+               "PRINT INDIVIDUAL INVOICES",
+               "VOID INVOICE",
+               "RESTORE INVOICE",
+               "DELETE INVOICE",
+               "MONTHLY INVOICES",
+               "MISSING WORK ORDERS",
+               "LIST OF INVOICES",
+               "PAYMENTS",
+               "CREDITS",
+               "DIVER COMMISSION",
+               "ANODES",
+               "SERVICES",
+               "OPTIONS",
+               "DIVERS",
+               "CUSTOM INVOICING",
+               "EMAIL TEXT",
+               "REPAIR COMMISSION",
+               "VOIDED WORK ORDERS",
+               "CUSTOMERS WITH BOW",
+               "BACKUP DATABASE",
+               "RESTORE DATABASE",
+               "EMAIL"];
+function generate_menu_button(str)
+{
+	
+try {
+var url = document.getElementById("url").value;
+//11
+document.getElementById("11").innerHTML=submenu[(parseInt(str)-1)*6];
+//12
+document.getElementById("12").innerHTML=submenu[((parseInt(str)-1)*6)+1];
+//13
+document.getElementById("13").innerHTML=submenu[((parseInt(str)-1)*6)+2];
+//21
+document.getElementById("21").innerHTML=submenu[((parseInt(str)-1)*6)+3];
+//22
+document.getElementById("22").innerHTML=submenu[((parseInt(str)-1)*6)+4];
+//23
+document.getElementById("23").innerHTML=submenu[((parseInt(str)-1)*6)+5];
+switch(parseInt(str))
+{
+case 1://CUSTOMER
+	revert();
+	document.getElementById("1").style.background='#AFEEF0';
+	document.getElementById("2").style.background='#48D0CC';
+	document.getElementById("3").style.background='#48D0CC';
+	document.getElementById("4").style.background='#48D0CC';
+	document.getElementById("5").style.background='#48D0CC';
+	document.getElementById("6").style.background='#48D0CC';
+	document.getElementById("1").style.color='black';
+	document.getElementById("2").style.color='white';
+	document.getElementById("3").style.color='white';
+	document.getElementById("4").style.color='white';
+	document.getElementById("5").style.color='white';
+	document.getElementById("6").style.color='white';
+    document.getElementById("11").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/customer_registration")');//NEW CUSTOMER
+    document.getElementById("12").setAttribute('onclick','customerSearchByName(1)');//MODIFY CUSTOMER
+    document.getElementById("13").setAttribute('onclick','customerSearchByName(2)');//CUSTOMER ACCOUNT
+    document.getElementById("21").setAttribute('onclick','customerSearchByName(3)');//INACTIVE CUSTOMER
+    document.getElementById("22").setAttribute('onclick','customerSearchByName(4)');//WORK HISTORY
+    document.getElementById("23").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/outstanding_balance")');//OUTSTANDING BALANCES
+break;
+case 2://WORK ORDER
+	revert();
+	document.getElementById("1").style.background='#48D0CC';
+	document.getElementById("2").style.background='#AFEEF0';
+	document.getElementById("3").style.background='#48D0CC';
+	document.getElementById("4").style.background='#48D0CC';
+	document.getElementById("5").style.background='#48D0CC';
+	document.getElementById("6").style.background='#48D0CC';
+	document.getElementById("1").style.color='white';
+	document.getElementById("2").style.color='black';
+	document.getElementById("3").style.color='white';
+	document.getElementById("4").style.color='white';
+	document.getElementById("5").style.color='white';
+	document.getElementById("6").style.color='white';
+	document.getElementById("11").setAttribute('onclick','customerSearchByName(5)');//CLEANING WORK ORDER
+	document.getElementById("12").setAttribute('onclick','customerSearchByName(6)');//ANODE WORK ORDER
+	document.getElementById("13").setAttribute('onclick','customerSearchByName(7)');//MECHANICAL WORK ORDER
+	document.getElementById("21").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/daily_work_order/")');//DAILY WORK ORDER
+	document.getElementById("22").setAttribute('onclick','customerSearchByName(9)');//ADD NEW WORK ORDER
+	document.getElementById("23").setAttribute('onclick','customerSearchByName(8)');//COMPLETED WORK ORDER
+	break;
+case 3://INVOICE
+	revert();
+	document.getElementById("1").style.background='#48D0CC';
+	document.getElementById("2").style.background='#48D0CC';
+	document.getElementById("3").style.background='#AFEEF0';
+	document.getElementById("4").style.background='#48D0CC';
+	document.getElementById("5").style.background='#48D0CC';
+	document.getElementById("6").style.background='#48D0CC';
+	document.getElementById("1").style.color='white';
+	document.getElementById("2").style.color='white';
+	document.getElementById("3").style.color='black';
+	document.getElementById("4").style.color='white';
+	document.getElementById("5").style.color='white';
+	document.getElementById("6").style.color='white';
+	document.getElementById("11").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/create_invoice_from_wo/")');//CREATE INVOICES FROM WO
+	document.getElementById("12").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/send_invoices/")');//SEND INVOIES
+	document.getElementById("13").setAttribute('onclick','customerSearchByName(10)');//PRINT INDIVIDUAL INVOICES
+	document.getElementById("21").setAttribute('onclick','underconstruction()');//VOID INVOICE
+	document.getElementById("22").setAttribute('onclick','underconstruction()');//RESTORE INVOICE
+	document.getElementById("23").setAttribute('onclick','customerSearchByName(12)');//DELETE INVOICE
+
+document.getElementById("11").style.width="19%";
+document.getElementById("12").style.width="19%";
+document.getElementById("13").style.width="19%";
+document.getElementById("23").style.width="18%";
+
+document.getElementById("11").style.height="60px";
+document.getElementById("12").style.height="60px";
+document.getElementById("13").style.height="60px";
+document.getElementById("23").style.height="60px";
+
+
+document.getElementById("12").style.left="19%";
+document.getElementById("13").style.left="38%";
+document.getElementById("23").style.left="57%";
+document.getElementById("23").style.top="30px";
+
+document.getElementById("21").style.display="none";
+document.getElementById("22").style.display="none";
+	
+	
+	break;
+case 4://REPORTS
+	revert();
+	document.getElementById("1").style.background='#48D0CC';
+	document.getElementById("2").style.background='#48D0CC';
+	document.getElementById("3").style.background='#48D0CC';
+	document.getElementById("4").style.background='#AFEEF0';
+	document.getElementById("5").style.background='#48D0CC';
+	document.getElementById("6").style.background='#48D0CC';
+	document.getElementById("1").style.color='white';
+	document.getElementById("2").style.color='white';
+	document.getElementById("3").style.color='white';
+	document.getElementById("4").style.color='black';
+	document.getElementById("5").style.color='white';
+	document.getElementById("6").style.color='white';
+	document.getElementById("11").setAttribute('onclick','monthlyInvoices()');
+	document.getElementById("12").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/missing_workorder")');//OUTSTANDING BALANCES
+	document.getElementById("13").setAttribute('onclick','listInvoices()');
+	document.getElementById("21").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/payment_reports/")');//Payments
+	document.getElementById("22").setAttribute('onclick','credits(1)');//CREDITS
+	document.getElementById("23").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/diver_commission/")');//Diver Commission
+	break;
+case 5://INTERNAL SETUP
+	revert();
+	document.getElementById("1").style.background='#48D0CC';
+	document.getElementById("2").style.background='#48D0CC';
+	document.getElementById("3").style.background='#48D0CC';
+	document.getElementById("4").style.background='#48D0CC';
+	document.getElementById("5").style.background='#AFEEF0';
+	document.getElementById("6").style.background='#48D0CC';
+	document.getElementById("1").style.color='white';
+	document.getElementById("2").style.color='white';
+	document.getElementById("3").style.color='white';
+	document.getElementById("4").style.color='white';
+	document.getElementById("5").style.color='black';
+	document.getElementById("6").style.color='white';
+	document.getElementById("11").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/create_modify_anodes/")');
+	document.getElementById("12").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/create_modify_cleaning/")');
+	document.getElementById("13").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/create_modify_options/")');
+	document.getElementById("21").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/create_modify_diver/")');
+	document.getElementById("22").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/create_modify_invoicing/")');
+	document.getElementById("23").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/create_modify_email/")');
+	break;
+case 6:
+	revert();
+	document.getElementById("1").style.background='#48D0CC';
+	document.getElementById("2").style.background='#48D0CC';
+	document.getElementById("3").style.background='#48D0CC';
+	document.getElementById("4").style.background='#48D0CC';
+	document.getElementById("5").style.background='#48D0CC';
+	document.getElementById("6").style.background='#AFEEF0';
+	document.getElementById("1").style.color='white';
+	document.getElementById("2").style.color='white';
+	document.getElementById("3").style.color='white';
+	document.getElementById("4").style.color='white';
+	document.getElementById("5").style.color='white';
+	document.getElementById("6").style.color='black';
+	document.getElementById("11").setAttribute('onclick','repairCommission()');
+	document.getElementById("12").setAttribute('onclick','customerSearchByName(20)');
+	document.getElementById("13").setAttribute('onclick','redirectPerfect("'+url+'index.php/customer/customer_bowaft/")');
+	document.getElementById("21").setAttribute('onclick','underconstruction()');
+	document.getElementById("22").setAttribute('onclick','underconstruction()');
+	document.getElementById("23").setAttribute('onclick','underconstruction()');
+
+	document.getElementById("11").style.height="60px";
+	document.getElementById("12").style.height="60px";
+	document.getElementById("13").style.height="60px";
+
+	document.getElementById("21").style.display="none";
+	document.getElementById("22").style.display="none";
+	document.getElementById("23").style.display="none";
+	
+	break;
+	default:
+		break;
+	
+}
+	} catch (e) {
+		// TODO: handle exception
+		//alert(e.message);
+	}
+}
+function revert()
+{
+	$(document).ready(function(){
+		$("#11").removeAttr("style");
+		$("#12").removeAttr("style");
+		$("#13").removeAttr("style");
+		$("#21").removeAttr("style");
+		$("#22").removeAttr("style");
+		$("#23").removeAttr("style");
+				});
+}
+/*
+INTERNAL FUNCTIONS FOR OPERATRIONS
+*/
+function deleteInvoiceNow(str)
+{
+	var r = confirm("Are you sure you want to Delete Invoice No "+str+" ?");
+	if(r){
+		loadAJAX().onreadystatechange=function()
+		  {
+		  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		    {//alert(xmlhttp.responseText);
+			      //searchDistribution(xmlhttp.responseText);
+		      if(xmlhttp.responseText=='Y')
+		      {
+alert("Invoice No "+str+" Deleted");
+$("#core").keyup();
+		      }
+		    }
+		  };
+		xmlhttp.open("POST","/btwdive/index.php/customer/deleteCurrentInvoice/"+str,true);
+		xmlhttp.send();
+
+		}
+}
+function restoreInvoices(str)
+{
+	//RAISE WHEN CLICK ON A VOIDED INVOICE LISTE WHEN CLICKJED ON RESTORE INVOCE IN INVOICE
+	var newmask;
+	var newdialog;
+	
+	newmask = document.createElement("div");
+	newdialog = document.createElement("div");
+
+	newmask.id="newmaskid";
+	newdialog.id="newdialogid";
+
+	newdialog.innerHTML='<div style="width:100%;text-align:center;"><button class="btn" style="width:30%" onclick="underconstruction()">View Invoice</button>&nbsp;<button class="btn" style="width:30%" onclick="restoreCurrentInvoice('+str+')">Restore Invoice</button>&nbsp;<button class="btn" style="width:30%" onclick="removeDialogBox(&apos;newmaskid&apos;,&apos;newdialogid&apos;)">Exit</button></div>';
+
+    //newdialog.innerHTML=str;
+    
+	
+	document.body.appendChild(newmask);
+	document.body.appendChild(newdialog);
+}
+function voidInvoices(str)
+{
+	//RAISE WHEN CLICK ON A VOIDED INVOICE LISTE WHEN CLICKJED ON RESTORE INVOCE IN INVOICE
+	var newmask;
+	var newdialog;
+	
+	newmask = document.createElement("div");
+	newdialog = document.createElement("div");
+
+	newmask.id="newmaskid";
+	newdialog.id="newdialogid";
+
+	newdialog.innerHTML='<div style="width:100%;text-align:center;"><button class="btn" style="width:30%" onclick="underconstruction()">View Invoice</button>&nbsp;<button class="btn" style="width:30%" onclick="voidCurrentInvoice('+str+')">Void Invoice</button>&nbsp;<button class="btn" style="width:30%" onclick="removeDialogBox(&apos;newmaskid&apos;,&apos;newdialogid&apos;)">Exit</button></div>';
+
+    //newdialog.innerHTML=str;
+    
+	
+	document.body.appendChild(newmask);
+	document.body.appendChild(newdialog);
+}
+function restoreCurrentInvoice(str)
+{
+	//alert(str);
+	loadAJAX().onreadystatechange=function()
+	  {
+	  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+	    {
+		      //searchDistribution(xmlhttp.responseText);
+	      if(xmlhttp.responseText=='Y')
+	      {
+alert("Invoice No "+str+" Restored.");
+removeDialogBox('newmaskid','newdialogid');
+$("#core").keyup();
+	      }
+	    }
+	  };
+	xmlhttp.open("POST","/btwdive/index.php/customer/restoreCurrentInvoice/"+str,true);
+	xmlhttp.send();
+}
+function voidCurrentInvoice(str)
+{
+//alert(str);	
+loadAJAX().onreadystatechange=function()
+{
+if (xmlhttp.readyState==4 && xmlhttp.status==200)
+  {
+	      //searchDistribution(xmlhttp.responseText);
+    if(xmlhttp.responseText=='Y')
+    {
+alert("Invoice No "+str+" Voided.");
+removeDialogBox('newmaskid','newdialogid');
+$("#core").keyup();
+    }
+  }
+};
+xmlhttp.open("POST","/btwdive/index.php/customer/voidCurrentInvoice/"+str,true);
+xmlhttp.send();
+}
+function repairCommission()
+{
+	 var mask;
+	 var dialogs;
+	 var above;
+	 var below;
+	 mask = document.createElement("div");
+	 dialogs = document.createElement("div");
+	 above = document.createElement("div");
+	 below = document.createElement("div");
+	 mask.id="maskid";
+	 dialogs.id="dialogsid";
+	 above.id="aboveid";
+	 below.id="belowid";
+	    above.innerHTML='<b>Enter Work Order No for Commission Correction</b></br><input type="text" class="textbox" id="commission"/>';
+	    below.innerHTML='</br><button class="btn" id="went">Go</button> <button class="btn" onclick="removeDialogBox(&apos;maskid&apos;,&apos;dialogsid&apos;)">Exit</button>';
+	 dialogs.appendChild(above);
+	 dialogs.appendChild(below);
+	 
+	 
+	 document.body.appendChild(mask);
+	 document.body.appendChild(dialogs);
+
+	 
+	 $(document).ready(function(){
+			$("#went").click(function(){
+		var wonum = $("#commission").val();
+		if(wonum.length==0)
+		{
+			alert("No Work Order No Provided, cannot proceed ahead");
+			removeDialogBox('maskid','dialogsid');
+		}
+		else
+		{
+			removeDialogBox('maskid','dialogsid');
+			$.ajax({url:"/btwdive/index.php/customer/repairCommission/",
+				type:"post",
+				data: {
+wonumber:wonum
+				},
+				success:function(result){alert(result);}
+		});
+		}
+				});
+		});
+		document.getElementById("commission").focus();
+}
+
+
+
+
+	</script>
+<style type="text/css">
+#dialogid {
+	background-image: url("<?php echo base_url();?>img/body_bg.jpg");
+	color: white;
+	font-weight: bold;
+}
+
+#dialogid th {
+	background-color: grey;
+}
+#newmaskid {
+background-color: black;
+	position: absolute;
+	width:80%;
+	height:600px;
+	opacity:.7;
+	top:0px;
+}
+#newdialogid {
+	background-color: black;
+	width:30%;
+	left:35%;
+	padding-top:30px;
+	color:black;
+	position:absolute;
+	height:70px;
+	border:2px solid gray;
+	}
+
+
+
+.black_overlay
+{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+.white_content 
+{
+    display: none;
+    position: fixed;
+    top: 17%;
+    left: 23%;
+    width: 50%;
+    height: 50%;
+    padding: 16px;
+    border: 2px solid #FFFFFF;
+    background-color: #000000;
+    overflow: auto;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.white_content img {
+    width: 30px;
+}
+.close
+{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+#dialogsid {
+width:400px;
+height:150px;
+background-color:black;
+position:absolute;
+top:35%;
+left:39%;
+color:white;
+border:2px solid white;
+}
+#aboveid {
+width:100%;
+text-align:center;
+height:70px;
+}
+#belowid {
+width:100%;
+height:70px;
+text-align:center;
+
+
+	}
+	.cat7 {
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 25%;
+}
+</style>
+
+</head>
+<body
+	style="background-color: black; background-image: url(<?php echo base_url();?>img/body_bg.jpg);" onload="generate_menu_button(2)" >
+	<div id="path"></div>
+
+	<div id="container" style="text-align: center; padding: 20px 10px;">
+<input type="hidden" id="url" value="<?php echo base_url();?>"/>
+		<div style="width: 100%; float: left; display: block;">
+			<img src="<?php echo base_url();?>img/logo.BMP" />
+
+			<p style="font-weight: bold; color: white;">CUSTOMER INVOICING
+				MANAGEMENT SYSTEM</p>
+
+		</div>
+
+		<div id="body" style="width: 100%; position: relative; top: 150px;">
+
+			<button id="1" class="button cat1" onclick="generate_menu_button(this.id)">customer</button>
+
+			<button id="2" class="button cat2" onclick="generate_menu_button(this.id)">work order</button>
+
+			<button id="3" class="button cat3" onclick="generate_menu_button(this.id)">invoicing</button>
+
+			<button id="4" class="button cat4" onclick="generate_menu_button(this.id)">reports</button>
+
+			<button id="5" class="button cat5" onclick="generate_menu_button(this.id)">internal setup</button>
+
+			<button id="6" class="button cat6" onclick="generate_menu_button(this.id)">extra</button>
+
+			<button id="11" class="sub_menu cat11" style="color:black;"></button>
+            
+			<button id="12" class="sub_menu cat12" style="color:black;"></button>
+
+			<button id="13" class="sub_menu cat13" style="color:black;"></button>
+
+			<button id="21" class="sub_menu cat21" style="color:black;"></button>
+
+			<button id="22" class="sub_menu cat22" style="color:black;"></button>
+
+			<button id="23" class="sub_menu cat23" style="color:black;"></button>
+
+
+<button class="button" style="color:black;" onclick='redirectPerfect("<?php echo base_url();?>index.php/customer/manage_work_orders/")'>Phase 2 - Work Distribution</button>
+<button class="button" style="color:black;" onclick='redirectPerfect("<?php echo base_url();?>index.php/customer/diver_login/")'>diver login</button>
+<button class="button" style="color:black;" onclick='redirectPerfect("<?php echo base_url();?>invoice")'>past invoice database</button>
+			
+
+		</div>
+		<?php 
+                    $first_day_this_month = date('m/d/Y', strtotime(date('Y-m')." -1 month"));
+                    $last_day_this_month  = date('m/t/Y', strtotime($first_day_this_month));
+
+            ?>
+<!-- ========Monthly Invoices=============================-->
+            <div id="montly_inv" class="white_content">
+                <h2>MONTHLY INVOICE REPORT</h2> 
+               
+                	<div class="form">
+                    
+	                        <ul>
+	                            <li class="input">
+	                                <label class="datelbl">Report From</label>
+	                                <input type="text" id="from_mi" value="<?=$first_day_this_month?>" name="from" class="textbox" style="width:100px" readonly="readonly"/>
+	                            </li>
+	                            <li class="input">
+	                                <label class="datelbl">To</label>
+	                                <input type="text" id="to_mi" value="<?=$last_day_this_month?>" name="to" class="textbox" style="width:100px" readonly="readonly"/>
+	                            </li>
+	                            <li class="input">
+	                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <button class="btn" onclick="print_mon_inv()">GO </button>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <button class="btn" onclick = "document.getElementById('montly_inv').style.display='none';document.getElementById('fade').style.display='none'" >Exit</button>
+	                            </li>
+	                        </ul>
+	                    
+	                </div>
+                
+            </div>
+<!--  ========List Of Invoices=============================-->
+ <div id="list_invoice" class="white_content">
+                <h2>LIST OF INVOICE</h2> 
+                <div class="form">
+                 
+                        <ul>
+                            <li class="input">
+                                <label class="datelbl">Report From</label>
+                                <input type="text" id="from_li" value="<?=$first_day_this_month?>" name="from" class="textbox" style="width:100px" readonly="readonly" />
+                            </li>
+                            <li class="input">
+                                <label class="datelbl">To</label>
+                                <input type="text" id="to_li" value="<?=$last_day_this_month?>" name="to"  class="textbox" style="width:100px" readonly="readonly"/>
+                            </li>
+                            <li class="input">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <button  id="go_btn" onclick="print_list_inv();" class="btn" >Go</button>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <button id="exit_btn" onclick = "document.getElementById('list_invoice').style.display='none';document.getElementById('fade2').style.display='none'" class="btn" >Exit</button>
+                            </li>
+                        </ul>
+                   
+                </div>
+            </div>
+	</div>
+        <div id="fade" class="black_overlay"></div>
+	<div id="fade2" class="black_overlay"></div>
+
+	 	<div
+		style="bottom: 0px; position: absolute; width: 93%; text-align: center;font-weight: bold;">BTW
+		Dive &copy; 2014</div> 
+</body>
+</html>
